@@ -1,0 +1,97 @@
+0 Usr: i would like a restaurant that serves eritrean food
+1 Usr: i would like a restaurant in the north part of town .
+2 Usr: is there any restaurant -s in the north part of town .
+0 Usr: i would like a expensive -ly priced restaurant in the south part of town .
+1 Usr: i would like expensive .
+2 Usr: no , i would like to know . thank you .
+0 Usr: i would like a expensive -ly priced restaurant in the south part of town .
+1 Usr: i would like a expensive restaurant in the south part of town .
+2 Usr: no , i would like to book a reservation for the phone number , please .
+3 Usr: no , i am looking for a nice day .
+4 Usr: no , i would like to know . thank you .
+0 Usr: i would like a restaurant in the north part of town .
+1 Usr: i would like a moderate restaurant in the north part of town .
+2 Usr: no , i would like the address , phone number , please .
+3 Usr: thank you .
+0 Usr: i would like to find a expensive restaurant in the centre part of town .
+1 Usr: i would like to book a table for 2 people on monday .
+2 Usr: i would like to book a reservation for 2 people on monday .
+3 Usr: that is all i need .
+0 Usr: i would like a restaurant serving international food
+1 Usr: i would like the address , and price range .
+0 Usr: i would like to find a place to eat in the centre .
+1 Usr: i would like to book a table for 1 on tuesday at 19:00 .
+2 Usr: that is all i need .
+0 Usr: i would like to find a moderate -ly priced restaurant in the centre part of town .
+1 Usr: i would like to know the address , and price range .
+0 Usr: i would like to know
+1 Usr: i would like to know the address , and price range .
+0 Usr: i would like to know .
+1 Usr: what is the address , and price range .
+0 Usr: i would like to find a cheap restaurant in the centre .
+1 Usr: i would like to book a table for 2 on thursday at 17:00 .
+2 Usr: thanks , that s all i need .
+0 Usr: i would like to find a moderate -ly priced restaurant .
+1 Usr: i would like to book a table for 8 people at 13:15 on friday .
+2 Usr: that is all i need .
+0 Usr: i would like to know .
+1 Usr: i would like to know the address and address .
+0 Usr: i would like to find a moderate restaurant in the east part of town .
+1 Usr: i would like to book a table for 5 people on monday .
+2 Usr: i would like to book a reservation for 5 people at 12:15 on monday .
+3 Usr: thanks , that s all i need .
+0 Usr: i would like a restaurant in the east part of town .
+1 Usr: i would like a expensive restaurant in the east part of town .
+2 Usr: that is the restaurant that serve indian food ?
+3 Usr: that is the address , phone number ?
+4 Usr: i needed .
+5 Usr: no , i would like the address , phone number , please .
+6 Usr: no , thank you .
+0 Usr: i would like to know that is moderate -ly priced .
+1 Usr: i would like to know the phone number , i would like to know the phone number , and postcode , please .
+0 Usr: i would like to eat in the centre part of town .
+1 Usr: i would like to know the postcode , please .
+0 Usr: i would like to find a place to eat in the south part of town .
+1 Usr: i would like to book a table for 5 people on wednesday .
+2 Usr: i would like to book a table for 5 people on tuesday .
+3 Usr: thanks . that s all i need .
+0 Usr: i would like to find a restaurant in the south part of town .
+1 Usr: i would like to know the phone number , please .
+0 Usr: i would like to eat in the centre part of town .
+1 Usr: i would like to know the address , and postcode .
+0 Usr: i would like to eat in the centre part of town .
+1 Usr: i would like to book a cheap restaurant in the centre .
+2 Usr: i would like to know . thank you .
+0 Usr: i would like to find a cheap restaurant in the centre part of town .
+1 Usr: i would like to book a table for 1 people on tuesday .
+2 Usr: i would like to book a reservation for 1 people at 12:00 on tuesday .
+3 Usr: that is all i need .
+0 Usr: i would like to know that is cheap -ly priced
+1 Usr: i would like a cheap restaurant in the north part of town .
+2 Usr: that is all i needed . thank you .
+0 Usr: i would like to find a expensive restaurant in the east part of town .
+1 Usr: i would like to book a table for 6 people on thursday .
+2 Usr: i would like to book a reservation for 6 people at 12:00 on thursday .
+3 Usr: thanks , that is all i need .
+0 Usr: i would like to know that is called curry prince .
+1 Usr: that is the restaurant named curry prince .
+2 Usr: that is all i need a table for 3 people at 11:00 on friday .
+0 Usr: i would like to find a expensive -ly priced restaurant .
+1 Usr: i would like to book a table for 2 people at 17:00 on monday .
+2 Usr: thank you for your help .
+0 Usr: i would like a restaurant in the west part of town .
+1 Usr: i would like a moderate restaurant in the west part of town .
+2 Usr: no , i would like a reservation for the address , phone number , please .
+3 Usr: thank you . goodbye .
+0 Usr: i would like to find a expensive restaurant in the west part of town .
+1 Usr: i would like to book a table for 5 people on saturday .
+2 Usr: i would like to book a reservation for 5 people at 13:00 on saturday .
+3 Usr: thank you for your help .
+0 Usr: i would like to find a moderate restaurant in the centre part of town .
+1 Usr: i would like to book a table for 6 people on wednesday .
+2 Usr: i would like to book a reservation for 6 people at 20:00 on saturday .
+3 Usr: thanks , that s all i need .
+0 Usr: i would like to find a expensive restaurant in the west .
+1 Usr: i would like to book a table for 1 people on tuesday .
+2 Usr: i would like to book a reservation for 1 people on tuesday .
+3 Usr: that s all i need .

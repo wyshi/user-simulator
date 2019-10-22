@@ -1,0 +1,13 @@
+/__pycache__/*
+/**/__pycache__/*
+/.idea/workspace.xml
+/.DS_Store
+/.idea/*
+/build/*
+/log/*
+/model/*
+/data/results/*
+/simulator/nlg_model/seq2seq/*
+/data/*
+/human_evaluation/*
+/test/*    # parlai

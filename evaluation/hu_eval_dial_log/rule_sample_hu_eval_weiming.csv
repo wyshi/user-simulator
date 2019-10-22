@@ -1,0 +1,54 @@
+dial_20,goal,"{'id': 'SNG0516.json', 'info_first_choice': {'food': 'unusual', 'pricerange': 'cheap', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'pricerange': 'cheap', 'area': 'centre'}, 'cur_book': {'time': '13:15', 'day': 'tuesday', 'people': '2'}, 'first_choice_match': 0}"
+dial_20,usr,i am looking for a restaurant that serves unusual food and is cheap -ly priced .
+dial_20,sys,Do you have a preference on the area?
+dial_20,usr,i want it to be in the centre .
+dial_20,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_20,usr,how about italian food ?
+dial_20,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_20,usr,"that would be greatly appreciated . i will have 1 other person with me , this will be on tuesday at 13:15 . also could i get the reference number ?"
+dial_20,sys,Could you please tell me how many people you would like for the reservation?
+dial_20,usr,"yes , for 2 people ."
+dial_20,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_20,usr,that s all i needed . thanks
+dial_21,goal,"{'id': 'WOZ20379.json', 'cur_info': {'food': 'indian', 'pricerange': 'moderate'}, 'reqt': ['address', 'phone'], 'first_choice_match': 4}"
+dial_21,usr,i am looking for a moderate -ly priced restaurant .
+dial_21,sys,Do you have a preference on the food and area?
+dial_21,usr,i would like some good indian food . near the dontcare of town would be great .
+dial_21,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_21,usr,is there anything else ? give me the address and postcode please .
+dial_21,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_21,usr,i need the address and phone number .
+dial_21,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?
+dial_21,usr,"no , and thank you for your help . goodbye ."
+dial_22,goal,"{'id': 'WOZ20043.json', 'cur_info': {'food': 'chinese', 'area': 'east'}, 'reqt': ['address', 'phone', 'postcode'], 'first_choice_match': 1}"
+dial_22,usr,i am looking for an chinese restaurant in the east part of town .
+dial_22,sys,Do you have a preference on the pricerange?
+dial_22,usr,yes dontcare restaurant please
+dial_22,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_22,usr,are there any other restaurant -s i can choose from ?
+dial_22,sys,"I'm sorry, there is no other restaurant matching your request. "
+dial_22,usr,"what is the address , phone number , and postcode ?"
+dial_22,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?
+dial_22,usr,"no , thanks . that s it ."
+dial_23,goal,"{'id': 'SNG01255.json', 'cur_info': {'food': 'thai', 'area': 'centre'}, 'cur_book': {'time': '19:30', 'day': 'sunday', 'people': '4'}, 'first_choice_match': 1}"
+dial_23,usr,i am looking for a restaurant in the centre .
+dial_23,sys,Do you have a preference on the food and pricerange?
+dial_23,usr,i am looking for 1 that serves thai food and is dontcare .
+dial_23,sys,bangkok city is a thai restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_23,usr,is there anything else ? and what is the address and phone number ?
+dial_23,sys,"I'm sorry, there is no other restaurant matching your request. "
+dial_23,usr,yes please . i would like to book a table for 4 people on sunday at 19:30 .
+dial_23,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_23,usr,"thank you for your help , good day ."
+dial_24,goal,"{'id': 'SNG1369.json', 'cur_info': {'food': 'european', 'pricerange': 'expensive'}, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_24,usr,"hello , i am looking for a restaurant that serves european food ."
+dial_24,sys,Do you have a preference on the area and pricerange?
+dial_24,usr,any kind of food will be fine as long as it is expensive -ly priced and in the dontcare part of town .
+dial_24,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_24,usr,i am not interested in that choise . is there anything else within those categories ?
+dial_24,sys,michaelhouse cafe is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_24,usr,"no , it does not matter . can you reserve 1 of them for tuesday at 13:45 ? i will be dining alone ."
+dial_24,sys,Could you please tell me how many people you would like for the reservation?
+dial_24,usr,i need a table for 6 people .
+dial_24,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_24,usr,"no , that s all i need . thanks for the help ."

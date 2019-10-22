@@ -1,0 +1,46 @@
+dial_10,goal,"{'id': 'WOZ20389.json', 'cur_info': {'food': 'italian', 'pricerange': 'cheap'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_10,usr,i would like to know that is cheap -ly priced
+dial_10,sys,Do you have a preference on the food and area?
+dial_10,usr,i would like a cheap restaurant in the centre part of town .
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,i need a cheap price range ?
+dial_10,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,i need a reservation for 2 at 20:45 on thur .
+dial_10,sys,Could you please tell me what day you would like for the reservation?
+dial_10,usr,"no , i need a nice day ."
+dial_10,sys,Thank you for using the system. Have a good day and goodbye!
+dial_10,usr,i will be it .
+dial_10,sys,ask restaurant is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,"no , i would like to know . thank you ."
+dial_11,goal,"{'id': 'WOZ20595.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 3}"
+dial_11,usr,i would like a moderate -ly priced restaurant in the west part of town .
+dial_11,sys,Do you have a preference on the food?
+dial_11,usr,i would like moderate .
+dial_11,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_11,usr,"no , i would like to know . thank you ."
+dial_12,goal,"{'id': 'WOZ20062.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_12,usr,i would like to find a restaurant in the south part of town .
+dial_12,sys,Do you have a preference on the food and pricerange?
+dial_12,usr,"i would like to know the postcode , please ."
+dial_12,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,that is the restaurant that serve italian food ?
+dial_12,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,"no , i would like to know . thank you ."
+dial_13,goal,"{'id': 'WOZ20047.json', 'cur_info': {'food': 'french', 'area': 'north'}, 'reqt': ['phone'], 'first_choice_match': 1}"
+dial_13,usr,i would like a restaurant serving french food
+dial_13,sys,Do you have a preference on the area and pricerange?
+dial_13,usr,i would like a restaurant in the north part of town .
+dial_13,sys,restaurant two two is a french restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,that is the restaurant ?
+dial_13,sys,restaurant two two is located at 22 Chesterton Road Chesterton . Its phone number is 01223351880 and the postcode is cb43ax . is there anything else i can help you with ?
+dial_13,usr,"no , that s all i needed . thank you ."
+dial_14,goal,"{'id': 'SNG0530.json', 'info_first_choice': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'book_first_choice': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'first_choice_match': 0}"
+dial_14,usr,i would like to find a expensive restaurant in the south part of town .
+dial_14,sys,Do you have a preference on the food?
+dial_14,usr,i would like to book a table for 1 people on monday .
+dial_14,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,that is the restaurant to be in the expensive price range ?
+dial_14,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,that is the restaurant that serve mediterranean food ?
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,that s all i need a expensive restaurant in the south .

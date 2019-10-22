@@ -1,0 +1,54 @@
+dial_10,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_10,usr,could you help me find an the americas restaurant please ?
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,any type of food will be fine as long as it is dontcare -ly priced and in the centre part of town .
+dial_10,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_10,usr,how about some italian food ?
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,"sure , can you try and book a table for wednesday at 18:15 ? there are 5 people ."
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_10,usr,"no , you have been very helpful . thank you . goodbye ."
+dial_11,goal,"{'id': 'SSNG0174.json', 'info_first_choice': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'book_second_choice': {'time': '15:30'}, 'cur_book': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'first_choice_match': 0}"
+dial_11,usr,"hi , i am looking for an expensive restaurant serving light bites food ."
+dial_11,sys,Do you have a preference on the area?
+dial_11,usr,"i do not care about the price range , and would just like 1 in the centre part of town ."
+dial_11,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_11,usr,how about italian food ?
+dial_11,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_11,usr,i will have 2 people and we would like 14:30 if possible . thanks .
+dial_11,sys,Could you please tell me what day you would like for the reservation?
+dial_11,usr,"monday , like the girl from the adam s family ."
+dial_11,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_11,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .
+dial_12,goal,"{'id': 'SSNG0173.json', 'cur_info': {'name': 'chiquito restaurant bar'}, 'book_first_choice': {'people': '6', 'day': 'tuesday', 'time': '10:45'}, 'book_second_choice': {'time': '11:45'}, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '10:45'}, 'first_choice_match': 1}"
+dial_12,usr,i am looking for a particular restaurant called chiquito restaurant bar .
+dial_12,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,there will be 6 of us and we would like to eat at 10:45 .
+dial_12,sys,Could you please tell me what day you would like for the reservation?
+dial_12,usr,"how about ! 000 instead , is that available tuesday ?"
+dial_12,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_12,usr,"no , that s all i need . thanks for the help ."
+dial_13,goal,"{'id': 'SNG0471.json', 'info_first_choice': {'food': 'eastern european', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'chinese', 'pricerange': 'expensive', 'area': 'south'}, 'cur_book': {'time': '11:45', 'day': 'saturday', 'people': '1'}, 'first_choice_match': 0}"
+dial_13,usr,can you help me find a eastern european restaurant please ?
+dial_13,sys,Do you have a preference on the area and pricerange?
+dial_13,usr,i am looking for a restaurant in the expensive price range in the south of town .
+dial_13,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_13,usr,how about chinese food ?
+dial_13,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,i am not interested in that choise . is there anything else within those categories ?
+dial_13,sys,peking restaurant is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,there will be 1 of us and we would like to eat at 11:45 .
+dial_13,sys,Could you please tell me what day you would like for the reservation?
+dial_13,usr,i do not care about the type of food . i need a reservation for saturday night .
+dial_13,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_13,usr,"that will be all , thank you ."
+dial_14,goal,"{'id': 'WOZ20313.json', 'cur_info': {'food': 'turkish'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 3}"
+dial_14,usr,can you help me find a turkish restaurant please ?
+dial_14,sys,Do you have a preference on the area and pricerange?
+dial_14,usr,"i really need it to be in the dontcare price range , there s really nothing in the city dontcare ? any cuisine will do ."
+dial_14,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,are there any other restaurant -s i can choose from ?
+dial_14,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_14,usr,"great , can i please have their address and postcode ?"
+dial_14,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?
+dial_14,usr,"no , thanks . that s it ."

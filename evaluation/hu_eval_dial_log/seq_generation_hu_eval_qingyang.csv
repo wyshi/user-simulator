@@ -1,0 +1,48 @@
+dial_15,goal,"{'id': 'SSNG0124.json', 'cur_info': {'food': 'chinese', 'pricerange': 'moderate'}, 'book_first_choice': {'people': '7', 'day': 'tuesday', 'time': '13:45'}, 'book_second_choice': {'day': 'friday'}, 'cur_book': {'people': '7', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_15,usr,i would like to find a moderate restaurant in the west part of town .
+dial_15,sys,Do you have a preference on the food?
+dial_15,usr,i would like to book a table for 7 people at 13:45 on tuesday .
+dial_15,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,i need a reservation for 7 people at 13:45 on friday .
+dial_15,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_15,usr,i need it for 7 at 13:45 on friday .
+dial_15,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_15,usr,i need it .
+dial_15,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,that is all i need a reservation for 7 people at 13:45 on friday ?
+dial_16,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'the americas', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_16,usr,i would like to find a place to eat in the centre of town .
+dial_16,sys,Do you have a preference on the food and pricerange?
+dial_16,usr,i would like to book a table for 5 people on wednesday .
+dial_16,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_16,usr,i need a reservation for 5 people at 18:15 on wednesday .
+dial_16,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_16,usr,thank you for your help .
+dial_17,goal,"{'id': 'WOZ20500.json', 'cur_info': {'food': 'international'}, 'reqt': ['address', 'phone'], 'first_choice_match': 3}"
+dial_17,usr,i would like a expensive -ly priced restaurant .
+dial_17,sys,Do you have a preference on the food and area?
+dial_17,usr,i would like a expensive restaurant in the west part of town .
+dial_17,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_17,usr,"that is the address , phone number ?"
+dial_17,sys,tandoori palace is located at 68 Histon Road Chesterton . Its phone number is 01223506055 and the postcode is cb43le . is there anything else i can help you with ?
+dial_17,usr,i needed .
+dial_17,sys,cocum is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_17,usr,"no , i would like a reservation for the address , phone number ?"
+dial_17,sys,Could you please tell me how many people and what day and time you would like for the reservation?
+dial_17,usr,i do not care .
+dial_17,sys,rice boat is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_17,usr,"no , i would like to know . thank you ."
+dial_18,goal,"{'id': 'WOZ20438.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_18,usr,i would like to find a restaurant in the south part of town .
+dial_18,sys,Do you have a preference on the food and pricerange?
+dial_18,usr,"i would like to know the phone number , please ."
+dial_18,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_18,usr,"no , i would like to know . thank you ."
+dial_19,goal,"{'id': 'SNG0478.json', 'info_first_choice': {'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'area': 'north'}, 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'cur_book': {'time': '18:00', 'day': 'monday', 'people': '8'}, 'first_choice_match': 5}"
+dial_19,usr,i would like to find a expensive restaurant in the south part of town .
+dial_19,sys,Do you have a preference on the food?
+dial_19,usr,i would like to book a table for 8 people on monday .
+dial_19,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_19,usr,"no , i need a reservation for 8 people at 18:00 on monday ?"
+dial_19,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_19,usr,i needed . bye .

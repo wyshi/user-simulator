@@ -1,0 +1,52 @@
+dial_5,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_5,usr,i am looking for a restaurant that serves the americas food.
+dial_5,sys,Do you have a preference on the area and pricerange?
+dial_5,usr,i would prefer the centre area please i don't care about the pricerange.
+dial_5,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_5,usr,what about italian food?
+dial_5,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_5,usr,are there any other options?
+dial_5,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_5,usr,can you help me to make a reservation for 5 people on wednesday?
+dial_5,sys,Could you please tell me what time you would like for the reservation?
+dial_5,usr,can you help me to make a reservation on 18:15?
+dial_5,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_5,usr,thank you for helping me! goodbye
+dial_6,goal,"{'id': 'SSNG0109.json', 'cur_info': {'name': 'loch fyne'}, 'book_first_choice': {'people': '8', 'day': 'friday', 'time': '17:15'}, 'book_second_choice': {'time': '18:15'}, 'cur_book': {'people': '8', 'day': 'friday', 'time': '17:15'}, 'first_choice_match': 1}"
+dial_6,usr,i am looking for a specific restaurant called loch fyne.
+dial_6,sys,loch fyne is a seafood restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_6,usr,can you help me to make a reservation for 8 people at 17:15?
+dial_6,sys,Could you please tell me what day you would like for the reservation?
+dial_6,usr,can you help me to make a reservation on friday?
+dial_6,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_6,usr,thank you for helping me! goodbye
+dial_7,goal,"{'id': 'WOZ20454.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 3}"
+dial_7,usr,i am looking for a restaurant which is in the west area.
+dial_7,sys,Do you have a preference on the food and pricerange?
+dial_7,usr,i am looking for a moderate restaurant. i don't care about the food.
+dial_7,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_7,usr,are there any other options?
+dial_7,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_7,usr,can i have the address?
+dial_7,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?
+dial_7,usr,thank you for helping me! goodbye
+dial_8,goal,"{'id': 'SSNG0177.json', 'cur_info': {'name': 'curry prince'}, 'book_first_choice': {'people': '3', 'day': 'friday', 'time': '11:00'}, 'book_second_choice': {'time': '12:00'}, 'cur_book': {'people': '3', 'day': 'friday', 'time': '11:00'}, 'first_choice_match': 1}"
+dial_8,usr,i am looking for a specific restaurant called curry prince.
+dial_8,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_8,usr,can you help me to make a reservation for 3 people at 11:00?
+dial_8,sys,Could you please tell me what day you would like for the reservation?
+dial_8,usr,can you help me to make a reservation on friday?
+dial_8,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_8,usr,thank you for helping me! goodbye
+dial_9,goal,"{'id': 'SSNG0154.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'book_first_choice': {'people': '6', 'day': 'tuesday', 'time': '18:15'}, 'book_second_choice': {'day': 'monday'}, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '18:15'}, 'first_choice_match': 2}"
+dial_9,usr,i am looking for a cheap restaurant.
+dial_9,sys,Do you have a preference on the food and area?
+dial_9,usr,the restaurant should be in the centre and should serve asian oriental food.
+dial_9,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_9,usr,are there any other options?
+dial_9,sys,j restaurant is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_9,usr,can you help me to make a reservation at 18:15 on tuesday?
+dial_9,sys,Could you please tell me how many people you would like for the reservation?
+dial_9,usr,can you help me to make a reservation for 6 people?
+dial_9,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_9,usr,thank you for helping me! goodbye

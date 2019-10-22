@@ -1,0 +1,46 @@
+dial_0,goal,"{'id': 'SNG0711.json', 'info_first_choice': {'food': 'swedish', 'area': 'centre'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'swedish', 'area': 'centre'}, 'cur_book': {'time': '15:15', 'day': 'monday', 'people': '5'}, 'first_choice_match': 0}"
+dial_0,usr,somewhere in the centre . i am looking for some swedish food .
+dial_0,sys,Do you have a preference on the pricerange?
+dial_0,usr,i do not care.
+dial_0,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_0,usr,how about a restaurant that serves chinese food ?
+dial_0,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_0,usr,"yes , that will be fine . could you make a reservation for 5 at 15:15 on monday ?"
+dial_0,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_0,usr,"great , thanks a lot !"
+dial_1,goal,"{'id': 'WOZ20004.json', 'cur_info': {'pricerange': 'moderate', 'area': 'north'}, 'reqt': ['address'], 'first_choice_match': 2}"
+dial_1,usr,i like moderate restaurant -s and would prefer something in the city north .
+dial_1,sys,Do you have a preference on the food?
+dial_1,usr,i do not care.
+dial_1,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_1,usr,what is the address ?
+dial_1,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?
+dial_1,usr,"thank you , goodbye"
+dial_2,goal,"{'id': 'SNG0676.json', 'cur_info': {'pricerange': 'cheap', 'area': 'centre'}, 'reqt': ['postcode', 'phone'], 'first_choice_match': 15}"
+dial_2,usr,i want 1 in the certre area and in the cheap price range .
+dial_2,sys,Do you have a preference on the food and area?
+dial_2,usr,the centre .
+dial_2,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_2,usr,"can i get the phone number and postcode , please ?"
+dial_2,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_2,usr,that is all i needed . thank you .
+dial_3,goal,"{'id': 'SSNG0164.json', 'info_first_choice': {'food': 'japanese', 'area': 'south'}, 'info_second_choice': {'food': 'mexican'}, 'cur_info': {'food': 'japanese', 'area': 'south'}, 'book_first_choice': {'people': '6', 'day': 'saturday', 'time': '12:15'}, 'book_second_choice': {'time': '13:15'}, 'cur_book': {'people': '6', 'day': 'saturday', 'time': '12:15'}, 'first_choice_match': 0}"
+dial_3,usr,"japanese food in the south , please ."
+dial_3,sys,Do you have a preference on the pricerange?
+dial_3,usr,i do not care.
+dial_3,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_3,usr,how about a restaurant that serves mexican food ?
+dial_3,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_3,usr,"yes , that will be fine . could you make a reservation for 6 at 12:15 on saturday ?"
+dial_3,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_3,usr,"yes , i would like to reserve a table for 6 at 12:15 on saturday please ."
+dial_3,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_3,usr,can you book a table for 6 at 12:15 this saturday ?
+dial_3,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_3,usr,that should be it . thank you .
+dial_4,goal,"{'id': 'SSNG0050.json', 'cur_info': {'name': 'the varsity restaurant'}, 'book_first_choice': {'people': '4', 'day': 'tuesday', 'time': '15:15'}, 'book_second_choice': {'day': 'saturday'}, 'cur_book': {'people': '4', 'day': 'tuesday', 'time': '15:15'}, 'first_choice_match': 1}"
+dial_4,usr,the varsity restaurant sounds great . thank you .
+dial_4,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_4,usr,yes please for 4 people at 15:15 on tuesday please . i will need the reference number too
+dial_4,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_4,usr,"wonderful , thanks . that s all i need ."

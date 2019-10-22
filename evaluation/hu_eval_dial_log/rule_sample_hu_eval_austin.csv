@@ -1,0 +1,52 @@
+dial_0,goal,"{'id': 'SNG0711.json', 'info_first_choice': {'food': 'swedish', 'area': 'centre'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'chinese', 'area': 'centre'}, 'cur_book': {'time': '15:15', 'day': 'monday', 'people': '5'}, 'first_choice_match': 0}"
+dial_0,usr,i need a really inexpensive restaurant on the centre side .
+dial_0,sys,Do you have a preference on the food and pricerange?
+dial_0,usr,it should serve swedish food in the dontcare price range .
+dial_0,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_0,usr,how about chinese food ?
+dial_0,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_0,usr,are there any others ?
+dial_0,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_0,usr,yes please for 5 people at 15:15 on monday please . i will need the reference number too
+dial_0,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_0,usr,"no , that s all i needed . thanks so much ."
+dial_1,goal,"{'id': 'WOZ20152.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 2}"
+dial_1,usr,i am looking for a place that serves italian food . i do not care about the price range .
+dial_1,sys,Do you have a preference on the area and pricerange?
+dial_1,usr,in the south of town please . i am looking to stay in the dontcare price range .
+dial_1,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_1,usr,are there any other restaurant -s i can choose from ?
+dial_1,sys,frankie and bennys is a italian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_1,usr,"can i get the address and postcode , please ?"
+dial_1,sys,frankie and bennys is located at Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223412430 and the postcode is cb17dy . is there anything else i can help you with ?
+dial_1,usr,thank you goodbye .
+dial_2,goal,"{'id': 'SNG0590.json', 'cur_info': {'food': 'mexican', 'pricerange': 'expensive', 'area': 'south'}, 'cur_book': {'time': '18:30', 'day': 'wednesday', 'people': '7'}, 'first_choice_match': 1}"
+dial_2,usr,i am looking for a restaurant that serves mexican food and in the south part of town .
+dial_2,sys,Do you have a preference on the pricerange?
+dial_2,usr,yes i would like it to be expensive .
+dial_2,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_2,usr,could you get me a table for wednesday at someplace nice ? there will be 8 in my party and we'd like to eat at 18:30 .
+dial_2,sys,Could you please tell me how many people you would like for the reservation?
+dial_2,usr,"yes , a table for 7 ."
+dial_2,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_2,usr,"wonderful , thanks . that s all i need ."
+dial_3,goal,"{'id': 'WOZ20382.json', 'cur_info': {'food': 'spanish'}, 'reqt': ['phone'], 'first_choice_match': 2}"
+dial_3,usr,can you help me find a spanish restaurant please ?
+dial_3,sys,Do you have a preference on the area and pricerange?
+dial_3,usr,any type of food will be fine as long as it is dontcare -ly priced and in the dontcare part of town .
+dial_3,sys,la tasca is a spanish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_3,usr,is there anything else ? give me the address and postcode please .
+dial_3,sys,la raza is a spanish restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_3,usr,"yes , what is their phone number and where are they located at ?"
+dial_3,sys,la raza is located at 4 - 6 Rose Crescent . Its phone number is 01223464550 and the postcode is cb23ll . is there anything else i can help you with ?
+dial_3,usr,thank you and goodbye .
+dial_4,goal,"{'id': 'SNG1267.json', 'cur_info': {'food': 'international', 'pricerange': 'moderate', 'area': 'centre'}, 'book_first_choice': {'people': '2', 'day': 'tuesday', 'time': '19:00'}, 'book_second_choice': {'day': 'sunday'}, 'cur_book': {'people': '2', 'day': 'sunday', 'time': '19:00'}, 'first_choice_match': 2}"
+dial_4,usr,can you recommend me a moderate priced restaurant in the centre part of town ?
+dial_4,sys,Do you have a preference on the food?
+dial_4,usr,is there any where that serves international food ?
+dial_4,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_4,usr,ok i would like to book for 2 people at 19:00 on tuesday please
+dial_4,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_4,usr,"yes , look it up and book me for sunday , please ?"
+dial_4,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_4,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .

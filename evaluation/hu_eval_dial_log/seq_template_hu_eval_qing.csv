@@ -1,0 +1,40 @@
+dial_10,goal,"{'id': 'WOZ20389.json', 'cur_info': {'food': 'italian', 'pricerange': 'cheap'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_10,usr,I am looking for a restaurant that serves italian food.
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,I am looking for a cheap restaurant.
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,can i have the address and phone number?
+dial_10,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_10,usr,Thank you for helping me! Goodbye
+dial_11,goal,"{'id': 'WOZ20595.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 3}"
+dial_11,usr,I am looking for a restaurant which is in the west area.
+dial_11,sys,Do you have a preference on the food and pricerange?
+dial_11,usr,I am looking for a moderate restaurant.
+dial_11,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_11,usr,can i have the address and phone number?
+dial_11,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?
+dial_11,usr,Thank you for helping me! Goodbye
+dial_12,goal,"{'id': 'WOZ20062.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_12,usr,I am looking for a restaurant that serves italian food.
+dial_12,sys,Do you have a preference on the area and pricerange?
+dial_12,usr,i would prefer the south area please
+dial_12,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,can i have the postcode and phone number?
+dial_12,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?
+dial_12,usr,Thank you for helping me! Goodbye
+dial_13,goal,"{'id': 'WOZ20047.json', 'cur_info': {'food': 'french', 'area': 'north'}, 'reqt': ['phone'], 'first_choice_match': 1}"
+dial_13,usr,I am looking for a french restaurant in the north area
+dial_13,sys,Do you have a preference on the pricerange?
+dial_13,usr,i do not care.
+dial_13,sys,restaurant two two is a french restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,what is its phone number ?
+dial_13,sys,restaurant two two is located at 22 Chesterton Road Chesterton . Its phone number is 01223351880 and the postcode is cb43ax . is there anything else i can help you with ?
+dial_13,usr,Thank you for helping me! Goodbye
+dial_14,goal,"{'id': 'SNG0530.json', 'info_first_choice': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'book_first_choice': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'first_choice_match': 0}"
+dial_14,usr,I am looking for a expensive restaurant that serves mediterranean food in the south area.
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,what about chinese food?
+dial_14,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,can you help me to make a reservation for 1 people at 16:00 on monday?
+dial_14,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_14,usr,Thank you for helping me! Goodbye

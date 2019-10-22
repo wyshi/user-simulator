@@ -1,0 +1,40 @@
+dial_20,goal,"{'id': 'WOZ20245.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_20,usr,I am looking for a restaurant that serves italian food.
+dial_20,sys,Do you have a preference on the area and pricerange?
+dial_20,usr,i would prefer the south area please
+dial_20,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_20,usr,can i have the postcode and phone number?
+dial_20,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?
+dial_20,usr,Thank you for helping me! Goodbye
+dial_21,goal,"{'id': 'SNG0598.json', 'info_first_choice': {'food': 'bistro', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'bistro', 'area': 'centre'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 0}"
+dial_21,usr,I am looking for a restaurant which is in the centre area.
+dial_21,sys,Do you have a preference on the food and pricerange?
+dial_21,usr,i would like the bistro food.
+dial_21,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_21,usr,what about italian food?
+dial_21,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_21,usr,what is the address and postcode?
+dial_21,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_21,usr,Thank you for helping me! Goodbye
+dial_22,goal,"{'id': 'SNG0741.json', 'cur_info': {'pricerange': 'cheap', 'area': 'centre'}, 'reqt': ['postcode'], 'first_choice_match': 15}"
+dial_22,usr,I am looking for a cheap restaurant in the centre area.
+dial_22,sys,Do you have a preference on the food?
+dial_22,usr,i do not care.
+dial_22,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_22,usr,what is its postcode ?
+dial_22,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_22,usr,Thank you for helping me! Goodbye
+dial_23,goal,"{'id': 'SNG02308.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'cur_book': {'time': '12:00', 'day': 'tuesday', 'people': '1'}, 'first_choice_match': 2}"
+dial_23,usr,I am looking for a cheap restaurant that serves asian oriental food in the centre area.
+dial_23,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_23,usr,can you help me to make a reservation for 1 people at 12:00 on tuesday?
+dial_23,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_23,usr,Thank you for helping me! Goodbye
+dial_24,goal,"{'id': 'WOZ20454.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 3}"
+dial_24,usr,I am looking for a moderate restaurant in the west area.
+dial_24,sys,Do you have a preference on the food?
+dial_24,usr,i do not care.
+dial_24,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_24,usr,can i have the address?
+dial_24,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?
+dial_24,usr,Thank you for helping me! Goodbye

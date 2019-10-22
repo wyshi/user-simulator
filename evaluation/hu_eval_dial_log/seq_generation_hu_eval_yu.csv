@@ -1,0 +1,38 @@
+dial_5,goal,"{'id': 'SSNG0174.json', 'info_first_choice': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'book_second_choice': {'time': '15:30'}, 'cur_book': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'first_choice_match': 0}"
+dial_5,usr,i would like to find a expensive restaurant in the centre .
+dial_5,sys,Do you have a preference on the food?
+dial_5,usr,i would like to book a table for 2 people on monday .
+dial_5,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_5,usr,"that is the curry , please ."
+dial_5,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?
+dial_5,usr,"that is all , thank you for your help ."
+dial_6,goal,"{'id': 'WOZ20237.json', 'cur_info': {'pricerange': 'cheap', 'area': 'north'}, 'reqt': ['address', 'phone'], 'first_choice_match': 2}"
+dial_6,usr,i would like a cheap -ly priced restaurant in the north part of town .
+dial_6,sys,Do you have a preference on the food?
+dial_6,usr,i would like cheap .
+dial_6,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_6,usr,"no , i would like to know . thank you ."
+dial_7,goal,"{'id': 'SSNG0005.json', 'info_first_choice': {'food': 'basque', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'basque', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'people': '5', 'day': 'monday', 'time': '18:30'}, 'book_second_choice': {'time': '19:30'}, 'cur_book': {'people': '5', 'day': 'monday', 'time': '18:30'}, 'first_choice_match': 0}"
+dial_7,usr,i would like to find a expensive restaurant in the centre part of town .
+dial_7,sys,Do you have a preference on the food?
+dial_7,usr,i would like to book a table for 5 people on monday .
+dial_7,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_7,usr,that will be a good .
+dial_7,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_7,usr,that is all i need a reservation for 5 people at 18:30 on monday .
+dial_8,goal,"{'id': 'SSNG0129.json', 'info_first_choice': {'food': 'vegetarian', 'pricerange': 'moderate', 'area': 'centre'}, 'info_second_choice': {'food': 'international'}, 'cur_info': {'food': 'vegetarian', 'pricerange': 'moderate', 'area': 'centre'}, 'book_first_choice': {'people': '6', 'day': 'wednesday', 'time': '20:00'}, 'book_second_choice': {'day': 'saturday'}, 'cur_book': {'people': '6', 'day': 'wednesday', 'time': '20:00'}, 'first_choice_match': 0}"
+dial_8,usr,i would like to find a moderate restaurant in the centre .
+dial_8,sys,Do you have a preference on the food?
+dial_8,usr,i would like to book a table for 6 people on wednesday .
+dial_8,sys,pizza express is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_8,usr,i need a reservation for 6 people at 20:00 on saturday ?
+dial_8,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_8,usr,"thanks , that s all i need ."
+dial_9,goal,"{'id': 'SNG0530.json', 'info_first_choice': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'book_first_choice': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'first_choice_match': 0}"
+dial_9,usr,i would like to find a expensive restaurant in the south .
+dial_9,sys,Do you have a preference on the food?
+dial_9,usr,i would like to book a table for 1 people on monday .
+dial_9,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_9,usr,"no , i need a reservation for 1 people at 16:00 on monday ?"
+dial_9,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_9,usr,i needed . bye .

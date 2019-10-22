@@ -1,0 +1,38 @@
+dial_15,goal,"{'id': 'SSNG0111.json', 'cur_info': {'food': 'italian', 'pricerange': 'moderate', 'area': 'east'}, 'book_first_choice': {'people': '4', 'day': 'tuesday', 'time': '12:30'}, 'book_second_choice': {'time': '13:30'}, 'cur_book': {'people': '4', 'day': 'tuesday', 'time': '12:30'}, 'first_choice_match': 1}"
+dial_15,usr,how about a moderate italian 1 in the east ?
+dial_15,sys,pizza hut fen ditton is a italian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,"yes , could you book me a table for 4 at 12:30 on tuesday ?"
+dial_15,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_15,usr,thank you so much for your time . that will be all .
+dial_16,goal,"{'id': 'SNG1343.json', 'cur_info': {'food': 'mediterranean', 'area': 'centre'}, 'cur_book': {'people': '4', 'day': 'sunday', 'time': '16:15'}, 'first_choice_match': 3}"
+dial_16,usr,"mediterranean please , i am craving that lately"
+dial_16,sys,Do you have a preference on the area and pricerange?
+dial_16,usr,"yes , the 1 in the centre please ."
+dial_16,sys,the gardenia is a mediterranean restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_16,usr,"yes , could you book me a table for 4 at 16:15 on sunday ?"
+dial_16,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_16,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .
+dial_17,goal,"{'id': 'SSNG0096.json', 'cur_info': {'food': 'portuguese', 'pricerange': 'cheap', 'area': 'centre'}, 'book_first_choice': {'people': '7', 'day': 'thursday', 'time': '11:45'}, 'book_second_choice': {'time': '12:45'}, 'cur_book': {'people': '7', 'day': 'thursday', 'time': '11:45'}, 'first_choice_match': 1}"
+dial_17,usr,are there any cheap portuguese restaurant -s centre ?
+dial_17,sys,nandos city centre is a portuguese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_17,usr,"yes , please . for 7 people at 11:45 on thursday ."
+dial_17,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_17,usr,nothing else . thanks for your great help . goodbye .
+dial_18,goal,"{'id': 'SNG0471.json', 'info_first_choice': {'food': 'eastern european', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'eastern european', 'pricerange': 'expensive', 'area': 'south'}, 'cur_book': {'time': '11:45', 'day': 'saturday', 'people': '1'}, 'first_choice_match': 0}"
+dial_18,usr,i like expensive restaurant -s and would prefer something in the city south .
+dial_18,sys,Do you have a preference on the food?
+dial_18,usr,would you have something eastern european ?
+dial_18,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_18,usr,how about chinese food ?
+dial_18,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_18,usr,"yes , i would like to reserve a table for 1 at 11:45 on saturday please ."
+dial_18,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_18,usr,"no , you have been very helpful . thank you . goodbye ."
+dial_19,goal,"{'id': 'WOZ20288.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'reqt': ['phone'], 'first_choice_match': 3}"
+dial_19,usr,i would like 1 in the moderate price range please .
+dial_19,sys,Do you have a preference on the food and area?
+dial_19,usr,i would like the west part of town .
+dial_19,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_19,usr,what is the phone number ?
+dial_19,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?
+dial_19,usr,that is all i needed . thank you .

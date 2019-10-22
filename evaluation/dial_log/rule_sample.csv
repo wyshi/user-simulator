@@ -1,0 +1,1760 @@
+dial_0,usr,i need a really inexpensive restaurant on the centre side .,inform_type
+dial_0,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_0,usr,it should serve swedish food in the dontcare price range .,inform_type
+dial_0,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_0,usr,how about chinese food ?,inform_type_change
+dial_0,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_0,usr,are there any others ?,anything_else
+dial_0,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_0,usr,yes please for 5 people at 15:15 on monday please . i will need the reference number too,make_reservation
+dial_0,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_0,usr,no , that s all i needed . thanks so much .,goodbye
+dial_1,usr,i am looking for a place that serves italian food . i do not care about the price range .,inform_type
+dial_1,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_1,usr,in the south of town please . i am looking to stay in the dontcare price range .,inform_type
+dial_1,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_1,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_1,sys,frankie and bennys is a italian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_1,usr,can i get the address and postcode , please ?,ask_info
+dial_1,sys,frankie and bennys is located at Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223412430 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_1,usr,thank you goodbye .,goodbye
+dial_2,usr,i am looking for a restaurant that serves mexican food and in the south part of town .,inform_type
+dial_2,sys,Do you have a preference on the pricerange?,ask_type
+dial_2,usr,yes i would like it to be expensive .,inform_type
+dial_2,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_2,usr,could you get me a table for wednesday at someplace nice ? there will be 8 in my party and we'd like to eat at 18:30 .,make_reservation
+dial_2,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_2,usr,yes , a table for 7 .,make_reservation
+dial_2,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_2,usr,wonderful , thanks . that s all i need .,goodbye
+dial_3,usr,can you help me find a spanish restaurant please ?,inform_type
+dial_3,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_3,usr,any type of food will be fine as long as it is dontcare -ly priced and in the dontcare part of town .,inform_type
+dial_3,sys,la tasca is a spanish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_3,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_3,sys,la raza is a spanish restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_3,usr,yes , what is their phone number and where are they located at ?,ask_info
+dial_3,sys,la raza is located at 4 - 6 Rose Crescent . Its phone number is 01223464550 and the postcode is cb23ll . is there anything else i can help you with ?,provide_info
+dial_3,usr,thank you and goodbye .,goodbye
+dial_4,usr,can you recommend me a moderate priced restaurant in the centre part of town ?,inform_type
+dial_4,sys,Do you have a preference on the food?,ask_type
+dial_4,usr,is there any where that serves international food ?,inform_type
+dial_4,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_4,usr,ok i would like to book for 2 people at 19:00 on tuesday please,make_reservation
+dial_4,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_4,usr,yes , look it up and book me for sunday , please ?,make_reservation_change_time
+dial_4,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_4,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_5,usr,i would like to find a restaurant serving asian oriental food .,inform_type
+dial_5,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_5,usr,i am looking for a restaurant in the dontcare price range in the dontcare of town .,inform_type
+dial_5,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_5,usr,what is their address and postcode ?,ask_info
+dial_5,sys,dojo noodle bar is located at 40210 Millers Yard City Centre . Its phone number is 01223363471 and the postcode is cb21rq . is there anything else i can help you with ?,provide_info
+dial_5,usr,no , thanks . that s it .,goodbye
+dial_6,usr,i am looking for a expensive -ly priced restaurant serving korean food .,inform_type
+dial_6,sys,Do you have a preference on the area?,ask_type
+dial_6,usr,dontcare of cambridge,inform_type
+dial_6,sys,little seoul is a korean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_6,usr,i would like the address of restaurant_name restaurant , please .,ask_info
+dial_6,sys,little seoul is located at 108 Regent Street City Centre . Its phone number is 01223308681 and the postcode is cb21dp . is there anything else i can help you with ?,provide_info
+dial_6,usr,thank you , goodbye,goodbye
+dial_7,usr,i would like a mediterranean restaurant that s in the expensive price range .,inform_type
+dial_7,sys,Do you have a preference on the area?,ask_type
+dial_7,usr,located in the dontcare side,inform_type
+dial_7,sys,la mimosa is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_7,usr,that will work . i would like the address and phone number to the restaurant_name restaurant please .,ask_info
+dial_7,sys,la mimosa is located at Thompsons Lane Fen Ditton . Its phone number is 01223362525 and the postcode is cb58aq . is there anything else i can help you with ?,provide_info
+dial_7,usr,thank you goodbye .,goodbye
+dial_8,usr,i would like a restaurant in the east part of town that serves chinese food .,inform_type
+dial_8,sys,Do you have a preference on the pricerange?,ask_type
+dial_8,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_8,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_8,usr,can i have the address please ?,ask_info
+dial_8,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_8,usr,thank you , goodbye,goodbye
+dial_9,usr,hello , i am looking for a restaurant that serves european food .,inform_type
+dial_9,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_9,usr,any kind of food will be fine as long as it is expensive -ly priced and in the dontcare part of town .,inform_type
+dial_9,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_9,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_9,sys,michaelhouse cafe is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_9,usr,yes , i would like a reservation for 6 please .,make_reservation
+dial_9,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_9,usr,can we do tuesday at 13:45 ?,make_reservation
+dial_9,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_9,usr,no , that s all i need . thanks for the help .,goodbye
+dial_10,usr,could you help me find an the americas restaurant please ?,inform_type
+dial_10,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_10,usr,any type of food will be fine as long as it is dontcare -ly priced and in the centre part of town .,inform_type
+dial_10,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_10,usr,how about some italian food ?,inform_type_change
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_10,usr,sure , can you try and book a table for wednesday at 18:15 ? there are 5 people .,make_reservation
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_10,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_11,usr,hi , i am looking for an expensive restaurant serving light bites food .,inform_type
+dial_11,sys,Do you have a preference on the area?,ask_type
+dial_11,usr,i do not care about the price range , and would just like 1 in the centre part of town .,inform_type
+dial_11,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_11,usr,how about italian food ?,inform_type_change
+dial_11,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_11,usr,i will have 2 people and we would like 14:30 if possible . thanks .,make_reservation
+dial_11,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_11,usr,monday , like the girl from the adam s family .,make_reservation
+dial_11,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_11,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_12,usr,i am looking for a particular restaurant called chiquito restaurant bar .,inform_type
+dial_12,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_12,usr,there will be 6 of us and we would like to eat at 10:45 .,make_reservation
+dial_12,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_12,usr,how about ! 000 instead , is that available tuesday ?,make_reservation
+dial_12,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_12,usr,no , that s all i need . thanks for the help .,goodbye
+dial_13,usr,can you help me find a eastern european restaurant please ?,inform_type
+dial_13,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_13,usr,i am looking for a restaurant in the expensive price range in the south of town .,inform_type
+dial_13,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_13,usr,how about chinese food ?,inform_type_change
+dial_13,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_13,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_13,sys,peking restaurant is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_13,usr,there will be 1 of us and we would like to eat at 11:45 .,make_reservation
+dial_13,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_13,usr,i do not care about the type of food . i need a reservation for saturday night .,make_reservation
+dial_13,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_13,usr,that will be all , thank you .,goodbye
+dial_14,usr,can you help me find a turkish restaurant please ?,inform_type
+dial_14,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_14,usr,i really need it to be in the dontcare price range , there s really nothing in the city dontcare ? any cuisine will do .,inform_type
+dial_14,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_14,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_14,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_14,usr,great , can i please have their address and postcode ?,ask_info
+dial_14,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?,provide_info
+dial_14,usr,no , thanks . that s it .,goodbye
+dial_15,usr,i want a moderate -ly priced restaurant please .,inform_type
+dial_15,sys,Do you have a preference on the food and area?,ask_type
+dial_15,usr,i am looking for an chinese restaurant in the dontcare .,inform_type
+dial_15,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_15,usr,is there anything else ? i also want its phone number .,anything_else
+dial_15,sys,lan hong house is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_15,usr,what is the phone number ?,ask_info
+dial_15,sys,lan hong house is located at 12 Norfolk Street City Centre . Its phone number is 01223350420 and the postcode is cb12lf . is there anything else i can help you with ?,provide_info
+dial_15,usr,that is all i needed . thank you .,goodbye
+dial_16,usr,is there a moderate modern european restaurant in town ?,inform_type
+dial_16,sys,Do you have a preference on the area?,ask_type
+dial_16,usr,i want it to be in the dontcare .,inform_type
+dial_16,sys,restaurant alimentum is a modern european restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_16,usr,yes , please . for 6 people at 19:15 on saturday .,make_reservation
+dial_16,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_16,usr,no , that s all i need . thanks for the help .,goodbye
+dial_17,usr,an moderate restaurant please,inform_type
+dial_17,sys,Do you have a preference on the food and area?,ask_type
+dial_17,usr,i would like some good turkish food . near the dontcare of town would be great .,inform_type
+dial_17,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_17,usr,on tuesday please,make_reservation
+dial_17,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_17,usr,i would like a reservation at 12:30 for a party of 7 .,make_reservation
+dial_17,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_17,usr,wonderful , thanks . that s all i need .,goodbye
+dial_18,usr,please find me a restaurant in the south part of town .,inform_type
+dial_18,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_18,usr,as long as they serve dontcare cuisine and expensive -ly priced , that sounds great . thanks for your help .,inform_type
+dial_18,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_18,usr,what is the address , phone number , and postcode ?,ask_info
+dial_18,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?,provide_info
+dial_18,usr,thank you and goodbye .,goodbye
+dial_19,usr,i am interested in a restaurant located in the north part of town that specializes in chinese food , please .,inform_type
+dial_19,sys,Do you have a preference on the pricerange?,ask_type
+dial_19,usr,i need 1 in the dontcare price range .,inform_type
+dial_19,sys,hakka is a chinese restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_19,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_19,sys,golden wok is a chinese restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_19,usr,can you please give me that phone number ?,ask_info
+dial_19,sys,golden wok is located at 191 Histon Road Chesterton . Its phone number is 01223350688 and the postcode is cb43hl . is there anything else i can help you with ?,provide_info
+dial_19,usr,no , thank you . that'll do it .,goodbye
+dial_20,usr,i am looking for a restaurant that serves unusual food and is cheap -ly priced .,inform_type
+dial_20,sys,Do you have a preference on the area?,ask_type
+dial_20,usr,i want it to be in the centre .,inform_type
+dial_20,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_20,usr,how about italian food ?,inform_type_change
+dial_20,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_20,usr,that would be greatly appreciated . i will have 1 other person with me , this will be on tuesday at 13:15 . also could i get the reference number ?,make_reservation
+dial_20,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_20,usr,yes , for 2 people .,make_reservation
+dial_20,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_20,usr,that s all i needed . thanks,goodbye
+dial_21,usr,i am looking for a moderate -ly priced restaurant .,inform_type
+dial_21,sys,Do you have a preference on the food and area?,ask_type
+dial_21,usr,i would like some good indian food . near the dontcare of town would be great .,inform_type
+dial_21,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_21,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_21,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_21,usr,i need the address and phone number .,ask_info
+dial_21,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?,provide_info
+dial_21,usr,no , and thank you for your help . goodbye .,goodbye
+dial_22,usr,i am looking for an chinese restaurant in the east part of town .,inform_type
+dial_22,sys,Do you have a preference on the pricerange?,ask_type
+dial_22,usr,yes dontcare restaurant please,inform_type
+dial_22,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_22,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_22,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_22,usr,what is the address , phone number , and postcode ?,ask_info
+dial_22,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_22,usr,no , thanks . that s it .,goodbye
+dial_23,usr,i am looking for a restaurant in the centre .,inform_type
+dial_23,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_23,usr,i am looking for 1 that serves thai food and is dontcare .,inform_type
+dial_23,sys,bangkok city is a thai restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_23,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_23,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_23,usr,yes please . i would like to book a table for 4 people on sunday at 19:30 .,make_reservation
+dial_23,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_23,usr,thank you for your help , good day .,goodbye
+dial_24,usr,hello , i am looking for a restaurant that serves european food .,inform_type
+dial_24,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_24,usr,any kind of food will be fine as long as it is expensive -ly priced and in the dontcare part of town .,inform_type
+dial_24,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_24,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_24,sys,michaelhouse cafe is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_24,usr,no , it does not matter . can you reserve 1 of them for tuesday at 13:45 ? i will be dining alone .,make_reservation
+dial_24,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_24,usr,i need a table for 6 people .,make_reservation
+dial_24,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_24,usr,no , that s all i need . thanks for the help .,goodbye
+dial_25,usr,an cheap restaurant please,inform_type
+dial_25,sys,Do you have a preference on the food and area?,ask_type
+dial_25,usr,i am looking for an dontcare restaurant in the north .,inform_type
+dial_25,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_25,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_25,sys,royal spice is a indian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_25,usr,can i have the address and phone number ?,ask_info
+dial_25,sys,royal spice is located at Victoria Avenue Chesterton . Its phone number is 01733553355 and the postcode is cb41eh . is there anything else i can help you with ?,provide_info
+dial_25,usr,thank you and goodbye .,goodbye
+dial_26,usr,i am looking for an expensive restaurant that is in the centre part of town .,inform_type
+dial_26,sys,Do you have a preference on the food?,ask_type
+dial_26,usr,yes . i would like dontcare food please .,inform_type
+dial_26,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_26,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_26,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_26,usr,no . it needs to be t 15:30 . another restaurant in the same area and price range would work .,make_reservation
+dial_26,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_26,usr,1230 on wednesday . there will be 8 of us .,make_reservation
+dial_26,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_26,usr,wonderful , thanks . that s all i need .,goodbye
+dial_27,usr,can you recommend a restaurant to me in the centre part of town ? i do not want to spend a lot of money .,inform_type
+dial_27,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_27,usr,the restaurant should be in the cheap price range and should serve portuguese food .,inform_type
+dial_27,sys,nandos city centre is a portuguese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_27,usr,there will be 7 of us and we would like to eat at 11:45 .,make_reservation
+dial_27,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_27,usr,make the reservation for thursday please .,make_reservation
+dial_27,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_27,usr,thank you for your help , good day .,goodbye
+dial_28,usr,i want to find a restaurant in the centre part of town that serves italian food .,inform_type
+dial_28,sys,Do you have a preference on the pricerange?,ask_type
+dial_28,usr,i do not have a preference of area as long as it s expensive . please make a suggestion .,inform_type
+dial_28,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_28,usr,i would like a reservation at 10:30 for a party of 7 .,make_reservation
+dial_28,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_28,usr,sure , for thursday .,make_reservation
+dial_28,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_28,usr,how about at 11:30 at same time ?,make_reservation_change_time
+dial_28,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_28,usr,thank you for your help , good day .,goodbye
+dial_29,usr,i am looking for a restaurant called rice house,inform_type
+dial_29,sys,rice house is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_29,usr,i would like a reservation at 11:15 for a party of 8 .,make_reservation
+dial_29,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_29,usr,do you have anything available for thursday ?,make_reservation
+dial_29,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_29,usr,thank you so much for your time . that will be all .,goodbye
+dial_30,usr,are there any indian restaurant -s in town ?,inform_type
+dial_30,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_30,usr,in the dontcare of town please . i am looking to stay in the cheap price range .,inform_type
+dial_30,sys,kohinoor is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_30,usr,yes . i would like the address of restaurant_name please ?,ask_info
+dial_30,sys,kohinoor is located at 74 Mill Road City Centre . Its phone number is 01223323639 and the postcode is cb12as . is there anything else i can help you with ?,provide_info
+dial_30,usr,that is all i needed . thank you .,goodbye
+dial_31,usr,i am looking for a nice moderate restaurant in the east part of town,inform_type
+dial_31,sys,Do you have a preference on the food?,ask_type
+dial_31,usr,and serves dontcare style food please,inform_type
+dial_31,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_31,usr,what is the address and phone number for restaurant_name ?,ask_info
+dial_31,sys,curry prince is located at 451 Newmarket Road Fen Ditton . Its phone number is 01223566388 and the postcode is cb58jj . is there anything else i can help you with ?,provide_info
+dial_31,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_32,usr,i am looking for a restaurant serving indonesian food .,inform_type
+dial_32,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_32,usr,any type of food , just expensive in the centre part of town .,inform_type
+dial_32,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_32,usr,ok , how about an italian restaurant ?,inform_type_change
+dial_32,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_32,usr,yes , i would like to book a table for just me at 17:45 on wednesday .,make_reservation
+dial_32,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_32,usr,we will have 6 people in the party .,make_reservation
+dial_32,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_32,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_33,usr,looking for a cheap restaurant .,inform_type
+dial_33,sys,Do you have a preference on the food and area?,ask_type
+dial_33,usr,i would like some good dontcare food . near the centre of town would be great .,inform_type
+dial_33,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_33,usr,yes please . book for 4 , at 1700hrs or 1600hrs and get me the reference number,make_reservation
+dial_33,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_33,usr,how about sunday at 13:00 .,make_reservation
+dial_33,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_33,usr,could you try booking for 14:00 instead ?,make_reservation_change_time
+dial_33,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_33,usr,wonderful , thanks . that s all i need .,goodbye
+dial_34,usr,hi , i am looking for an moderate restaurant in the west part of town .,inform_type
+dial_34,sys,Do you have a preference on the food?,ask_type
+dial_34,usr,would you have something dontcare ?,inform_type
+dial_34,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_34,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_34,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_34,usr,great ! could you please give me the address and phone number of that restaurant ?,ask_info
+dial_34,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_34,usr,no , thanks . that s it .,goodbye
+dial_35,usr,i would like an moderate restaurant in the centre part of town,inform_type
+dial_35,sys,Do you have a preference on the food?,ask_type
+dial_35,usr,and serves dontcare style food please,inform_type
+dial_35,sys,pizza express is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_35,usr,no , that will do . can i book a table for friday ?,make_reservation
+dial_35,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_35,usr,i would like a reservation at 14:00 for a party of 1 .,make_reservation
+dial_35,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_35,usr,thank you so much for your time . that will be all .,goodbye
+dial_36,usr,i am looking for a restaurant that serves african food and is in the expensive price range .,inform_type
+dial_36,sys,Do you have a preference on the area?,ask_type
+dial_36,usr,let s try the dontcare .,inform_type
+dial_36,sys,bedouin is a african restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_36,usr,address and phone number for restaurant_name , yes please .,ask_info
+dial_36,sys,bedouin is located at 100 Mill Road City Centre . Its phone number is 01223367660 and the postcode is cb12bd . is there anything else i can help you with ?,provide_info
+dial_36,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_37,usr,hello , i am looking for a moderate -ly priced restaurant on the centre side of town .,inform_type
+dial_37,sys,Do you have a preference on the food?,ask_type
+dial_37,usr,i do not care about the price range but would like somewhere serving lebanese food .,inform_type
+dial_37,sys,ali baba is a lebanese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_37,usr,sure , can you try and book a table for tuesday at 17:45 ? there are 3 people .,make_reservation
+dial_37,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_37,usr,thank you so much for your time . that will be all .,goodbye
+dial_38,usr,i am looking for a restaurant serving italian food .,inform_type
+dial_38,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_38,usr,in the dontcare of town please . i am looking to stay in the cheap price range .,inform_type
+dial_38,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_38,usr,could i have the address and phone number please ?,ask_info
+dial_38,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?,provide_info
+dial_38,usr,no , and thank you for your help . goodbye .,goodbye
+dial_39,usr,i would like a expensive restaurant .,inform_type
+dial_39,sys,Do you have a preference on the food and area?,ask_type
+dial_39,usr,i am looking for an dontcare restaurant in the east .,inform_type
+dial_39,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_39,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_39,sys,pipasha restaurant is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_39,usr,how about 12:00 ?,make_reservation
+dial_39,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_39,usr,yes please ! there will be 6 of us dining on thursday,make_reservation
+dial_39,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_39,usr,thank you so much for your time . that will be all .,goodbye
+dial_40,usr,where'a a restaurant on the west part f town ?,inform_type
+dial_40,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_40,usr,i would actually prefer some cheap dontcare food if possible ?,inform_type
+dial_40,sys,thanh binh is a vietnamese restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_40,usr,what is there phone number ?,ask_info
+dial_40,sys,thanh binh is located at 17 Magdalene Street City Centre . Its phone number is 01223362456 and the postcode is cb30af . is there anything else i can help you with ?,provide_info
+dial_40,usr,nope , that s all i need , thank you very much !,goodbye
+dial_41,usr,i want the chinese food , sir . oh and this needs to be in the centre as well .,inform_type
+dial_41,sys,Do you have a preference on the pricerange?,ask_type
+dial_41,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_41,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_41,usr,just 1 , and can you book me for 17:00 ?,make_reservation
+dial_41,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_41,usr,just 6 person on saturday at 1945,make_reservation
+dial_41,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_41,usr,how about at 18:00 at same time ?,make_reservation_change_time
+dial_41,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_41,usr,no , that s all i need . thanks for the help .,goodbye
+dial_42,usr,i would like a restaurant that serves african food,inform_type
+dial_42,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_42,usr,the dontcare of the city , with a dontcare price range , please .,inform_type
+dial_42,sys,bedouin is a african restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_42,usr,yes , and the address and postcode please .,ask_info
+dial_42,sys,bedouin is located at 100 Mill Road City Centre . Its phone number is 01223367660 and the postcode is cb12bd . is there anything else i can help you with ?,provide_info
+dial_42,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_43,usr,i would like a moderate restaurant that serves international food,inform_type
+dial_43,sys,Do you have a preference on the area?,ask_type
+dial_43,usr,i want it to be in the dontcare .,inform_type
+dial_43,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_43,usr,is there anything else ?,anything_else
+dial_43,sys,bloomsbury restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_43,usr,i would like the address , phone number , and post code information for restaurant_name please . thank you !,ask_info
+dial_43,sys,bloomsbury restaurant is located at Crowne Plaza Hotel 20 Downing Street . Its phone number is 08719429180 and the postcode is cb23dt . is there anything else i can help you with ?,provide_info
+dial_43,usr,no , thank you . that'll do it .,goodbye
+dial_44,usr,i would like a moderate chinese restaurant .,inform_type
+dial_44,sys,Do you have a preference on the area?,ask_type
+dial_44,usr,located in the dontcare side,inform_type
+dial_44,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_44,usr,can i get the phone number , please ?,ask_info
+dial_44,sys,jinling noodle bar is located at 11 Peas Hill City Centre . Its phone number is 01223566188 and the postcode is cb23pp . is there anything else i can help you with ?,provide_info
+dial_44,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_45,usr,thai food in the west part of town,inform_type
+dial_45,sys,Do you have a preference on the pricerange?,ask_type
+dial_45,usr,yes i would like it to be dontcare .,inform_type
+dial_45,sys,sala thong is a thai restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_45,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_45,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_45,usr,what is the address and phone number of the restaurant_name ?,ask_info
+dial_45,sys,sala thong is located at 35 Newnham Road Newnham . Its phone number is 01223323178 and the postcode is cb39ey . is there anything else i can help you with ?,provide_info
+dial_45,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_46,usr,i am looking for a restaurant , something cheap -ly priced .,inform_type
+dial_46,sys,Do you have a preference on the food and area?,ask_type
+dial_46,usr,i would like some good dontcare food . near the centre of town would be great .,inform_type
+dial_46,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_46,usr,yes , could you book me a table for 4 at 13:00 on sunday ?,make_reservation
+dial_46,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_46,usr,great , thanks a lot !,goodbye
+dial_47,usr,i would like an cheap restaurant that serves spanish food,inform_type
+dial_47,sys,Do you have a preference on the area?,ask_type
+dial_47,usr,i would like the centre part of town .,inform_type
+dial_47,sys,la raza is a spanish restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_47,usr,can i have something else ?,anything_else
+dial_47,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_47,usr,sure , for tuesday .,make_reservation
+dial_47,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_47,usr,i will have 7 people and we would like 11:45 if possible . thanks .,make_reservation
+dial_47,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_47,usr,no , that s all i need . thanks for the help .,goodbye
+dial_48,usr,i would like to find a restaurant that serves indian food .,inform_type
+dial_48,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_48,usr,any kind of food will be fine as long as it is expensive -ly priced and in the north part of town .,inform_type
+dial_48,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_48,usr,how about a restaurant that serves asian oriental food ?,inform_type_change
+dial_48,sys,saigon city is a asian oriental restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_48,usr,yes , please . could you book it for 5 people on saturday ?,make_reservation
+dial_48,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_48,usr,i would like a table for 17:45 .,make_reservation
+dial_48,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_48,usr,great , thanks a lot !,goodbye
+dial_49,usr,hi . i am looking for a expensive -ly priced restaurant .,inform_type
+dial_49,sys,Do you have a preference on the food and area?,ask_type
+dial_49,usr,i am looking for an dontcare restaurant in the east .,inform_type
+dial_49,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_49,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_49,sys,pipasha restaurant is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_49,usr,i would like the address , phone number , and post code information for restaurant_name please . thank you !,ask_info
+dial_49,sys,pipasha restaurant is located at Newmarket Road Fen Ditton . Its phone number is 01223577786 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_49,usr,thank you goodbye .,goodbye
+dial_50,usr,i am looking for a cheap -ly priced restaurant .,inform_type
+dial_50,sys,Do you have a preference on the food and area?,ask_type
+dial_50,usr,i would really like to find someplace serving dontcare in the centre of town .,inform_type
+dial_50,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_50,usr,that sounds good . what is their phone number and postcode ?,ask_info
+dial_50,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?,provide_info
+dial_50,usr,no , thank you . that'll do it .,goodbye
+dial_51,usr,i want to eat at a moderate -ly priced restaurant please,inform_type
+dial_51,sys,Do you have a preference on the food and area?,ask_type
+dial_51,usr,no , i am only interested in a restaurant that serves dontcare food and is in the south .,inform_type
+dial_51,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_51,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_51,sys,restaurant alimentum is a modern european restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_51,usr,yes , please give me the phone number , address , and postcode .,ask_info
+dial_51,sys,restaurant alimentum is located at 152 - 154 Hills Road . Its phone number is 01223413000 and the postcode is cb28pb . is there anything else i can help you with ?,provide_info
+dial_51,usr,no , thank you . that'll do it .,goodbye
+dial_52,usr,is there a moderate restaurant in the centre part of town ?,inform_type
+dial_52,sys,Do you have a preference on the food?,ask_type
+dial_52,usr,i would like australian food .,inform_type
+dial_52,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_52,usr,what about turkish food ?,inform_type_change
+dial_52,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_52,usr,yes , and can you book a table for 6 at 16:00 on sunday , please .,make_reservation
+dial_52,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_52,usr,that should be it . thank you .,goodbye
+dial_53,usr,are there any restaurant -s that serve spanish food ?,inform_type
+dial_53,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_53,usr,how about the dontcare in a dontcare price range .,inform_type
+dial_53,sys,la tasca is a spanish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_53,usr,can i have something else ?,anything_else
+dial_53,sys,la raza is a spanish restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_53,usr,what is the address ?,ask_info
+dial_53,sys,la raza is located at 4 - 6 Rose Crescent . Its phone number is 01223464550 and the postcode is cb23ll . is there anything else i can help you with ?,provide_info
+dial_53,usr,that is all i needed . thank you .,goodbye
+dial_54,usr,i am looking for a restaurant in the north part of town and is in the cheap price range .,inform_type
+dial_54,sys,Do you have a preference on the food?,ask_type
+dial_54,usr,i do not care about the price range but would like somewhere serving dontcare food .,inform_type
+dial_54,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_54,usr,could you book a table for me there on sunday ?,make_reservation
+dial_54,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_54,usr,sounds great , can you book a table for 4 at 14:30 ?,make_reservation
+dial_54,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_54,usr,no , that s all i need . thanks for the help .,goodbye
+dial_55,usr,i am looking for a restaurant my friend recommended , i think she called it the the lucky star .,inform_type
+dial_55,sys,the lucky star is a chinese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_55,usr,there will be 2 of us and we would like to eat at 17:00 .,make_reservation
+dial_55,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_55,usr,on saturday please,make_reservation
+dial_55,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_55,usr,no , that s all i need . thanks for the help .,goodbye
+dial_56,usr,i need a place to eat in the south area of the city .,inform_type
+dial_56,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_56,usr,the restaurant should serve dontcare food and should be in the expensive price range .,inform_type
+dial_56,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_56,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_56,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_56,usr,can you send me the address and the phone number of this restaurant ?,ask_info
+dial_56,sys,taj tandoori is located at 64 Cherry Hinton Road Cherry Hinton . Its phone number is 01223412299 and the postcode is cb17aa . is there anything else i can help you with ?,provide_info
+dial_56,usr,thank you and goodbye .,goodbye
+dial_57,usr,i want a restaurant in the east part of town and serves indian food .,inform_type
+dial_57,sys,Do you have a preference on the pricerange?,ask_type
+dial_57,usr,yes i would like it to be dontcare .,inform_type
+dial_57,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_57,usr,what is the address and phone number for restaurant_name ?,ask_info
+dial_57,sys,curry prince is located at 451 Newmarket Road Fen Ditton . Its phone number is 01223566388 and the postcode is cb58jj . is there anything else i can help you with ?,provide_info
+dial_57,usr,nope , that s all i need , thank you very much !,goodbye
+dial_58,usr,could you help me find an indian restaurant please ?,inform_type
+dial_58,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_58,usr,in the dontcare of town please . i am looking to stay in the expensive price range .,inform_type
+dial_58,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_58,usr,can you make a reservation for 8 people at 17:30 on friday ?,make_reservation
+dial_58,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_58,usr,that will be all , thank you .,goodbye
+dial_59,usr,i want to find a restaurant in the west part of town that serves german food .,inform_type
+dial_59,sys,Do you have a preference on the pricerange?,ask_type
+dial_59,usr,i would like a restaurant in the dontcare range .,inform_type
+dial_59,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_59,usr,how about a restaurant that serves british food ?,inform_type_change
+dial_59,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_59,usr,are there any others ?,anything_else
+dial_59,sys,graffiti is a british restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_59,usr,then that will be good . i need a reservation for 3 on wednesday night please .,make_reservation
+dial_59,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_59,usr,i would like the reservation at 16:15 please .,make_reservation
+dial_59,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_59,usr,great , thanks a lot !,goodbye
+dial_60,usr,i am looking for a restaurant in the east part of town .,inform_type
+dial_60,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_60,usr,i am looking for 1 that serves dontcare food and is expensive .,inform_type
+dial_60,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_60,usr,can i have something else ?,anything_else
+dial_60,sys,pipasha restaurant is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_60,usr,may i get the restaurant phone number please ?,ask_info
+dial_60,sys,pipasha restaurant is located at Newmarket Road Fen Ditton . Its phone number is 01223577786 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_60,usr,nope , that s all i need , thank you very much !,goodbye
+dial_61,usr,i would like an moderate restaurant in the north of town .,inform_type
+dial_61,sys,Do you have a preference on the food?,ask_type
+dial_61,usr,yes , i would love dontcare .,inform_type
+dial_61,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_61,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_61,sys,golden wok is a chinese restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_61,usr,that sounds lovely . may i have the address and phone number , please ?,ask_info
+dial_61,sys,golden wok is located at 191 Histon Road Chesterton . Its phone number is 01223350688 and the postcode is cb43hl . is there anything else i can help you with ?,provide_info
+dial_61,usr,no , thanks . that s it .,goodbye
+dial_62,usr,i want a moderate chinese restaurant in the centre side of town .,inform_type
+dial_62,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_62,usr,yes , please give me the phone number , address , and postcode .,ask_info
+dial_62,sys,jinling noodle bar is located at 11 Peas Hill City Centre . Its phone number is 01223566188 and the postcode is cb23pp . is there anything else i can help you with ?,provide_info
+dial_62,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_63,usr,i need an moderate restaurant,inform_type
+dial_63,sys,Do you have a preference on the food and area?,ask_type
+dial_63,usr,somewhere in the centre . i am looking for some molecular gastronomy food .,inform_type
+dial_63,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_63,usr,how about a restaurant that serves gastropub food ?,inform_type_change
+dial_63,sys,the cow pizza kitchen and bar is a gastropub restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_63,usr,what is their address,ask_info
+dial_63,sys,the cow pizza kitchen and bar is located at Corn Exchange Street . Its phone number is 01223308871 and the postcode is cb23qf . is there anything else i can help you with ?,provide_info
+dial_63,usr,thank you goodbye .,goodbye
+dial_64,usr,hi , i am looking for a restaurant in the expensive price range that sells centre mediterranean food .,inform_type
+dial_64,sys,la mimosa is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_64,usr,are there any others ?,anything_else
+dial_64,sys,shiraz restaurant is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_64,usr,what is the address , phone number , and postcode ?,ask_info
+dial_64,sys,shiraz restaurant is located at 84 Regent Street City Centre . Its phone number is 01223307581 and the postcode is cb21dp . is there anything else i can help you with ?,provide_info
+dial_64,usr,no , and thank you for your help . goodbye .,goodbye
+dial_65,usr,i am looking for an moderate restaurant in the west part of town .,inform_type
+dial_65,sys,Do you have a preference on the food?,ask_type
+dial_65,usr,i would like to eat dontcare food .,inform_type
+dial_65,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_65,usr,are there any others ?,anything_else
+dial_65,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_65,usr,great , what is the address and phone number for restaurant_name ?,ask_info
+dial_65,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_65,usr,thank you and goodbye .,goodbye
+dial_66,usr,i am looking for a restaurant in the expensive price range that serves jamaican food .,inform_type
+dial_66,sys,Do you have a preference on the area?,ask_type
+dial_66,usr,i do not care about the price range , and would just like 1 in the south part of town .,inform_type
+dial_66,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_66,usr,how about italian food ?,inform_type_change
+dial_66,sys,frankie and bennys is a italian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_66,usr,are there any others ?,anything_else
+dial_66,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_66,usr,no thank you . i would like to book a reservation for saturday at 15:00 pm .,make_reservation
+dial_66,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_66,usr,there are 8 of us .,make_reservation
+dial_66,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_66,usr,thank you so much for your time . that will be all .,goodbye
+dial_67,usr,i need a place to eat in the west area of the city .,inform_type
+dial_67,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_67,usr,the restaurant should serve dontcare food and should be in the moderate price range .,inform_type
+dial_67,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_67,usr,what is the address and phone number ?,ask_info
+dial_67,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_67,usr,no , and thank you for your help . goodbye .,goodbye
+dial_68,usr,i would like to find an expensive restaurant in the south part of town .,inform_type
+dial_68,sys,Do you have a preference on the food?,ask_type
+dial_68,usr,i do not care about the price range but would like somewhere serving dontcare food .,inform_type
+dial_68,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_68,usr,i would like to book a table for 8 people on monday at 1415,make_reservation
+dial_68,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_68,usr,i would like the reservation at 18:00 please .,make_reservation
+dial_68,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_68,usr,thank you for your help , good day .,goodbye
+dial_69,usr,hello , i am looking for a international restaurant on the centre side of town .,inform_type
+dial_69,sys,Do you have a preference on the pricerange?,ask_type
+dial_69,usr,i do not have a preference of area as long as it s moderate . please make a suggestion .,inform_type
+dial_69,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_69,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_69,sys,bloomsbury restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_69,usr,no thank you . i would like to book a reservation for wednesday at 17:30 pm .,make_reservation
+dial_69,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_69,usr,i need a table for 8 people .,make_reservation
+dial_69,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_69,usr,thank you so much for your time . that will be all .,goodbye
+dial_70,usr,i am looking for a restaurant in the north that serves afghan food,inform_type
+dial_70,sys,Do you have a preference on the pricerange?,ask_type
+dial_70,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_70,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_70,usr,ok , how about an european restaurant ?,inform_type_change
+dial_70,sys,city stop restaurant is a european restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_70,usr,is there another 1 as well ?,anything_else
+dial_70,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_70,usr,what is the address , phone number , and type of food of 1 of them ?,ask_info
+dial_70,sys,city stop restaurant is located at Cambridge City Football Club Milton Road Chesterton . Its phone number is 01223363270 and the postcode is cb41uy . is there anything else i can help you with ?,provide_info
+dial_70,usr,nope , that s all i need , thank you very much !,goodbye
+dial_71,usr,i would like a restaurant in the centre part of town .,inform_type
+dial_71,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_71,usr,the restaurant should serve dontcare food and should be in the cheap price range .,inform_type
+dial_71,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_71,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_71,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_71,usr,phone number and postcode please,ask_info
+dial_71,sys,charlie chan is located at Regent Street City Centre . Its phone number is 01223361763 and the postcode is cb21db . is there anything else i can help you with ?,provide_info
+dial_71,usr,nope , that s all i need , thank you very much !,goodbye
+dial_72,usr,i want a restaurant in the centre part of town and serves international food .,inform_type
+dial_72,sys,Do you have a preference on the pricerange?,ask_type
+dial_72,usr,i would like something in the dontcare price range , please .,inform_type
+dial_72,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_72,usr,i need the address and phone number .,ask_info
+dial_72,sys,the varsity restaurant is located at 35 Saint Andrews Street City Centre . Its phone number is 01223356060 and the postcode is cb23ar . is there anything else i can help you with ?,provide_info
+dial_72,usr,no , thank you,goodbye
+dial_73,usr,i am looking for an inexpensive indian restaurant .,inform_type
+dial_73,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_73,usr,i am looking for a restaurant in the dontcare price range in the west of town .,inform_type
+dial_73,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_73,usr,i will have 3 people and we would like 13:15 if possible . thanks .,make_reservation
+dial_73,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_73,usr,make the reservation for monday please .,make_reservation
+dial_73,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_73,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_74,usr,i am looking for an the americas restaurant in the centre part of town .,inform_type
+dial_74,sys,Do you have a preference on the pricerange?,ask_type
+dial_74,usr,i need 1 in the dontcare price range .,inform_type
+dial_74,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_74,usr,could you find me an italian restaurant instead ?,inform_type_change
+dial_74,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_74,usr,can i have something else ?,anything_else
+dial_74,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_74,usr,yes , but just for 5 .,make_reservation
+dial_74,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_74,usr,that information is at 18:15 on wednesday .,make_reservation
+dial_74,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_74,usr,that will be all , thank you .,goodbye
+dial_75,usr,can you find me a restaurant in the west part of the city ?,inform_type
+dial_75,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_75,usr,the restaurant should serve dontcare food and should be in the moderate price range .,inform_type
+dial_75,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_75,usr,what is the address and phone number ?,ask_info
+dial_75,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_75,usr,no , thanks . that s it .,goodbye
+dial_76,usr,i am looking for a moderate -ly priced restaurant .,inform_type
+dial_76,sys,Do you have a preference on the food and area?,ask_type
+dial_76,usr,i am looking for dontcare food in the centre part of town .,inform_type
+dial_76,sys,pizza express is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_76,usr,can you make a reservation for 5 people at 15:30 on friday ?,make_reservation
+dial_76,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_76,usr,no , that s all i need . thank you .,goodbye
+dial_77,usr,i am looking for an inexpensive vietnamese restaurant .,inform_type
+dial_77,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_77,usr,i am looking for a restaurant in the cheap price range in the dontcare of town .,inform_type
+dial_77,sys,thanh binh is a vietnamese restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_77,usr,may i get the restaurant phone number please ?,ask_info
+dial_77,sys,thanh binh is located at 17 Magdalene Street City Centre . Its phone number is 01223362456 and the postcode is cb30af . is there anything else i can help you with ?,provide_info
+dial_77,usr,thank you goodbye .,goodbye
+dial_78,usr,i want to eat at a expensive -ly priced restaurant please,inform_type
+dial_78,sys,Do you have a preference on the food and area?,ask_type
+dial_78,usr,i would really like to find someplace serving turkish in the dontcare of town .,inform_type
+dial_78,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_78,usr,yes , i would like their address and what part of town they are located in .,ask_info
+dial_78,sys,meze bar is located at 196 Mill Road City Centre . Its phone number is 012323323737 and the postcode is cb13nf . is there anything else i can help you with ?,provide_info
+dial_78,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_79,usr,i am looking for a particular restaurant . it is called mahal of cambridge .,inform_type
+dial_79,sys,mahal of cambridge is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_79,usr,could you book a table for me there on friday ?,make_reservation
+dial_79,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_79,usr,there will be 5 of us and we would like to eat at 12:00 .,make_reservation
+dial_79,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_79,usr,great , thanks a lot !,goodbye
+dial_80,usr,i am looking for a restaurant my friend recommended , i think she called it the pizza express fen ditton .,inform_type
+dial_80,sys,pizza express Fen Ditton is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_80,usr,yes please , could i have the address , phone number , and postcode of the venue ?,ask_info
+dial_80,sys,pizza express Fen Ditton is located at Jesus Lane Fen Ditton . Its phone number is 01223324033 and the postcode is cb58ba . is there anything else i can help you with ?,provide_info
+dial_80,usr,no , thanks . that s it .,goodbye
+dial_81,usr,i am looking for a particular restaurant . its name is called restaurant one seven,inform_type
+dial_81,sys,restaurant one seven is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_81,usr,can i have the address please ?,ask_info
+dial_81,sys,restaurant one seven is located at De Vere University Arms Regent Street City Centre . Its phone number is 01223337766 and the postcode is cb21ab . is there anything else i can help you with ?,provide_info
+dial_81,usr,no , and thank you for your help . goodbye .,goodbye
+dial_82,usr,hey , i am up south can you give me a place to eat ?,inform_type
+dial_82,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_82,usr,as long as they serve dontcare cuisine and cheap -ly priced , that sounds great . thanks for your help .,inform_type
+dial_82,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_82,usr,i need the address and phone number .,ask_info
+dial_82,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_82,usr,thank you goodbye .,goodbye
+dial_83,usr,could you please help me find an expensive restaurant in the south part of town ?,inform_type
+dial_83,sys,Do you have a preference on the food?,ask_type
+dial_83,usr,i would like dontcare food .,inform_type
+dial_83,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_83,usr,what is the address ?,ask_info
+dial_83,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?,provide_info
+dial_83,usr,thank you and goodbye .,goodbye
+dial_84,usr,i am looking for the restaurant efes restaurant .,inform_type
+dial_84,sys,efes restaurant is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_84,usr,there will be 3 of us at 17:15 .,make_reservation
+dial_84,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_84,usr,sure , for wednesday .,make_reservation
+dial_84,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_84,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_85,usr,i am looking for a cheap -ly priced polish food restaurant .,inform_type
+dial_85,sys,Do you have a preference on the food and area?,ask_type
+dial_85,usr,no , that s okay . what dontcare restaurant -s are there on the centre side ?,inform_type
+dial_85,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_85,usr,can you book a table for 4 people at 13:00 on sunday ?,make_reservation
+dial_85,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_85,usr,thank you for your help , good day .,goodbye
+dial_86,usr,an cheap restaurant please,inform_type
+dial_86,sys,Do you have a preference on the food and area?,ask_type
+dial_86,usr,i would like a restaurant serving dontcare food in the south part of town .,inform_type
+dial_86,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_86,usr,are there any others ?,anything_else
+dial_86,sys,the lucky star is a chinese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_86,usr,yes , i would like to reserve a table for 4 at 13:30 on saturday please .,make_reservation
+dial_86,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_86,usr,that will be all , thank you .,goodbye
+dial_87,usr,is there a expensive priced restaurant ?,inform_type
+dial_87,sys,Do you have a preference on the food and area?,ask_type
+dial_87,usr,i would like dontcare food in the centre please .,inform_type
+dial_87,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_87,usr,is there anything else ? i also want its phone number .,anything_else
+dial_87,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_87,usr,can you give me the postcode for it please ?,ask_info
+dial_87,sys,stazione restaurant and coffee bar is located at Market Hill City Centre . Its phone number is 01223352607 and the postcode is cb23nj . is there anything else i can help you with ?,provide_info
+dial_87,usr,no , thank you,goodbye
+dial_88,usr,i am looking for a moderate -ly priced polish food restaurant .,inform_type
+dial_88,sys,Do you have a preference on the food and area?,ask_type
+dial_88,usr,i would like british food in the centre please .,inform_type
+dial_88,sys,restaurant one seven is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_88,usr,could you please find me a different restaurant ?,anything_else
+dial_88,sys,the oak bistro is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_88,usr,there will be 3 of us at 11:00 .,make_reservation
+dial_88,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_88,usr,yes , please book that for the same party and time on tuesday .,make_reservation
+dial_88,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_88,usr,thank you so much for your time . that will be all .,goodbye
+dial_89,usr,i am looking for a restaurant in the centre side of town .,inform_type
+dial_89,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_89,usr,the restaurant should be in the expensive price range and should serve dontcare food .,inform_type
+dial_89,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_89,usr,no , if you could just book me into 1 for thursday , that would be great .,make_reservation
+dial_89,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_89,usr,i will have 4 people and we would like 16:45 if possible . thanks .,make_reservation
+dial_89,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_89,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_90,usr,i am looking for a restaurant called chiquito restaurant bar,inform_type
+dial_90,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_90,usr,sure , for saturday .,make_reservation
+dial_90,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_90,usr,there will be 4 of us and we would like to eat at 20:00 .,make_reservation
+dial_90,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_90,usr,wonderful , thanks . that s all i need .,goodbye
+dial_91,usr,hello , i am looking for a moderate restaurant on the west side of town .,inform_type
+dial_91,sys,Do you have a preference on the food?,ask_type
+dial_91,usr,and serves dontcare style food please,inform_type
+dial_91,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_91,usr,can i have the address and phone number ?,ask_info
+dial_91,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_91,usr,thank you goodbye .,goodbye
+dial_92,usr,is there a restaurant in the centre of town serving russian food ?,inform_type
+dial_92,sys,Do you have a preference on the pricerange?,ask_type
+dial_92,usr,yes i would like it to be dontcare .,inform_type
+dial_92,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_92,usr,ok , how about an chinese restaurant ?,inform_type_change
+dial_92,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_92,usr,is there anything else ?,anything_else
+dial_92,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_92,usr,sounds great , can you book a table for 8 at 16:00 ?,make_reservation
+dial_92,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_92,usr,on tuesday please,make_reservation
+dial_92,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_92,usr,no , that s all i need . thanks for the help .,goodbye
+dial_93,usr,i am looking for a moderate restaurant in the south part of town .,inform_type
+dial_93,sys,Do you have a preference on the food?,ask_type
+dial_93,usr,i would like to eat dontcare food .,inform_type
+dial_93,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_93,usr,are there any others ?,anything_else
+dial_93,sys,restaurant alimentum is a modern european restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_93,usr,can i get the phone number and postcode , please ?,ask_info
+dial_93,sys,restaurant alimentum is located at 152 - 154 Hills Road . Its phone number is 01223413000 and the postcode is cb28pb . is there anything else i can help you with ?,provide_info
+dial_93,usr,no , thank you . that'll do it .,goodbye
+dial_94,usr,i want the chinese food , sir . oh and this needs to be in the south as well .,inform_type
+dial_94,sys,Do you have a preference on the pricerange?,ask_type
+dial_94,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_94,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_94,usr,i would like to book a table for 5 for wednesday , please .,make_reservation
+dial_94,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_94,usr,book it for 13:45 please .,make_reservation
+dial_94,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_94,usr,how about friday , same time .,make_reservation_change_time
+dial_94,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_94,usr,that will be all , thank you .,goodbye
+dial_95,usr,are there any seafood restaurant -s in town ?,inform_type
+dial_95,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_95,usr,i am looking for a restaurant in the dontcare price range in the centre of town .,inform_type
+dial_95,sys,loch fyne is a seafood restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_95,usr,yes , that would be fine . is there a table for 2 available ?,make_reservation
+dial_95,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_95,usr,yes , please . i need 1 for saturday at 12:00 . i'll be dining alone .,make_reservation
+dial_95,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_95,usr,thank you for your help , good day .,goodbye
+dial_96,usr,centre part of town restaurant please,inform_type
+dial_96,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_96,usr,i am sorry . i am only looking for a place that is dontcare -ly priced and serves world food .,inform_type
+dial_96,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_96,usr,how about korean food ?,inform_type_change
+dial_96,sys,little seoul is a korean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_96,usr,then that will be good . i need a reservation for 7 on tuesday night please .,make_reservation
+dial_96,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_96,usr,hmm . can you try at 10:15 instead ?,make_reservation
+dial_96,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_96,usr,can we make it for 11:15 ?,make_reservation_change_time
+dial_96,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_96,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_97,usr,hi . i am trying to find a good restaurant in the centre part of town .,inform_type
+dial_97,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_97,usr,the restaurant should serve australian food and should be in the cheap price range .,inform_type
+dial_97,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_97,usr,how about a restaurant that serves chinese food ?,inform_type_change
+dial_97,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_97,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_97,sys,rice house is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_97,usr,yes , please book that for the same party and time on friday .,make_reservation
+dial_97,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_97,usr,sounds great , can you book a table for 4 at 14:15 ?,make_reservation
+dial_97,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_97,usr,no , that s all i need . thanks for the help .,goodbye
+dial_98,usr,can you find me an moderate restaurant that serves japanese food ?,inform_type
+dial_98,sys,Do you have a preference on the area?,ask_type
+dial_98,usr,i do not care about the price range , and would just like 1 in the west part of town .,inform_type
+dial_98,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_98,usr,could you find me an italian restaurant instead ?,inform_type_change
+dial_98,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_98,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_98,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_98,usr,how about 11:00 ?,make_reservation
+dial_98,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_98,usr,i would like to book a table for 2 for monday , please .,make_reservation
+dial_98,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_98,usr,what about we try booking for friday ?,make_reservation_change_time
+dial_98,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_98,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_99,usr,i am looking for a expensive north african restaurant in the centre of town,inform_type
+dial_99,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_99,usr,are there any french restaurant -s in that price range ?,inform_type_change
+dial_99,sys,cote is a french restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_99,usr,yes , could you book me a table for 8 at 19:45 on friday ?,make_reservation
+dial_99,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_99,usr,thank you goodbye .,goodbye
+dial_100,usr,yes , i am looking for an moderate restaurant serving barbeque food .,inform_type
+dial_100,sys,Do you have a preference on the area?,ask_type
+dial_100,usr,it should be in the dontcare part of town .,inform_type
+dial_100,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_100,usr,could you find me an gastropub restaurant instead ?,inform_type_change
+dial_100,sys,the cow pizza kitchen and bar is a gastropub restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_100,usr,can i have something else ?,anything_else
+dial_100,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_100,usr,i do not care about the type of food . i need a reservation for thursday night .,make_reservation
+dial_100,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_100,usr,sounds great , can you book a table for 5 at 16:00 ?,make_reservation
+dial_100,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_100,usr,how about 17:00 ? could you please provide me with the reference number also ?,make_reservation_change_time
+dial_100,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_100,usr,that should be it . thank you .,goodbye
+dial_101,usr,i am looking for a moderate restaurant,inform_type
+dial_101,sys,Do you have a preference on the food and area?,ask_type
+dial_101,usr,i am looking for an dontcare restaurant in the north .,inform_type
+dial_101,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_101,usr,could i have the address and phone number please ?,ask_info
+dial_101,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?,provide_info
+dial_101,usr,no , thank you . that'll do it .,goodbye
+dial_102,usr,i need a really inexpensive restaurant on the centre side .,inform_type
+dial_102,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_102,usr,i am looking for 1 that serves russian food and is dontcare .,inform_type
+dial_102,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_102,usr,could you find me an chinese restaurant instead ?,inform_type_change
+dial_102,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_102,usr,can i have something else ?,anything_else
+dial_102,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_102,usr,sure , can you try and book a table for tuesday at 16:00 ? there are 8 people .,make_reservation
+dial_102,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_102,usr,what about we try booking for thursday ?,make_reservation_change_time
+dial_102,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_102,usr,thank you goodbye .,goodbye
+dial_103,usr,are you sure ? i am really looking for an expensive indian place to dine in the west .,inform_type
+dial_103,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_103,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_103,sys,cocum is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_103,usr,could you get me a table for monday at someplace nice ? there will be 8 in my party and we'd like to eat at 11:45 .,make_reservation
+dial_103,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_103,usr,we will have 1 people in the party .,make_reservation
+dial_103,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_103,usr,thank you so much for your time . that will be all .,goodbye
+dial_104,usr,i want to find a restaurant in the south part of town that serves international food .,inform_type
+dial_104,sys,Do you have a preference on the pricerange?,ask_type
+dial_104,usr,i would like expensive .,inform_type
+dial_104,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_104,usr,are there any indian restaurant -s in that price range ?,inform_type_change
+dial_104,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_104,usr,i would like a reservation at 15:15 for a party of 4 .,make_reservation
+dial_104,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_104,usr,i do not care about the type of food . i need a reservation for wednesday night .,make_reservation
+dial_104,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_104,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_105,usr,i need to find some eritrean food in west town .,inform_type
+dial_105,sys,Do you have a preference on the pricerange?,ask_type
+dial_105,usr,i would like something in the dontcare price range , please .,inform_type
+dial_105,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_105,usr,how about a restaurant that serves indian food ?,inform_type_change
+dial_105,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_105,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_105,sys,cocum is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_105,usr,i will have 8 people and we would like 12:15 if possible . thanks .,make_reservation
+dial_105,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_105,usr,how about ! 000 instead , is that available monday ?,make_reservation
+dial_105,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_105,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_106,usr,i am interested in finding an moderate restaurant serving spanish food .,inform_type
+dial_106,sys,Do you have a preference on the area?,ask_type
+dial_106,usr,i want it to be in the dontcare .,inform_type
+dial_106,sys,la tasca is a spanish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_106,usr,yes , please give me the phone number , address , and postcode .,ask_info
+dial_106,sys,la tasca is located at 14 -16 Bridge Street . Its phone number is 01223464630 and the postcode is cb21uf . is there anything else i can help you with ?,provide_info
+dial_106,usr,nope , that s all i need , thank you very much !,goodbye
+dial_107,usr,can you recommend a restaurant to me in the centre part of town ? i do not want to spend a lot of money .,inform_type
+dial_107,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_107,usr,are there any dontcare place -s to eat that serve the americas food in other area -s of the city ?,inform_type
+dial_107,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_107,usr,how about a restaurant that serves italian food ?,inform_type_change
+dial_107,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_107,usr,could you please find me a different restaurant ?,anything_else
+dial_107,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_107,usr,i would like a table for 18:15 .,make_reservation
+dial_107,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_107,usr,yes , please book a table for 5 on wednesday .,make_reservation
+dial_107,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_107,usr,no , that s all i needed . thanks so much .,goodbye
+dial_108,usr,i need a really inexpensive restaurant on the centre side .,inform_type
+dial_108,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_108,usr,the restaurant should be in the dontcare price range and should serve mexican food .,inform_type
+dial_108,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_108,usr,how about a restaurant that serves indian food ?,inform_type_change
+dial_108,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_108,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_108,sys,kohinoor is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_108,usr,what is the address , phone number , and postcode ?,ask_info
+dial_108,sys,kohinoor is located at 74 Mill Road City Centre . Its phone number is 01223323639 and the postcode is cb12as . is there anything else i can help you with ?,provide_info
+dial_108,usr,thank you goodbye .,goodbye
+dial_109,usr,could you please help me find an moderate restaurant in the north part of town ?,inform_type
+dial_109,sys,Do you have a preference on the food?,ask_type
+dial_109,usr,i do not care about the price range but would like somewhere serving chinese food .,inform_type
+dial_109,sys,golden wok is a chinese restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_109,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_109,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_109,usr,i do not care about the type of food . i need a reservation for wednesday night .,make_reservation
+dial_109,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_109,usr,there will be 8 of us and we would like to eat at 16:30 .,make_reservation
+dial_109,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_109,usr,no , that s all i need . thanks for the help .,goodbye
+dial_110,usr,i am looking for a restaurant that serves italian food and is cheap -ly priced .,inform_type
+dial_110,sys,Do you have a preference on the area?,ask_type
+dial_110,usr,it should be in the dontcare part of town .,inform_type
+dial_110,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_110,usr,yes , please . for 4 people at 16:45 on monday .,make_reservation
+dial_110,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_110,usr,that will be all , thank you .,goodbye
+dial_111,usr,i am looking for a cheap restaurant .,inform_type
+dial_111,sys,Do you have a preference on the food and area?,ask_type
+dial_111,usr,i would like some good austrian food . near the centre of town would be great .,inform_type
+dial_111,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_111,usr,what about chinese food ?,inform_type_change
+dial_111,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_111,usr,yes , please . i need 1 for saturday at 17:30 . i'll be dining alone .,make_reservation
+dial_111,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_111,usr,there are 3 of us .,make_reservation
+dial_111,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_111,usr,wonderful , thanks . that s all i need .,goodbye
+dial_112,usr,hello , i am looking for a moderate -ly priced restaurant on the north side of town .,inform_type
+dial_112,sys,Do you have a preference on the food?,ask_type
+dial_112,usr,yes . i would like dontcare food please .,inform_type
+dial_112,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_112,usr,yes , i would like their phone number and postcode , please .,ask_info
+dial_112,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?,provide_info
+dial_112,usr,no , and thank you for your help . goodbye .,goodbye
+dial_113,usr,can you help me find a restaurant by the name of ask ?,inform_type
+dial_113,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_113,usr,no , that s all i needed . thanks so much .,goodbye
+dial_114,usr,i would like to find a restaurant that serves french food .,inform_type
+dial_114,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_114,usr,how about the north in a dontcare price range .,inform_type
+dial_114,sys,restaurant two two is a french restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_114,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_114,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_114,usr,may i get the phone number of thank binh , please ?,ask_info
+dial_114,sys,restaurant two two is located at 22 Chesterton Road Chesterton . Its phone number is 01223351880 and the postcode is cb43ax . is there anything else i can help you with ?,provide_info
+dial_114,usr,no , thank you . that'll do it .,goodbye
+dial_115,usr,i am looking for an cheap indian restaurant in the centre .,inform_type
+dial_115,sys,kohinoor is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_115,usr,i would like to book a table for 5 people on friday at 1415,make_reservation
+dial_115,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_115,usr,make it for 14:45 and please give me a reference number .,make_reservation
+dial_115,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_115,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_116,usr,an expensive restaurant please,inform_type
+dial_116,sys,Do you have a preference on the food and area?,ask_type
+dial_116,usr,i would like a restaurant serving dontcare food in the centre part of town .,inform_type
+dial_116,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_116,usr,yes , i would like the postcode too please .,ask_info
+dial_116,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?,provide_info
+dial_116,usr,no , and thank you for your help . goodbye .,goodbye
+dial_117,usr,i am looking for a particular restaurant . it s pizza express fen ditton .,inform_type
+dial_117,sys,pizza express Fen Ditton is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_117,usr,what is the address ?,ask_info
+dial_117,sys,pizza express Fen Ditton is located at Jesus Lane Fen Ditton . Its phone number is 01223324033 and the postcode is cb58ba . is there anything else i can help you with ?,provide_info
+dial_117,usr,no , thank you . that'll do it .,goodbye
+dial_118,usr,i am looking for a nice moderate restaurant in the east part of town,inform_type
+dial_118,sys,Do you have a preference on the food?,ask_type
+dial_118,usr,i do not care about the price range but would like somewhere serving indian food .,inform_type
+dial_118,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_118,usr,yes , i would like to reserve a table for 6 at 15:45 on saturday please .,make_reservation
+dial_118,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_118,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_119,usr,can you recommend a restaurant to me in the centre part of town ? i do not want to spend a lot of money .,inform_type
+dial_119,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_119,usr,are there any expensive place -s to eat that serve swedish food in other area -s of the city ?,inform_type
+dial_119,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_119,usr,are there any gastropub restaurant -s in that price range ?,inform_type_change
+dial_119,sys,backstreet bistro is a gastropub restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_119,usr,is there anything else ?,anything_else
+dial_119,sys,the slug and lettuce is a gastropub restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_119,usr,yes , a table for 1 .,make_reservation
+dial_119,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_119,usr,yes , please . i need 1 for saturday at 17:15 . i'll be dining alone .,make_reservation
+dial_119,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_119,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_120,usr,i am looking for a restaurant my friend recommended , i think she called it the lan hong house .,inform_type
+dial_120,sys,lan hong house is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_120,usr,yes please for 6 people at 14:00 on saturday please . i will need the reference number too,make_reservation
+dial_120,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_120,usr,no , that s all i need . thanks for the help .,goodbye
+dial_121,usr,i am looking for a restaurant in the centre that serves chinese food,inform_type
+dial_121,sys,Do you have a preference on the pricerange?,ask_type
+dial_121,usr,i would like a restaurant in the cheap range .,inform_type
+dial_121,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_121,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_121,sys,rice house is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_121,usr,there will be 7 of us and we would like to eat at 18:30 .,make_reservation
+dial_121,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_121,usr,no , if you could just book me into 1 for wednesday , that would be great .,make_reservation
+dial_121,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_121,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_122,usr,i am looking for some info on golden wok restaurant .,inform_type
+dial_122,sys,golden wok is a chinese restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_122,usr,no , that will do . can i book a table for saturday ?,make_reservation
+dial_122,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_122,usr,there will be 5 of us and we would like to eat at 12:00 .,make_reservation
+dial_122,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_122,usr,thank you so much for your time . that will be all .,goodbye
+dial_123,usr,i am looking for a restaurant that serves european food,inform_type
+dial_123,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_123,usr,i really need it to be in the expensive price range , there s really nothing in the city south ? any cuisine will do .,inform_type
+dial_123,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_123,usr,ok , how about an mexican restaurant ?,inform_type_change
+dial_123,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_123,usr,is there anything else ?,anything_else
+dial_123,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_123,usr,i wanted the reservation for 19:15 , is that what you booked for me ?,make_reservation
+dial_123,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_123,usr,i would like to book a table for 1 for sunday , please .,make_reservation
+dial_123,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_123,usr,great , thanks a lot !,goodbye
+dial_124,usr,i am looking for a restaurant that serves british food and in the west part of town .,inform_type
+dial_124,sys,Do you have a preference on the pricerange?,ask_type
+dial_124,usr,yes i would like it to be dontcare .,inform_type
+dial_124,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_124,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_124,sys,graffiti is a british restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_124,usr,yes , i would like to reserve a table for 5 at 18:30 on sunday please .,make_reservation
+dial_124,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_124,usr,thank you so much for your time . that will be all .,goodbye
+dial_125,usr,could you help me find an modern european restaurant please ?,inform_type
+dial_125,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_125,usr,how about the centre in a dontcare price range .,inform_type
+dial_125,sys,de luca cucina and bar is a modern european restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_125,usr,is there anything else ? i also want its phone number .,anything_else
+dial_125,sys,riverside brasserie is a modern european restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_125,usr,what is the address ?,ask_info
+dial_125,sys,riverside brasserie is located at Doubletree by Hilton Cambridge Granta Place Mill Lane . Its phone number is 01223259988 and the postcode is cb21rt . is there anything else i can help you with ?,provide_info
+dial_125,usr,no , thanks . that s it .,goodbye
+dial_126,usr,i want to find a restaurant in the south part of town that serves indian food .,inform_type
+dial_126,sys,Do you have a preference on the pricerange?,ask_type
+dial_126,usr,i would like dontcare .,inform_type
+dial_126,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_126,usr,what is there phone number ?,ask_info
+dial_126,sys,taj tandoori is located at 64 Cherry Hinton Road Cherry Hinton . Its phone number is 01223412299 and the postcode is cb17aa . is there anything else i can help you with ?,provide_info
+dial_126,usr,thank you goodbye .,goodbye
+dial_127,usr,i am looking for a cheap indian restaurant in the centre of town,inform_type
+dial_127,sys,kohinoor is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_127,usr,yes , i would like to reserve a table for 3 at 11:15 on thursday please .,make_reservation
+dial_127,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_127,usr,thank you so much for your time . that will be all .,goodbye
+dial_128,usr,i would like an moderate restaurant in the west part of town,inform_type
+dial_128,sys,Do you have a preference on the food?,ask_type
+dial_128,usr,and serves dontcare style food please,inform_type
+dial_128,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_128,usr,what is there phone number ?,ask_info
+dial_128,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_128,usr,thank you goodbye .,goodbye
+dial_129,usr,i am looking for a chinese restaurant in the east part of town .,inform_type
+dial_129,sys,Do you have a preference on the pricerange?,ask_type
+dial_129,usr,if they are all dontcare -ly priced , i do not care . price is more important than location .,inform_type
+dial_129,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_129,usr,yes , please give me the phone number , address , and postcode .,ask_info
+dial_129,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_129,usr,no , thank you,goodbye
+dial_130,usr,i want to have some portuguese food .,inform_type
+dial_130,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_130,usr,no , i need a dontcare restaurant in the dontcare .,inform_type
+dial_130,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_130,usr,can you send me the address and the phone number of this restaurant ?,ask_info
+dial_130,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_130,usr,no , and thank you for your help . goodbye .,goodbye
+dial_131,usr,i would like a restaurant in the centre part of town that serves italian food,inform_type
+dial_131,sys,Do you have a preference on the pricerange?,ask_type
+dial_131,usr,he restaurant should be in the cheap price range .,inform_type
+dial_131,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_131,usr,could you please find me a different restaurant ?,anything_else
+dial_131,sys,ask restaurant is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_131,usr,can i get the phone number , please ?,ask_info
+dial_131,sys,ask restaurant is located at 12 Bridge Street City Centre . Its phone number is 01223364917 and the postcode is cb21uf . is there anything else i can help you with ?,provide_info
+dial_131,usr,no , thank you . that'll do it .,goodbye
+dial_132,usr,i would like to find the eraina restaurant please .,inform_type
+dial_132,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_132,usr,yes , please . for 1 people at 14:15 on tuesday .,make_reservation
+dial_132,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_132,usr,that should be it . thank you .,goodbye
+dial_133,usr,im looking for a restaurant in the south part of town in the moderate price range,inform_type
+dial_133,sys,Do you have a preference on the food?,ask_type
+dial_133,usr,is there any where that serves dontcare food ?,inform_type
+dial_133,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_133,usr,great , what is the address and phone number for restaurant_name ?,ask_info
+dial_133,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_133,usr,thank you that will be all . have a great day !,goodbye
+dial_134,usr,can you help me find a portuguese restaurant please ?,inform_type
+dial_134,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_134,usr,i really need it to be in the dontcare price range , there s really nothing in the city south ? any cuisine will do .,inform_type
+dial_134,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_134,usr,can i have something else ?,anything_else
+dial_134,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_134,usr,yes . i need the address please .,ask_info
+dial_134,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_134,usr,thank you and goodbye .,goodbye
+dial_135,usr,i am looking for a restaurant that serves african food,inform_type
+dial_135,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_135,usr,any type of food , just dontcare in the dontcare part of town .,inform_type
+dial_135,sys,bedouin is a african restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_135,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_135,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_135,usr,i would like to know 1 of the address and phone number .,ask_info
+dial_135,sys,bedouin is located at 100 Mill Road City Centre . Its phone number is 01223367660 and the postcode is cb12bd . is there anything else i can help you with ?,provide_info
+dial_135,usr,thank you , goodbye,goodbye
+dial_136,usr,can you help me find a restaurant in the centre that does not cost a lot of money . in fact , i need 1 that s quite inexpensive .,inform_type
+dial_136,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_136,usr,i would actually prefer some expensive dontcare food if possible ?,inform_type
+dial_136,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_136,usr,are there any others ?,anything_else
+dial_136,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_136,usr,yes , a table for 6 .,make_reservation
+dial_136,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_136,usr,yes , please . i need 1 for monday at 15:00 . i'll be dining alone .,make_reservation
+dial_136,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_136,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_137,usr,hello . i am trying to find an inexpensive restaurant that serves british food . can you help me ?,inform_type
+dial_137,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_137,usr,any kind of food will be fine as long as it is expensive -ly priced and in the dontcare part of town .,inform_type
+dial_137,sys,fitzbillies restaurant is a british restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_137,usr,no preferred area but i need to know if i can book a table for thursday .,make_reservation
+dial_137,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_137,usr,i will have 3 people and we would like 14:15 if possible . thanks .,make_reservation
+dial_137,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_137,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_138,usr,i need a moderate british restaurant . are there any west ?,inform_type
+dial_138,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_138,usr,please give me restaurant_name s address and postcode . please give me restaurant_name s phone number .,ask_info
+dial_138,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_138,usr,nope , that was all i needed . thank you . bye bye .,goodbye
+dial_139,usr,i am looking for a place that serves turkish food . i do not care about the price range .,inform_type
+dial_139,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_139,usr,in the centre of town please . i am looking to stay in the dontcare price range .,inform_type
+dial_139,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_139,usr,are there any others ?,anything_else
+dial_139,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_139,usr,what is the address ?,ask_info
+dial_139,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?,provide_info
+dial_139,usr,thank you goodbye .,goodbye
+dial_140,usr,are there any italian restaurant -s in town ?,inform_type
+dial_140,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_140,usr,any kind of food will be fine as long as it is dontcare -ly priced and in the south part of town .,inform_type
+dial_140,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_140,usr,are there any others ?,anything_else
+dial_140,sys,frankie and bennys is a italian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_140,usr,what is the phone number and postcode ?,ask_info
+dial_140,sys,frankie and bennys is located at Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223412430 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_140,usr,no , thank you,goodbye
+dial_141,usr,please find me a restaurant in the centre part of town .,inform_type
+dial_141,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_141,usr,the restaurant should be in the expensive price range and should serve dontcare food .,inform_type
+dial_141,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_141,usr,yes , i would like the postcode too please .,ask_info
+dial_141,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?,provide_info
+dial_141,usr,no , thank you . that'll do it .,goodbye
+dial_142,usr,hi . i am trying to find a good restaurant in the west part of town .,inform_type
+dial_142,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_142,usr,i would actually prefer some dontcare indian food if possible ?,inform_type
+dial_142,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_142,usr,yes , i would like their phone number and postcode , please .,ask_info
+dial_142,sys,tandoori palace is located at 68 Histon Road Chesterton . Its phone number is 01223506055 and the postcode is cb43le . is there anything else i can help you with ?,provide_info
+dial_142,usr,no , thank you,goodbye
+dial_143,usr,i want a moderate japanese restaurant in the west side of town .,inform_type
+dial_143,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_143,usr,how about some italian food ?,inform_type_change
+dial_143,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_143,usr,will you please book a table for 2 at 11:00 on monday ?,make_reservation
+dial_143,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_143,usr,great , thanks a lot !,goodbye
+dial_144,usr,i want a restaurant in the centre part of town and serves chinese food .,inform_type
+dial_144,sys,Do you have a preference on the pricerange?,ask_type
+dial_144,usr,he restaurant should be in the moderate price range .,inform_type
+dial_144,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_144,usr,are there any others ?,anything_else
+dial_144,sys,lan hong house is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_144,usr,yes , please . for 8 people at 20:00 on tuesday .,make_reservation
+dial_144,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_144,usr,wonderful , thanks . that s all i need .,goodbye
+dial_145,usr,looking for a expensive restaurant .,inform_type
+dial_145,sys,Do you have a preference on the food and area?,ask_type
+dial_145,usr,no , that s okay . what spanish restaurant -s are there on the dontcare side ?,inform_type
+dial_145,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_145,usr,can you look for chinese food ?,inform_type_change
+dial_145,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_145,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_145,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_145,usr,sounds great ! can you help me book a reservation for 1 people on thursday ?,make_reservation
+dial_145,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_145,usr,hmm . can you try at 13:30 instead ?,make_reservation
+dial_145,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_145,usr,great , thanks a lot !,goodbye
+dial_146,usr,i would like to find a british restaurant this is cheap -ly priced .,inform_type
+dial_146,sys,Do you have a preference on the area?,ask_type
+dial_146,usr,i want it to be in the dontcare .,inform_type
+dial_146,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_146,usr,can you look for asian oriental food ?,inform_type_change
+dial_146,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_146,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_146,sys,j restaurant is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_146,usr,no . it needs to be t 18:00 . another restaurant in the same area and price range would work .,make_reservation
+dial_146,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_146,usr,i would like to book a table for 7 for wednesday , please .,make_reservation
+dial_146,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_146,usr,great , thanks a lot !,goodbye
+dial_147,usr,i am looking for an inexpensive portuguese restaurant .,inform_type
+dial_147,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_147,usr,dontcare restaurant in the dontcare , please .,inform_type
+dial_147,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_147,usr,i need the address and phone number .,ask_info
+dial_147,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_147,usr,thank you goodbye .,goodbye
+dial_148,usr,i want a restaurant in the centre part of town .,inform_type
+dial_148,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_148,usr,are there any cheap place -s to eat that serve dontcare food in other area -s of the city ?,inform_type
+dial_148,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_148,usr,yes , please . i need 1 for saturday at 17:15 . i'll be dining alone .,make_reservation
+dial_148,sys,Could you please tell me how many people you would like for the reservation?,ask_reservation_info
+dial_148,usr,we will have 1 people in the party .,make_reservation
+dial_148,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_148,usr,that will be all , thank you .,goodbye
+dial_149,usr,i would like to find an moderate restaurant in the south part of town .,inform_type
+dial_149,sys,Do you have a preference on the food?,ask_type
+dial_149,usr,would you have something dontcare ?,inform_type
+dial_149,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_149,usr,can you send me the address and the phone number of this restaurant ?,ask_info
+dial_149,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_149,usr,thank you and goodbye .,goodbye
+dial_150,usr,i would like a persian restaurant that s in the expensive price range .,inform_type
+dial_150,sys,Do you have a preference on the area?,ask_type
+dial_150,usr,let s try the centre .,inform_type
+dial_150,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_150,usr,how about some european food ?,inform_type_change
+dial_150,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_150,usr,is there anything else ? i also want its phone number .,anything_else
+dial_150,sys,michaelhouse cafe is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_150,usr,no preferred area but i need to know if i can book a table for friday .,make_reservation
+dial_150,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_150,usr,sounds great , can you book a table for 3 at 15:30 ?,make_reservation
+dial_150,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_150,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_151,usr,is there any place that serves bbq west here ?,inform_type
+dial_151,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_151,usr,i do not really have a preference . can you recommend a restaurant ? as long as it serves cheap dontcare food i'll be happy .,inform_type
+dial_151,sys,thanh binh is a vietnamese restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_151,usr,are there any others ?,anything_else
+dial_151,sys,la margherita is a italian restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_151,usr,can you make a reservation for 5 people at 14:00 on monday ?,make_reservation
+dial_151,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_151,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_152,usr,hey , i am up south can you give me a place to eat ?,inform_type
+dial_152,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_152,usr,i do not really have a preference . can you recommend a restaurant ? as long as it serves expensive dontcare food i'll be happy .,inform_type
+dial_152,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_152,usr,are there any others ?,anything_else
+dial_152,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_152,usr,yes , i would like their address and what part of town they are located in .,ask_info
+dial_152,sys,taj tandoori is located at 64 Cherry Hinton Road Cherry Hinton . Its phone number is 01223412299 and the postcode is cb17aa . is there anything else i can help you with ?,provide_info
+dial_152,usr,no , thanks . that s it .,goodbye
+dial_153,usr,im looking for a restaurant in the north part of town in the cheap price range,inform_type
+dial_153,sys,Do you have a preference on the food?,ask_type
+dial_153,usr,yes , i would love dontcare .,inform_type
+dial_153,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_153,usr,is there anything else ? i also want its phone number .,anything_else
+dial_153,sys,royal spice is a indian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_153,usr,can i have the address please,ask_info
+dial_153,sys,royal spice is located at Victoria Avenue Chesterton . Its phone number is 01733553355 and the postcode is cb41eh . is there anything else i can help you with ?,provide_info
+dial_153,usr,nope , that s all i need , thank you very much !,goodbye
+dial_154,usr,hi , i am looking for an expensive restaurant in the south part of town .,inform_type
+dial_154,sys,Do you have a preference on the food?,ask_type
+dial_154,usr,and serves dontcare style food please,inform_type
+dial_154,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_154,usr,can you send me the address and the phone number of this restaurant ?,ask_info
+dial_154,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?,provide_info
+dial_154,usr,thank you goodbye .,goodbye
+dial_155,usr,south part of town restaurant please,inform_type
+dial_155,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_155,usr,the restaurant should serve portuguese food and should be in the dontcare price range .,inform_type
+dial_155,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_155,usr,what is the address and phone number for restaurant_name ?,ask_info
+dial_155,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_155,usr,no , and thank you for your help . goodbye .,goodbye
+dial_156,usr,i need a place to eat in the centre area of the city .,inform_type
+dial_156,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_156,usr,i do not care about the area as long as it is world food and dontcare .,inform_type
+dial_156,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_156,usr,ok , how about an korean restaurant ?,inform_type_change
+dial_156,sys,little seoul is a korean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_156,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_156,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_156,usr,i do not care . i just need a table for 7 people at 10:15 on tuesday if you can book me 1 .,make_reservation
+dial_156,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_156,usr,how about 11:15 ? could you please provide me with the reference number also ?,make_reservation_change_time
+dial_156,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_156,usr,that should be it . thank you .,goodbye
+dial_157,usr,i am looking for a restaurant in the expensive price range that serves chinese food .,inform_type
+dial_157,sys,Do you have a preference on the area?,ask_type
+dial_157,usr,located in the centre side,inform_type
+dial_157,sys,ugly duckling is a chinese restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_157,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_157,sys,tang chinese is a chinese restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_157,usr,thank you , can you book a table for 7 on sunday at 1800,make_reservation
+dial_157,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_157,usr,how about 13:00 ?,make_reservation
+dial_157,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_157,usr,that should be it . thank you .,goodbye
+dial_158,usr,i am interested in finding an expensive restaurant serving british food .,inform_type
+dial_158,sys,Do you have a preference on the area?,ask_type
+dial_158,usr,located in the dontcare side,inform_type
+dial_158,sys,fitzbillies restaurant is a british restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_158,usr,yes , please . for 6 people at 12:45 on thursday .,make_reservation
+dial_158,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_158,usr,wonderful , thanks . that s all i need .,goodbye
+dial_159,usr,i am looking for a place that serves vietnamese food . i do not care about the price range .,inform_type
+dial_159,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_159,usr,i am looking for a restaurant in the dontcare price range in the dontcare of town .,inform_type
+dial_159,sys,thanh binh is a vietnamese restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_159,usr,what is the address and phone number ?,ask_info
+dial_159,sys,thanh binh is located at 17 Magdalene Street City Centre . Its phone number is 01223362456 and the postcode is cb30af . is there anything else i can help you with ?,provide_info
+dial_159,usr,that is all i needed . thank you .,goodbye
+dial_160,usr,i am looking for a restaurant called royal spice .,inform_type
+dial_160,sys,royal spice is a indian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_160,usr,i will have 2 people and we would like 17:15 if possible . thanks .,make_reservation
+dial_160,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_160,usr,yes , please book that for the same party and time on wednesday .,make_reservation
+dial_160,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_160,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_161,usr,i am looking for a restaurant in the north side of town .,inform_type
+dial_161,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_161,usr,i am looking for 1 that serves dontcare food and is cheap .,inform_type
+dial_161,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_161,usr,can you please give me that phone number ?,ask_info
+dial_161,sys,da vinci pizzeria is located at 20 Milton Road Chesterton . Its phone number is 01223351707 and the postcode is cb41jy . is there anything else i can help you with ?,provide_info
+dial_161,usr,no , thank you,goodbye
+dial_162,usr,i am looking for a cheap restaurant in the north .,inform_type
+dial_162,sys,Do you have a preference on the food?,ask_type
+dial_162,usr,and serves dontcare style food please,inform_type
+dial_162,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_162,usr,are there any others ?,anything_else
+dial_162,sys,royal spice is a indian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_162,usr,yes , i would like their address and what part of town they are located in .,ask_info
+dial_162,sys,royal spice is located at Victoria Avenue Chesterton . Its phone number is 01733553355 and the postcode is cb41eh . is there anything else i can help you with ?,provide_info
+dial_162,usr,thank you , goodbye,goodbye
+dial_163,usr,japanese food in the south part of town,inform_type
+dial_163,sys,Do you have a preference on the pricerange?,ask_type
+dial_163,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_163,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_163,usr,how about mexican food ?,inform_type_change
+dial_163,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_163,usr,that would be great . i need a table on saturday at 12:15 for 6 people , please .,make_reservation
+dial_163,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_163,usr,that will be all , thank you .,goodbye
+dial_164,usr,is there a restaurant in the centre of town serving british food ?,inform_type
+dial_164,sys,Do you have a preference on the pricerange?,ask_type
+dial_164,usr,he restaurant should be in the dontcare price range .,inform_type
+dial_164,sys,restaurant one seven is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_164,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_164,sys,the oak bistro is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_164,usr,there will be 5 of us and we would like to eat at 13:00 .,make_reservation
+dial_164,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_164,usr,sure , for thursday .,make_reservation
+dial_164,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_164,usr,no , that s all i need . thanks for the help .,goodbye
+dial_165,usr,i want the british food , sir . oh and this needs to be in the west as well .,inform_type
+dial_165,sys,Do you have a preference on the pricerange?,ask_type
+dial_165,usr,i do not have a preference of area as long as it s dontcare . please make a suggestion .,inform_type
+dial_165,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_165,usr,i need the address and phone number .,ask_info
+dial_165,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_165,usr,thank you goodbye .,goodbye
+dial_166,usr,where'a a restaurant on the centre part f town ?,inform_type
+dial_166,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_166,usr,i am looking for 1 that serves mediterranean food and is expensive .,inform_type
+dial_166,sys,la mimosa is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_166,usr,there will be 8 of us at 15:45 .,make_reservation
+dial_166,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_166,usr,do you have anything available for monday ?,make_reservation
+dial_166,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_166,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_167,usr,can you help me find a british restaurant please ?,inform_type
+dial_167,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_167,usr,i really need it to be in the moderate price range , there s really nothing in the city dontcare ? any cuisine will do .,inform_type
+dial_167,sys,restaurant one seven is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_167,usr,address and phone number for restaurant_name , yes please .,ask_info
+dial_167,sys,restaurant one seven is located at De Vere University Arms Regent Street City Centre . Its phone number is 01223337766 and the postcode is cb21ab . is there anything else i can help you with ?,provide_info
+dial_167,usr,thank you and goodbye .,goodbye
+dial_168,usr,i am looking for a moderate british restaurant in the west of town,inform_type
+dial_168,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_168,usr,yes i need a table for 5 on sunday .,make_reservation
+dial_168,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_168,usr,no . it needs to be t 16:45 . another restaurant in the same area and price range would work .,make_reservation
+dial_168,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_168,usr,thank you so much for your time . that will be all .,goodbye
+dial_169,usr,an moderate restaurant please,inform_type
+dial_169,sys,Do you have a preference on the food and area?,ask_type
+dial_169,usr,i would like international food in the dontcare please .,inform_type
+dial_169,sys,the varsity restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_169,usr,no , not that 1 . i would like to know if there s anything else please .,anything_else
+dial_169,sys,bloomsbury restaurant is a international restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_169,usr,what is their address and postcode ?,ask_info
+dial_169,sys,bloomsbury restaurant is located at Crowne Plaza Hotel 20 Downing Street . Its phone number is 08719429180 and the postcode is cb23dt . is there anything else i can help you with ?,provide_info
+dial_169,usr,thank you goodbye .,goodbye
+dial_170,usr,hello , i am looking for a moderate restaurant on the north side of town .,inform_type
+dial_170,sys,Do you have a preference on the food?,ask_type
+dial_170,usr,i would like to eat dontcare food .,inform_type
+dial_170,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_170,usr,hmm . can you try at 19:45 instead ?,make_reservation
+dial_170,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_170,usr,1245 on monday for 5 people please and may i get the reservation number after you book it please ?,make_reservation
+dial_170,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_170,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_171,usr,hello , i am looking for a cheap restaurant on the west side of town .,inform_type
+dial_171,sys,Do you have a preference on the food?,ask_type
+dial_171,usr,i would like to eat dontcare food .,inform_type
+dial_171,sys,thanh binh is a vietnamese restaurant on the west side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_171,usr,yes , please book that for the same party and time on monday .,make_reservation
+dial_171,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_171,usr,there will be 2 of us at 13:30 .,make_reservation
+dial_171,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_171,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .,goodbye
+dial_172,usr,i am looking for a restaurant serving modern european food .,inform_type
+dial_172,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_172,usr,in the dontcare of town please . i am looking to stay in the cheap price range .,inform_type
+dial_172,sys,the river bar steakhouse and grill is a modern european restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_172,usr,great , can i please have their address and postcode ?,ask_info
+dial_172,sys,the river bar steakhouse and grill is located at Quayside Off Bridge Street . Its phone number is 01223307030 and the postcode is cb58aq . is there anything else i can help you with ?,provide_info
+dial_172,usr,nope , that s all i need , thank you very much !,goodbye
+dial_173,usr,i would like a restaurant that serves indian food,inform_type
+dial_173,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_173,usr,i really need it to be in the dontcare price range , there s really nothing in the city east ? any cuisine will do .,inform_type
+dial_173,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_173,usr,what is the address and phone number ?,ask_info
+dial_173,sys,curry prince is located at 451 Newmarket Road Fen Ditton . Its phone number is 01223566388 and the postcode is cb58jj . is there anything else i can help you with ?,provide_info
+dial_173,usr,no , thanks . that s it .,goodbye
+dial_174,usr,i am looking for a indian restaurant in the east part of town .,inform_type
+dial_174,sys,Do you have a preference on the pricerange?,ask_type
+dial_174,usr,i do not have a preference of area as long as it s dontcare . please make a suggestion .,inform_type
+dial_174,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_174,usr,are there any others ?,anything_else
+dial_174,sys,pipasha restaurant is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_174,usr,it will be a party of 3 .,make_reservation
+dial_174,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_174,usr,can we do monday at 11:45 ?,make_reservation
+dial_174,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_174,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_175,usr,i want to eat at a cheap -ly priced restaurant please,inform_type
+dial_175,sys,Do you have a preference on the food and area?,ask_type
+dial_175,usr,no , i am only interested in a restaurant that serves mediterranean food and is in the dontcare .,inform_type
+dial_175,sys,the gardenia is a mediterranean restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_175,usr,are there any others ?,anything_else
+dial_175,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_175,usr,can i get the address and phone number ?,ask_info
+dial_175,sys,the gardenia is located at 2 Rose Crescent City Centre . Its phone number is 01223356354 and the postcode is cb23ll . is there anything else i can help you with ?,provide_info
+dial_175,usr,thank you , goodbye,goodbye
+dial_176,usr,can you help me find a restaurant by the name of rice house ?,inform_type
+dial_176,sys,rice house is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_176,usr,yes , a table for 8 .,make_reservation
+dial_176,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_176,usr,how about thursday at 11:15 .,make_reservation
+dial_176,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_176,usr,great , thanks a lot !,goodbye
+dial_177,usr,hi . i am looking for a expensive -ly priced restaurant .,inform_type
+dial_177,sys,Do you have a preference on the food and area?,ask_type
+dial_177,usr,somewhere in the east . i am looking for some dontcare food .,inform_type
+dial_177,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_177,usr,yes , and the address and postcode please .,ask_info
+dial_177,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?,provide_info
+dial_177,usr,thank you goodbye .,goodbye
+dial_178,usr,i need a place to eat in the west area of the city .,inform_type
+dial_178,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_178,usr,i do not care about the area as long as it is british food and moderate .,inform_type
+dial_178,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_178,usr,yes , please . what is the address , postcode , and phone number ?,ask_info
+dial_178,sys,saint johns chop house is located at 21 - 24 Northampton Street . Its phone number is 01223353110 and the postcode is cb30ad . is there anything else i can help you with ?,provide_info
+dial_178,usr,no , thanks . that s it .,goodbye
+dial_179,usr,i need to find some the americas food in centre town .,inform_type
+dial_179,sys,Do you have a preference on the pricerange?,ask_type
+dial_179,usr,i would like something in the dontcare price range , please .,inform_type
+dial_179,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_179,usr,how about a restaurant that serves italian food ?,inform_type_change
+dial_179,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_179,usr,yes , but just for 5 .,make_reservation
+dial_179,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_179,usr,wednesday at 18:15 .,make_reservation
+dial_179,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_179,usr,no , that s all i need . thanks for the help .,goodbye
+dial_180,usr,im looking for a restaurant in the south part of town in the moderate price range,inform_type
+dial_180,sys,Do you have a preference on the food?,ask_type
+dial_180,usr,i would like dontcare food please .,inform_type
+dial_180,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_180,usr,great , what is the address and phone number for restaurant_name ?,ask_info
+dial_180,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_180,usr,nope , that s all i need , thank you very much !,goodbye
+dial_181,usr,i want a restaurant in the centre part of town and serves modern american food .,inform_type
+dial_181,sys,Do you have a preference on the pricerange?,ask_type
+dial_181,usr,he restaurant should be in the expensive price range .,inform_type
+dial_181,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_181,usr,how about italian food ?,inform_type_change
+dial_181,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_181,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_181,sys,clowns cafe is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_181,usr,yes could you book a table for 4 at any 1 of them please ?,make_reservation
+dial_181,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_181,usr,that information is at 17:00 on sunday .,make_reservation
+dial_181,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_181,usr,wonderful , thanks . that s all i need .,goodbye
+dial_182,usr,are there any portuguese restaurant -s in town ?,inform_type
+dial_182,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_182,usr,i am looking for a restaurant in the dontcare price range in the dontcare of town .,inform_type
+dial_182,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_182,usr,are there any other restaurant -s i can choose from ?,anything_else
+dial_182,sys,nandos city centre is a portuguese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_182,usr,i need the address and phone number .,ask_info
+dial_182,sys,nandos city centre is located at 33-34 Saint Andrews Street . Its phone number is 01223327908 and the postcode is cb23ar . is there anything else i can help you with ?,provide_info
+dial_182,usr,thank you , goodbye,goodbye
+dial_183,usr,i would like to find the the nirala restaurant please .,inform_type
+dial_183,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_183,usr,i would like to book a table for 5 people on saturday at 1415,make_reservation
+dial_183,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_183,usr,at 16:30 please .,make_reservation
+dial_183,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_183,usr,thank you so much for your time . that will be all .,goodbye
+dial_184,usr,i would like a expensive -ly priced restaurant that serves british food,inform_type
+dial_184,sys,Do you have a preference on the area?,ask_type
+dial_184,usr,located in the dontcare side,inform_type
+dial_184,sys,fitzbillies restaurant is a british restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_184,usr,i am not interested in that choise . is there anything else within those categories ?,anything_else
+dial_184,sys,graffiti is a british restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_184,usr,may i get the restaurant phone number please ?,ask_info
+dial_184,sys,graffiti is located at Hotel Felix Whitehouse Lane Huntingdon Road . Its phone number is 01223277977 and the postcode is cb30lx . is there anything else i can help you with ?,provide_info
+dial_184,usr,nope , that s all i need , thank you very much !,goodbye
+dial_185,usr,can you please recommend an inexpensive restaurant in the south part of town ?,inform_type
+dial_185,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_185,usr,i am sorry . i am only looking for a place that is dontcare -ly priced and serves italian food .,inform_type
+dial_185,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_185,usr,what is their address and postcode ?,ask_info
+dial_185,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_185,usr,thank you , goodbye,goodbye
+dial_186,usr,is there any place that serves bbq west here ?,inform_type
+dial_186,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_186,usr,i would actually prefer some dontcare thai food if possible ?,inform_type
+dial_186,sys,sala thong is a thai restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_186,usr,there will be 5 of us and we would like to eat at 12:00 .,make_reservation
+dial_186,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_186,usr,sunday , like the girl from the adam s family .,make_reservation
+dial_186,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_186,usr,thank you for your help , good day .,goodbye
+dial_187,usr,an expensive restaurant please,inform_type
+dial_187,sys,Do you have a preference on the food and area?,ask_type
+dial_187,usr,i would really like to find someplace serving british in the dontcare of town .,inform_type
+dial_187,sys,fitzbillies restaurant is a british restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_187,usr,could you please find me a different restaurant ?,anything_else
+dial_187,sys,graffiti is a british restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_187,usr,yes please . can i get the postcode .,ask_info
+dial_187,sys,graffiti is located at Hotel Felix Whitehouse Lane Huntingdon Road . Its phone number is 01223277977 and the postcode is cb30lx . is there anything else i can help you with ?,provide_info
+dial_187,usr,thank you , goodbye,goodbye
+dial_188,usr,i need an expensive restaurant,inform_type
+dial_188,sys,Do you have a preference on the food and area?,ask_type
+dial_188,usr,i would like a restaurant serving indian food in the centre part of town .,inform_type
+dial_188,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_188,usr,i will have 1 people and we would like 11:15 if possible . thanks .,make_reservation
+dial_188,sys,Could you please tell me what day you would like for the reservation?,ask_reservation_info
+dial_188,usr,friday , like the girl from the adam s family .,make_reservation
+dial_188,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_188,usr,great , thanks a lot !,goodbye
+dial_189,usr,i am interested in finding an moderate restaurant serving gastropub food .,inform_type
+dial_189,sys,Do you have a preference on the area?,ask_type
+dial_189,usr,i want it to be in the dontcare .,inform_type
+dial_189,sys,the cow pizza kitchen and bar is a gastropub restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_189,usr,yes , i would like the postcode too please .,ask_info
+dial_189,sys,the cow pizza kitchen and bar is located at Corn Exchange Street . Its phone number is 01223308871 and the postcode is cb23qf . is there anything else i can help you with ?,provide_info
+dial_189,usr,thank you , goodbye,goodbye
+dial_190,usr,i am looking for a place that serves african food . i do not care about the price range .,inform_type
+dial_190,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_190,usr,how about the dontcare in a dontcare price range .,inform_type
+dial_190,sys,bedouin is a african restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_190,usr,is there anything else ?,anything_else
+dial_190,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_190,usr,can i get the address and postcode , please ?,ask_info
+dial_190,sys,bedouin is located at 100 Mill Road City Centre . Its phone number is 01223367660 and the postcode is cb12bd . is there anything else i can help you with ?,provide_info
+dial_190,usr,thank you goodbye .,goodbye
+dial_191,usr,i need an expensive restaurant,inform_type
+dial_191,sys,Do you have a preference on the food and area?,ask_type
+dial_191,usr,somewhere in the dontcare . i am looking for some indian food .,inform_type
+dial_191,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_191,usr,yes please . book for 8 , at 1700hrs or 1600hrs and get me the reference number,make_reservation
+dial_191,sys,Could you please tell me what day and time you would like for the reservation?,ask_reservation_info
+dial_191,usr,friday at 17:30 .,make_reservation
+dial_191,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_191,usr,nothing else . thanks for your great help . goodbye .,goodbye
+dial_192,usr,i would like a restaurant in the centre part of town .,inform_type
+dial_192,sys,Do you have a preference on the food and pricerange?,ask_type
+dial_192,usr,the restaurant should be in the dontcare price range and should serve french food .,inform_type
+dial_192,sys,cote is a french restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_192,usr,is there anything else ? give me the address and postcode please .,anything_else
+dial_192,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_192,usr,could you give me the address and phone number of the 1 in the value_area ?,ask_info
+dial_192,sys,cote is located at Bridge Street City Centre . Its phone number is 01223311053 and the postcode is cb21uf . is there anything else i can help you with ?,provide_info
+dial_192,usr,no , thank you . that'll do it .,goodbye
+dial_193,usr,can you find me an moderate restaurant that serves italian food ?,inform_type
+dial_193,sys,Do you have a preference on the area?,ask_type
+dial_193,usr,i would like the dontcare part of town .,inform_type
+dial_193,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_193,usr,is there anything else ? can i have the address and phone number please ?,anything_else
+dial_193,sys,pizza express is a italian restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?,present_result
+dial_193,usr,no , that will do . can i book a table for sunday ?,make_reservation
+dial_193,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_193,usr,there will be 5 of us at 11:30 .,make_reservation
+dial_193,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_193,usr,that should be it . thank you .,goodbye
+dial_194,usr,hello , i am looking for a asian oriental restaurant on the east side of town .,inform_type
+dial_194,sys,Do you have a preference on the pricerange?,ask_type
+dial_194,usr,i would like a dontcare 1 , please .,inform_type
+dial_194,sys,I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?,nomatch_result
+dial_194,usr,how about some british food ?,inform_type_change
+dial_194,sys,grafton hotel restaurant is a british restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_194,usr,is there anything else ?,anything_else
+dial_194,sys,I'm sorry, there is no other restaurant matching your request. ,no_other
+dial_194,usr,i would like to book a table for 7 at 12 on thursday .,make_reservation
+dial_194,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_194,usr,hmm . can you try at 12:00 instead ?,make_reservation
+dial_194,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_194,usr,wonderful , thanks . that s all i need .,goodbye
+dial_195,usr,i want to find a cheap restaurant serving italian food,inform_type
+dial_195,sys,Do you have a preference on the area?,ask_type
+dial_195,usr,i would like the dontcare part of town .,inform_type
+dial_195,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_195,usr,just 1 , and can you book me for 10:00 ?,make_reservation
+dial_195,sys,Could you please tell me how many people and what day you would like for the reservation?,ask_reservation_info
+dial_195,usr,just 2 person on wednesday at 1945,make_reservation
+dial_195,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_195,usr,thank you for your help , good day .,goodbye
+dial_196,usr,i am looking for a expensive restaurant that serves polish food .,inform_type
+dial_196,sys,Do you have a preference on the food and area?,ask_type
+dial_196,usr,i am looking for dontcare food in the centre part of town .,inform_type
+dial_196,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_196,usr,i want a restuarant that i can book a table for 8 people on wednesday 1300hrs,make_reservation
+dial_196,sys,Could you please tell me what time you would like for the reservation?,ask_reservation_info
+dial_196,usr,no . it needs to be t 15:30 . another restaurant in the same area and price range would work .,make_reservation
+dial_196,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_196,usr,thank you goodbye .,goodbye
+dial_197,usr,i am looking for a cheap -ly priced restaurant in the south part of town,inform_type
+dial_197,sys,Do you have a preference on the food?,ask_type
+dial_197,usr,yes . i would like dontcare food please .,inform_type
+dial_197,sys,nandos is a portuguese restaurant on the south side of town. It's in the cheap price range. Is there anything else I can help you with?,present_result
+dial_197,usr,what is the address and phone number for restaurant_name ?,ask_info
+dial_197,sys,nandos is located at Cambridge Leisure Park Clifton Way . Its phone number is 01223327908 and the postcode is cb17dy . is there anything else i can help you with ?,provide_info
+dial_197,usr,no , thank you . that'll do it .,goodbye
+dial_198,usr,i am looking for a restaurant serving gastropub food .,inform_type
+dial_198,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_198,usr,in the dontcare of town please . i am looking to stay in the expensive price range .,inform_type
+dial_198,sys,backstreet bistro is a gastropub restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_198,usr,is there anything else ? and what is the address and phone number ?,anything_else
+dial_198,sys,the slug and lettuce is a gastropub restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_198,usr,no , if you could just book me into 1 for wednesday , that would be great .,make_reservation
+dial_198,sys,Could you please tell me how many people and what time you would like for the reservation?,ask_reservation_info
+dial_198,usr,i will have 6 people and we would like 10:45 if possible . thanks .,make_reservation
+dial_198,sys,I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?,booking_fail
+dial_198,usr,how about 11:45 ?,make_reservation_change_time
+dial_198,sys,I have booked the reservation for you. And you reference number is ABC.,booking_success
+dial_198,usr,no , you have been very helpful . thank you . goodbye .,goodbye
+dial_199,usr,i would like to find a restaurant serving mediterranean food .,inform_type
+dial_199,sys,Do you have a preference on the area and pricerange?,ask_type
+dial_199,usr,in the dontcare of town please . i am looking to stay in the expensive price range .,inform_type
+dial_199,sys,la mimosa is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_199,usr,are there any others ?,anything_else
+dial_199,sys,shiraz restaurant is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?,present_result
+dial_199,usr,could i have the address and phone number please ?,ask_info
+dial_199,sys,shiraz restaurant is located at 84 Regent Street City Centre . Its phone number is 01223307581 and the postcode is cb21dp . is there anything else i can help you with ?,provide_info
+dial_199,usr,nope , that was all i needed . thank you . bye bye .,goodbye

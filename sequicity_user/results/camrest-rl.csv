@@ -1,0 +1,74 @@
+cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : test
+m : TSD
+prev_z_method : separate
+dataset : camrest
+seed : 0
+vocab_size : 800
+embedding_size : 50
+hidden_size : 50
+split : (3, 1, 1)
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+vocab_path : ./vocab/vocab-camrest.pkl
+data : ./data/CamRest676/CamRest676.json
+entity : ./data/CamRest676/CamRestOTGY.json
+db : ./data/CamRest676/CamRestDB.json
+model_path : ./models/camrest.pkl
+result_path : ./results/camrest-rl.csv
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+z_length : 8
+degree_size : 5
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+cuda : False
+spv_proportion : 100
+max_ts : 40
+early_stop_count : 5
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+START_CSV_SECTION
+dial_id,turn_num,user,generated_bspan,bspan,generated_response,response,u_len,m_len,supervised
+632,0,i 'm looking for a restaurant in the moderate price range in the east part of town,moderate east EOS_Z1,moderate east EOS_Z1 <unk>,there are two restaurants in the east part of town . do you have a preference on the type of food ?,"how about name_SLOT , they are in the moderate price range in the east part of town",18,18,True
+578,0,i am looking for a thai restaurant - any area will do .,thai EOS_Z1,thai EOS_Z1 <unk>,there are no thai restaurants in the area_SLOT area . would you like to try something else ?,name_SLOT is an pricerange_SLOT thai restaurant in the area_SLOT of town .,14,13,True
+654,0,i am looking for a moderately priced restaurant in the south part of town . any kind of food is good with me ; i would just like to know the phone number of the venue you find .,moderate south EOS_Z1 phone,moderate south EOS_Z1 <unk> phone,name_SLOT is a moderately priced restaurant in the south part of town .,name_SLOT 's phone number is phone_SLOT .,40,8,True
+649,0,i am looking for the address and price range of a restaurant serving chinese food in the south part of town .,chinese south EOS_Z1 address,chinese south EOS_Z1 <unk> address pricerange,name_SLOT is a chinese restaurant in the south part of town .,name_SLOT is a chinese restaurant located in the south part of town in the pricerange_SLOT price range . their address is address_SLOT .,23,24,True
+628,0,"hello , i am looking for a moderately priced restaurant that serves gastropub food .",gastropub moderate EOS_Z1,gastropub moderate EOS_Z1 <unk>,there are no restaurants matching your request . would you like to try something else ?,name_SLOT serves gastropub food and is in the moderate price range .,16,13,True
+591,0,"hello , i am looking for an expensive restaurant that serves irish food .",irish expensive EOS_Z1,irish expensive EOS_Z1 <unk>,"i 'm sorry , there are no restaurants matching your request . would you like to try something else ?","i 'm sorry , there is not restaurants matching your request . would you like to try something else ?",15,21,True
+549,0,i would like a restaurant in the north part of town that serves french food,french north EOS_Z1,french north EOS_Z1 <unk>,there are no french restaurants in the north part of town . would you like to try a different area or price range ?,there is name_SLOT in the the north side of town that serves french food .,16,16,True
+566,0,"i want to visit an expensive restaurant in the south part of town . i need the address , phone number , and type of food .",expensive south EOS_Z1 address food phone,expensive south EOS_Z1 <unk> address phone phone,name_SLOT is an expensive food_SLOT restaurant in the south part of town .,"there are five expensive restaurants available in the south part of the city . food_SLOT , food_SLOT , food_SLOT , and two food_SLOT restaurants are available . what type of food would you like ?",28,36,True
+648,0,"i would like a restaurant that serves world food . it should be a really good restaurant , and it 's ok if it 's expensive .",world expensive EOS_Z1,world EOS_Z1 <unk>,name_SLOT is a world restaurant in the expensive price range . would you like their phone number ?,there are no matching restaurants,28,6,True
+636,0,i 'm looking for a place that has chinese food .,chinese EOS_Z1,chinese EOS_Z1 <unk>,there are no chinese restaurants in the area_SLOT area . do you have a preference for ?,"there are <unk> chinese restaurants , do you prefer any price range or any area in town ?",12,19,True
+665,0,i am looking for a cheap restaurant in the east part of town .,cheap east EOS_Z1,cheap east EOS_Z1 <unk>,there are two restaurants in the east part of town .,name_SLOT is a cheap food_SLOT restaurant in the east side . would you like the address or phone number ?,15,21,True
+613,0,i am looking for a restaurant in the moderate price range and in the north part of town .,moderate north EOS_Z1,moderate north EOS_Z1 <unk>,there are two restaurants in the north part of town . do you have a preference on the type of food ?,there are two moderately priced restaurants in the north part of town . one specializes in food_SLOT cuisine and the other is a food_SLOT restaurant .,20,27,True
+609,0,are there any lebanese restaurants in the city ?,lebanese EOS_Z1,lebanese EOS_Z1 <unk>,there are no lebanese restaurants in the area_SLOT of town . would you like to try a different area ?,name_SLOT is a nice lebanese place in the area_SLOT .,10,11,True
+587,0,"hi , i 'm looking for a moderately priced restaurant on the south side of town .",moderate south EOS_Z1,moderate south EOS_Z1 <unk>,name_SLOT is a moderately priced restaurant in the south part of town .,name_SLOT is a moderately priced restaurant in the south area . would you like their information ?,18,18,True
+577,0,"hi , i 'm looking for a moderately priced restaurant in the south part of town .",moderate south EOS_Z1,moderate south EOS_Z1 <unk>,there are two restaurants in the south part of town . do you have a preference ?,the name_SLOT is moderately priced and in the south part of town . would you like their location ?,18,20,True
+554,0,may i have information for an italian restaurant in the east part of town ?,italian east EOS_Z1,italian east EOS_Z1 <unk>,there are two italian restaurants in the east part of town . would you like the address ?,yes sure . there is only on italian restaurant called name_SLOT in the east . what else do you want to know ?,16,24,True
+655,0,"could you recommend a restaurant that serves french food ? i 'll need the address , phone number and postcode . thank you .",french EOS_Z1 address phone postcode,french EOS_Z1 <unk> address phone postcode,name_SLOT is a french restaurant in the area_SLOT of town and the phone number is phone_SLOT .,you would like a restaurant serving french food . do you have a preference to what area it is located ?,25,22,True
+640,0,i would like a moderately priced restaurant located in the south part of town .,moderate south EOS_Z1,moderate south EOS_Z1 <unk>,there are two restaurants in the south part of town . do you have a preference ?,name_SLOT is an food_SLOT restaurant in the south of town in the moderate price range .,16,17,True
+564,0,i would like a cheap restaurant that serves mediterranean food,mediterranean cheap EOS_Z1,mediterranean cheap EOS_Z1 <unk>,there are no cheap restaurants in the cheap price range . would you like to try a different of food ?,name_SLOT is a cheap restaurant that serves mediterranean food . is the area_SLOT part of town okay for you ?,11,21,True
+623,0,can i get a korean restaurant in the town centre ?,korean centre EOS_Z1,korean centre EOS_Z1 <unk>,there are no korean restaurants in the centre of town . would you like the address ?,name_SLOT is located in the town centre,12,8,True
+668,0,hi . can you please help me find a moderately priced restaurant in the south part of town ?,moderate south EOS_Z1,moderate south EOS_Z1 <unk>,there are two restaurants in the south part of town . do you have a preference ?,here is a list of restaurants located in the south side of town in the moderate price range,20,19,True
+556,0,"hi , i want a moderately priced restaurant located in the south part of town .",moderate south EOS_Z1,moderate south EOS_Z1 <unk>,there are two restaurants in the south part of town . do you have a preference ?,name_SLOT is in the south part of town and in the moderate price range . would you like their location ?,17,22,True
+643,0,"hello , i am looking for a moderately priced restaurant on the south side of town .",moderate south EOS_Z1,moderate south EOS_Z1 <unk>,name_SLOT is a moderately priced restaurant in the south part of town .,there are two moderately priced restaurants in the south area . would you like food_SLOT or food_SLOT ?,18,19,True
+653,0,i 'm looking for a gastropub restaurant .,gastropub EOS_Z1,gastropub EOS_Z1 <unk>,"i 'm sorry , there are no gastropub restaurants in the area_SLOT of town . do you have a preference for ?",the name_SLOT serves gastropub food .,9,7,True
+601,0,i would like a moderately priced restaurant that serves lebanese food,lebanese moderate EOS_Z1,lebanese moderate EOS_Z1 <unk>,there are no lebanese restaurants in the moderate price range . would you like to try something else ?,"there is the name_SLOT at the city center , would you like to have the address ?",12,18,True
+544,0,i am looking for a restaurant in the moderate price range that serves lebanese food .,lebanese moderate EOS_Z1,lebanese moderate EOS_Z1 <unk>,"i 'm sorry , there are no lebanese restaurants in the moderate price range .",the name_SLOT restaraunt serves lebanese food and is in the moderate price range .,17,15,True
+660,0,need a <unk> serving turkish style venue,turkish EOS_Z1,turkish EOS_Z1 <unk>,there are no turkish restaurants in the area_SLOT area of town . do you have a preference for ?,"ok , so you would like a turkish restaurant . in what area would you like to eat ?",8,20,True
+671,0,"hello , i am looking for a cheap restaurant on the south side of town .",cheap south EOS_Z1,cheap south EOS_Z1 <unk>,name_SLOT is a cheap restaurant in the south part of town .,there is a place called name_SLOT that specializes in food_SLOT food on the south side of town .,17,19,True
+644,0,"hello , i am looking for a thai restaurant on the north side of town .",thai north EOS_Z1,thai north EOS_Z1 <unk>,there are two thai restaurants in the north part of town . would you like to try a different restaurant ?,"unfortunately there are no thai restaurants in the north , do you want to change an area to look for ?",17,22,True
+666,0,i would like a moderately priced restaurant in the west part of town,moderate west EOS_Z1,moderate west EOS_Z1 <unk>,there are two restaurants in the west part of town . do you have a preference ?,"there are three moderately priced restaurants in the west part of town . do you prefer food_SLOT , food_SLOT , or food_SLOT ?",14,24,True

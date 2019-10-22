@@ -1,0 +1,42 @@
+dial_15,goal,"{'id': 'SSNG0124.json', 'cur_info': {'food': 'chinese', 'pricerange': 'moderate'}, 'book_first_choice': {'people': '7', 'day': 'tuesday', 'time': '13:45'}, 'book_second_choice': {'day': 'friday'}, 'cur_book': {'people': '7', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_15,usr,I am looking for a moderate restaurant.
+dial_15,sys,Do you have a preference on the food and area?
+dial_15,usr,i would like the chinese food.
+dial_15,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,can you help me to make a reservation for 7 people at 13:45 on tuesday?
+dial_15,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_15,usr,Thank you for helping me! Goodbye
+dial_16,goal,"{'id': 'WOZ20362.json', 'cur_info': {'food': 'indian', 'area': 'east'}, 'reqt': ['address', 'phone'], 'first_choice_match': 4}"
+dial_16,usr,I am looking for a indian restaurant in the east area
+dial_16,sys,Do you have a preference on the pricerange?
+dial_16,usr,i do not care.
+dial_16,sys,curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_16,usr,can i have the address and phone number?
+dial_16,sys,curry prince is located at 451 Newmarket Road Fen Ditton . Its phone number is 01223566388 and the postcode is cb58jj . is there anything else i can help you with ?
+dial_16,usr,Thank you for helping me! Goodbye
+dial_17,goal,"{'id': 'WOZ20160.json', 'cur_info': {'pricerange': 'moderate', 'area': 'north'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_17,usr,I am looking for a restaurant which is in the north area.
+dial_17,sys,Do you have a preference on the food and pricerange?
+dial_17,usr,I am looking for a moderate restaurant.
+dial_17,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_17,usr,can i have the postcode and phone number?
+dial_17,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?
+dial_17,usr,Thank you for helping me! Goodbye
+dial_18,goal,"{'id': 'SNG0510.json', 'cur_info': {'pricerange': 'expensive', 'area': 'centre'}, 'reqt': ['postcode'], 'first_choice_match': 33}"
+dial_18,usr,I am looking for a restaurant which is in the centre area.
+dial_18,sys,Do you have a preference on the food and pricerange?
+dial_18,usr,I am looking for a expensive restaurant.
+dial_18,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_18,usr,what is its postcode ?
+dial_18,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?
+dial_18,usr,Thank you for helping me! Goodbye
+dial_19,goal,"{'id': 'SSNG0027.json', 'info_first_choice': {'food': 'tuscan', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'tuscan', 'area': 'south'}, 'book_first_choice': {'people': '5', 'day': 'wednesday', 'time': '12:45'}, 'book_second_choice': {'day': 'tuesday'}, 'cur_book': {'people': '5', 'day': 'wednesday', 'time': '12:45'}, 'first_choice_match': 0}"
+dial_19,usr,I am looking for a restaurant that serves tuscan food.
+dial_19,sys,Do you have a preference on the area and pricerange?
+dial_19,usr,i would prefer the south area please
+dial_19,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_19,usr,what about chinese food?
+dial_19,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_19,usr,can you help me to make a reservation for 5 people at 12:45 on wednesday?
+dial_19,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_19,usr,Thank you for helping me! Goodbye

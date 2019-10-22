@@ -1,0 +1,42 @@
+dial_10,goal,"{'id': 'SNG0726.json', 'cur_info': {'food': 'indian', 'area': 'centre'}, 'cur_book': {'time': '17:30', 'day': 'sunday', 'people': '8'}, 'first_choice_match': 9}"
+dial_10,usr,i would like indian food .
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,centre of cambridge
+dial_10,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_10,usr,can you make a reservation for 8 people at 17:30 on sunday ?
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_10,usr,"no , that s all i need . thanks for the help ."
+dial_11,goal,"{'id': 'WOZ20636.json', 'cur_info': {'food': 'chinese', 'area': 'east'}, 'reqt': ['address'], 'first_choice_match': 1}"
+dial_11,usr,"i am in the mood for chinese food , please ."
+dial_11,sys,Do you have a preference on the area and pricerange?
+dial_11,usr,i want it to be in the east .
+dial_11,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_11,usr,can i have the address please ?
+dial_11,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?
+dial_11,usr,"no , and thank you for your help . goodbye ."
+dial_12,goal,"{'id': 'SNG1369.json', 'cur_info': {'food': 'european', 'pricerange': 'expensive'}, 'anything_else': True, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_12,usr,and that s a expensive restaurant ?
+dial_12,sys,Do you have a preference on the food and area?
+dial_12,usr,yes . i would like european food please .
+dial_12,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,"sure , can you try and book a table for tuesday at 13:45 ? there are 6 people ."
+dial_12,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_12,usr,thank you so much for your time . that will be all .
+dial_13,goal,"{'id': 'WOZ20240.json', 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_13,usr,south of cambridge
+dial_13,sys,Do you have a preference on the food and pricerange?
+dial_13,usr,yes expensive restaurant please
+dial_13,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,i need the address and phone number .
+dial_13,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?
+dial_13,usr,that is all i needed . thank you .
+dial_14,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'the americas', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_14,usr,i am really in the mood for the americas food .
+dial_14,sys,Do you have a preference on the area and pricerange?
+dial_14,usr,"i do not care about the price range , and would just like 1 in the centre part of town ."
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,how about some italian food ?
+dial_14,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_14,usr,can you make a reservation for 5 people at 18:15 on wednesday ?
+dial_14,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_14,usr,"no , you have been very helpful . thank you . goodbye ."

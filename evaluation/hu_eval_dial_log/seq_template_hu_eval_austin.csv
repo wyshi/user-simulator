@@ -1,0 +1,42 @@
+dial_0,goal,"{'id': 'SNG0711.json', 'info_first_choice': {'food': 'swedish', 'area': 'centre'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'swedish', 'area': 'centre'}, 'cur_book': {'time': '15:15', 'day': 'monday', 'people': '5'}, 'first_choice_match': 0}"
+dial_0,usr,I am looking for a restaurant that serves swedish food.
+dial_0,sys,Do you have a preference on the area and pricerange?
+dial_0,usr,i would prefer the centre area please
+dial_0,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_0,usr,what about chinese food?
+dial_0,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_0,usr,can you help me to make a reservation for 5 people at 15:15 on monday?
+dial_0,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_0,usr,Thank you for helping me! Goodbye
+dial_1,goal,"{'id': 'SNG0498.json', 'cur_info': {'name': 'pizza hut city centre'}, 'reqt': ['address', 'phone'], 'first_choice_match': 1}"
+dial_1,usr,I am looking for a specific restaurant called pizza hut city centre.
+dial_1,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_1,usr,can i have the address and phone number?
+dial_1,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_1,usr,Thank you for helping me! Goodbye
+dial_2,goal,"{'id': 'SNG0671.json', 'info_first_choice': {'food': 'persian', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'european'}, 'cur_info': {'food': 'persian', 'pricerange': 'expensive', 'area': 'centre'}, 'cur_book': {'time': '15:30', 'day': 'friday', 'people': '3'}, 'first_choice_match': 0}"
+dial_2,usr,I am looking for a expensive restaurant which serves persian food.
+dial_2,sys,Do you have a preference on the area?
+dial_2,usr,i would prefer the centre area please
+dial_2,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_2,usr,what about european food?
+dial_2,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_2,usr,can you help me to make a reservation for 3 people at 15:30 on friday?
+dial_2,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_2,usr,Thank you for helping me! Goodbye
+dial_3,goal,"{'id': 'WOZ20372.json', 'cur_info': {'pricerange': 'moderate', 'area': 'north'}, 'reqt': ['phone', 'address'], 'first_choice_match': 2}"
+dial_3,usr,I am looking for a moderate restaurant.
+dial_3,sys,Do you have a preference on the food and area?
+dial_3,usr,i would prefer the north area please
+dial_3,sys,the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_3,usr,can i have the address and phone number?
+dial_3,sys,the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?
+dial_3,usr,Thank you for helping me! Goodbye
+dial_4,goal,"{'id': 'WOZ20075.json', 'cur_info': {'pricerange': 'expensive', 'area': 'east'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_4,usr,I am looking for a expensive restaurant in the east area.
+dial_4,sys,Do you have a preference on the food?
+dial_4,usr,i do not care.
+dial_4,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_4,usr,can i have the address and phone number?
+dial_4,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?
+dial_4,usr,Thank you for helping me! Goodbye

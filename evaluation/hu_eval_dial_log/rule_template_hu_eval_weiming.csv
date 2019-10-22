@@ -1,0 +1,52 @@
+dial_20,goal,"{'id': 'SNG0663.json', 'cur_info': {'food': 'italian', 'pricerange': 'cheap'}, 'book_first_choice': {'time': '16:45', 'day': 'monday', 'people': '4'}, 'book_second_choice': {'time': '17:45'}, 'cur_book': {'time': '16:45', 'day': 'monday', 'people': '4'}, 'first_choice_match': 5}"
+dial_20,usr,i am looking for a restaurant that serves italian food.
+dial_20,sys,Do you have a preference on the area and pricerange?
+dial_20,usr,i am looking for a cheap restaurant. i don't care about the area.
+dial_20,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_20,usr,are there any other options?
+dial_20,sys,ask restaurant is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_20,usr,can you help me to make a reservation at 16:45 on monday?
+dial_20,sys,Could you please tell me how many people you would like for the reservation?
+dial_20,usr,can you help me to make a reservation for 4 people?
+dial_20,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_20,usr,thank you for helping me! goodbye
+dial_21,goal,"{'id': 'WOZ20588.json', 'cur_info': {'food': 'thai', 'area': 'centre'}, 'reqt': ['address', 'phone'], 'first_choice_match': 1}"
+dial_21,usr,i am looking for a thai restaurant in the centre area
+dial_21,sys,Do you have a preference on the pricerange?
+dial_21,usr, i don't care about the pricerange.
+dial_21,sys,bangkok city is a thai restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_21,usr,are there any other options?
+dial_21,sys,"I'm sorry, there is no other restaurant matching your request. "
+dial_21,usr,can i have the address and phone number?
+dial_21,sys,bangkok city is located at 24 Green Street City Centre . Its phone number is 01223354382 and the postcode is cb23jx . is there anything else i can help you with ?
+dial_21,usr,thank you for helping me! goodbye
+dial_22,goal,"{'id': 'SNG0468.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'moderate', 'area': 'centre'}, 'cur_book': {'time': '16:30', 'day': 'saturday', 'people': '4'}, 'first_choice_match': 1}"
+dial_22,usr,i am looking for a moderate restaurant that serves asian oriental food in the centre area.
+dial_22,sys,yippee noodle bar is a asian oriental restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_22,usr,are there any other options?
+dial_22,sys,"I'm sorry, there is no other restaurant matching your request. "
+dial_22,usr,can you help me to make a reservation on 16:30?
+dial_22,sys,Could you please tell me how many people and what day you would like for the reservation?
+dial_22,usr,can you help me to make a reservation for 4 people on saturday?
+dial_22,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_22,usr,thank you for helping me! goodbye
+dial_23,goal,"{'id': 'WOZ20048.json', 'cur_info': {'food': 'thai'}, 'reqt': ['phone'], 'first_choice_match': 2}"
+dial_23,usr,i am looking for a restaurant that serves thai food.
+dial_23,sys,Do you have a preference on the area and pricerange?
+dial_23,usr, i don't care about the area
+dial_23,sys,sala thong is a thai restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_23,usr,are there any other options?
+dial_23,sys,bangkok city is a thai restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_23,usr,what is its phone number ?
+dial_23,sys,bangkok city is located at 24 Green Street City Centre . Its phone number is 01223354382 and the postcode is cb23jx . is there anything else i can help you with ?
+dial_23,usr,thank you for helping me! goodbye
+dial_24,goal,"{'id': 'WOZ20663.json', 'cur_info': {'food': 'lebanese'}, 'reqt': ['phone', 'address'], 'first_choice_match': 1}"
+dial_24,usr,i am looking for a restaurant that serves lebanese food.
+dial_24,sys,Do you have a preference on the area and pricerange?
+dial_24,usr, i don't care about the area
+dial_24,sys,ali baba is a lebanese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_24,usr,are there any other options?
+dial_24,sys,"I'm sorry, there is no other restaurant matching your request. "
+dial_24,usr,can i have the address and phone number?
+dial_24,sys,ali baba is located at 59 Hills Road City Centre . Its phone number is 01462432565 and the postcode is cb21nt . is there anything else i can help you with ?
+dial_24,usr,thank you for helping me! goodbye

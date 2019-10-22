@@ -1,0 +1,44 @@
+INFO:root:cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : camrest
+seed : 0
+vocab_size : 800
+embedding_size : 50
+hidden_size : 50
+split : (3, 1, 1)
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+vocab_path : ./vocab/vocab-camrest.pkl
+data : ./data/CamRest676/CamRest676.json
+entity : ./data/CamRest676/CamRestOTGY.json
+db : ./data/CamRest676/CamRestDB.json
+model_path : ./models/camrest.pkl
+result_path : ./results/camrest-rl.csv
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+z_length : 8
+degree_size : 5
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+cuda : False
+spv_proportion : 100
+max_ts : 40
+early_stop_count : 5
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+INFO:root:726 known embedding. old mean: 0.009919 new mean 0.046854, old std 1.000853 new std 0.690519

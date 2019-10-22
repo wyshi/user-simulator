@@ -1,0 +1,952 @@
+['/home/wyshi/simulator/simulator', '/usr/local/lib/python36.zip', '/usr/local/lib/python3.6', '/usr/local/lib/python3.6/lib-dynload', '/home/wyshi/persuasion_env/lib/python3.6/site-packages', '/home/wyshi/persuasion_env/lib/python3.6/site-packages/seq2seq-0.1.6-py3.6.egg', '/home/wyshi/simulator']
+['/home/wyshi/simulator/simulator', '/usr/local/lib/python36.zip', '/usr/local/lib/python3.6', '/usr/local/lib/python3.6/lib-dynload', '/home/wyshi/persuasion_env/lib/python3.6/site-packages', '/home/wyshi/persuasion_env/lib/python3.6/site-packages/seq2seq-0.1.6-py3.6.egg', '/home/wyshi/simulator', '/home/wyshi/simulator']
+                                                 utt  y
+0  yes , and can you book a table for value_peopl...  5
+1  i am looking for a restaurant . the restaurant...  3
+Index(['utt', 'y'], dtype='object')
+num of tokens 785
+most common [('i', 2830), ('the', 2543), ('?', 1976), ('you', 1870), ('for', 1731)]
+len(train) 4608
+len(test) 575
+total trainable params: 539907
+--------------------
+goal {'id': 'SNG0498.json', 'cur_info': {'name': 'pizza hut city centre'}, 'reqt': ['address', 'phone'], 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {'food': 'eritrean'}}
+0 Usr: i would like a restaurant that serves eritrean food
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the area and pricerange?
+{'act': 'inform_type', 'parameters': {'area': 'north'}}
+1 Usr: i would like a restaurant in the north part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?
+{'act': 'inform_type', 'parameters': {'area': 'north'}}
+2 Usr: is there any restaurant -s in the north part of town .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20162.json', 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'south'}}
+0 Usr: i would like a expensive -ly priced restaurant in the south part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive'}}
+1 Usr: i would like expensive .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: no , i would like to know . thank you .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20635.json', 'cur_info': {'food': 'north american'}, 'reqt': ['address', 'phone', 'postcode'], 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'south'}}
+0 Usr: i would like a expensive -ly priced restaurant in the south part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'south'}}
+1 Usr: i would like a expensive restaurant in the south part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'make_reservation', 'parameters': {}}
+2 Usr: no , i would like to book a reservation for the phone number , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: Could you please tell me how many people and what day and time you would like for the reservation?
+{'act': 'inform_type', 'parameters': {}}
+3 Usr: no , i am looking for a nice day .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_fail_for_sl
+using rule_policy
+3 Sys: taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'goodbye', 'parameters': {}}
+4 Usr: no , i would like to know . thank you .
+True user act:  None
+reward per turn -1
+None
+user turn status:  failed_dialog
+dialog_status: False
+reward: -1.3
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20104.json', 'cur_info': {'food': 'indian', 'area': 'north'}, 'reqt': ['address', 'phone'], 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {'area': 'north'}}
+0 Usr: i would like a restaurant in the north part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate', 'area': 'north'}}
+1 Usr: i would like a moderate restaurant in the north part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: the nirala is a indian restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+{'act': 'ask_info', 'parameters': {'phone': None, 'address': None}}
+2 Usr: no , i would like the address , phone number , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: the nirala is located at 7 Milton Road Chesterton . Its phone number is 01223360966 and the postcode is cb41uy . is there anything else i can help you with ?
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thank you .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SSNG0174.json', 'info_first_choice': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'book_second_choice': {'time': '15:30'}, 'cur_book': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'centre'}}
+0 Usr: i would like to find a expensive restaurant in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '2', 'day': 'monday'}}
+1 Usr: i would like to book a table for 2 people on monday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '2', 'day': 'monday'}}
+2 Usr: i would like to book a reservation for 2 people on monday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: that is all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20294.json', 'cur_info': {'food': 'international'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 3}
+{'act': 'inform_type', 'parameters': {'food': 'international'}}
+0 Usr: i would like a restaurant serving international food
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the area and pricerange?
+{'act': 'ask_info', 'parameters': {'address': None}}
+1 Usr: i would like the address , and price range .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG01172.json', 'info_first_choice': {'food': 'belgian', 'pricerange': 'moderate', 'area': 'centre'}, 'info_second_choice': {'food': 'turkish'}, 'cur_info': {'food': 'belgian', 'pricerange': 'moderate', 'area': 'centre'}, 'book_first_choice': {'time': '19:00', 'day': 'tuesday', 'people': '1'}, 'book_second_choice': {'time': '20:00'}, 'cur_book': {'time': '19:00', 'day': 'tuesday', 'people': '1'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'area': 'centre'}}
+0 Usr: i would like to find a place to eat in the centre .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'make_reservation', 'parameters': {'people': '1', 'day': 'tuesday', 'time': '19:00'}}
+1 Usr: i would like to book a table for 1 on tuesday at 19:00 .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: that is all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0466.json', 'cur_info': {'food': 'lebanese', 'pricerange': 'moderate', 'area': 'centre'}, 'reqt': ['address'], 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate', 'area': 'centre'}}
+0 Usr: i would like to find a moderate -ly priced restaurant in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'ask_info', 'parameters': {'address': None}}
+1 Usr: i would like to know the address , and price range .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20004.json', 'cur_info': {'pricerange': 'moderate', 'area': 'north'}, 'reqt': ['address'], 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {}}
+0 Usr: i would like to know
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food, area and pricerange?
+{'act': 'ask_info', 'parameters': {'address': None}}
+1 Usr: i would like to know the address , and price range .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_fail_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_fail_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20202.json', 'cur_info': {'pricerange': 'moderate', 'area': 'east'}, 'reqt': ['address'], 'first_choice_match': 3}
+{'act': 'inform_type', 'parameters': {}}
+0 Usr: i would like to know .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food, area and pricerange?
+{'act': 'ask_info', 'parameters': {'address': None}}
+1 Usr: what is the address , and price range .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_fail_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_fail_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG01483.json', 'info_first_choice': {'food': 'danish', 'pricerange': 'cheap', 'area': 'centre'}, 'info_second_choice': {'food': 'asian oriental'}, 'cur_info': {'food': 'danish', 'pricerange': 'cheap', 'area': 'centre'}, 'cur_book': {'time': '17:00', 'day': 'thursday', 'people': '2'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'pricerange': 'cheap', 'area': 'centre'}}
+0 Usr: i would like to find a cheap restaurant in the centre .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '2', 'day': 'thursday', 'time': '17:00'}}
+1 Usr: i would like to book a table for 2 on thursday at 17:00 .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: thanks , that s all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0567.json', 'cur_info': {'food': 'british', 'pricerange': 'moderate'}, 'book_first_choice': {'time': '13:15', 'day': 'friday', 'people': '8'}, 'book_second_choice': {'time': '14:15'}, 'cur_book': {'time': '13:15', 'day': 'friday', 'people': '8'}, 'first_choice_match': 5}
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate'}}
+0 Usr: i would like to find a moderate -ly priced restaurant .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and area?
+{'act': 'make_reservation', 'parameters': {'people': '8', 'time': '13:15', 'day': 'friday'}}
+1 Usr: i would like to book a table for 8 people at 13:15 on friday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: that is all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG01888.json', 'cur_info': {'name': 'la margherita'}, 'reqt': ['address'], 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {}}
+0 Usr: i would like to know .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food, area and pricerange?
+{'act': 'ask_info', 'parameters': {'address': None}}
+1 Usr: i would like to know the address and address .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_fail_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_fail_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG01165.json', 'cur_info': {'food': 'italian', 'pricerange': 'moderate', 'area': 'east'}, 'anything_else': True, 'cur_book': {'time': '12:15', 'day': 'monday', 'people': '5'}, 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate', 'area': 'east'}}
+0 Usr: i would like to find a moderate restaurant in the east part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'day': 'monday'}}
+1 Usr: i would like to book a table for 5 people on monday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'time': '12:15', 'day': 'monday'}}
+2 Usr: i would like to book a reservation for 5 people at 12:15 on monday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thanks , that s all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20362.json', 'cur_info': {'food': 'indian', 'area': 'east'}, 'reqt': ['address', 'phone'], 'first_choice_match': 4}
+{'act': 'inform_type', 'parameters': {'area': 'east'}}
+0 Usr: i would like a restaurant in the east part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'east'}}
+1 Usr: i would like a expensive restaurant in the east part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'inform_type_change', 'parameters': {'food': 'indian'}}
+2 Usr: that is the restaurant that serve indian food ?
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: pipasha restaurant is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'ask_info', 'parameters': {'phone': None, 'address': None}}
+3 Usr: that is the address , phone number ?
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+3 Sys: pipasha restaurant is located at Newmarket Road Fen Ditton . Its phone number is 01223577786 and the postcode is cb58pa . is there anything else i can help you with ?
+{'act': 'inform_type', 'parameters': {}}
+4 Usr: i needed .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+4 Sys: sitar tandoori is a indian restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+{'act': 'ask_info', 'parameters': {'phone': None, 'address': None}}
+5 Usr: no , i would like the address , phone number , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+5 Sys: sitar tandoori is located at 43 High Street Cherry Hinton Cherry Hinton . Its phone number is 01223249955 and the postcode is cb19hx . is there anything else i can help you with ?
+{'act': 'goodbye', 'parameters': {}}
+6 Usr: no , thank you .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.5
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20160.json', 'cur_info': {'pricerange': 'moderate', 'area': 'north'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate'}}
+0 Usr: i would like to know that is moderate -ly priced .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and area?
+{'act': 'ask_info', 'parameters': {'phone': None, 'postcode': None}}
+1 Usr: i would like to know the phone number , i would like to know the phone number , and postcode , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0510.json', 'cur_info': {'pricerange': 'expensive', 'area': 'centre'}, 'reqt': ['postcode'], 'first_choice_match': 33}
+{'act': 'inform_type', 'parameters': {'area': 'centre'}}
+0 Usr: i would like to eat in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'ask_info', 'parameters': {'postcode': None}}
+1 Usr: i would like to know the postcode , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SSNG0027.json', 'info_first_choice': {'food': 'tuscan', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'tuscan', 'area': 'south'}, 'book_first_choice': {'people': '5', 'day': 'wednesday', 'time': '12:45'}, 'book_second_choice': {'day': 'tuesday'}, 'cur_book': {'people': '5', 'day': 'wednesday', 'time': '12:45'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'area': 'south'}}
+0 Usr: i would like to find a place to eat in the south part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'day': 'wednesday'}}
+1 Usr: i would like to book a table for 5 people on wednesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'day': 'tuesday'}}
+2 Usr: i would like to book a table for 5 people on tuesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thanks . that s all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20245.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {'area': 'south'}}
+0 Usr: i would like to find a restaurant in the south part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'ask_info', 'parameters': {'phone': None}}
+1 Usr: i would like to know the phone number , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0598.json', 'info_first_choice': {'food': 'bistro', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'bistro', 'area': 'centre'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'area': 'centre'}}
+0 Usr: i would like to eat in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'ask_info', 'parameters': {'address': None, 'postcode': None}}
+1 Usr: i would like to know the address , and postcode .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+haven't presented result yet!
+reward per turn -1
+None
+user turn status:  turn_success_for_sl
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0741.json', 'cur_info': {'pricerange': 'cheap', 'area': 'centre'}, 'reqt': ['postcode'], 'first_choice_match': 15}
+{'act': 'inform_type', 'parameters': {'area': 'centre'}}
+0 Usr: i would like to eat in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'make_reservation', 'parameters': {'pricerange': 'cheap', 'area': 'centre'}}
+1 Usr: i would like to book a cheap restaurant in the centre .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me how many people and what day and time you would like for the reservation?
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: i would like to know . thank you .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG02308.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'cur_book': {'time': '12:00', 'day': 'tuesday', 'people': '1'}, 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {'pricerange': 'cheap', 'area': 'centre'}}
+0 Usr: i would like to find a cheap restaurant in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '1', 'day': 'tuesday'}}
+1 Usr: i would like to book a table for 1 people on tuesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '1', 'time': '12:00', 'day': 'tuesday'}}
+2 Usr: i would like to book a reservation for 1 people at 12:00 on tuesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: that is all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20110.json', 'cur_info': {'pricerange': 'cheap', 'area': 'north'}, 'reqt': ['address', 'phone'], 'first_choice_match': 2}
+{'act': 'inform_type', 'parameters': {'pricerange': 'cheap'}}
+0 Usr: i would like to know that is cheap -ly priced
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and area?
+{'act': 'inform_type', 'parameters': {'pricerange': 'cheap', 'area': 'north'}}
+1 Usr: i would like a cheap restaurant in the north part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: that is all i needed . thank you .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0475.json', 'cur_info': {'pricerange': 'expensive', 'area': 'east'}, 'anything_else': True, 'cur_book': {'time': '12:00', 'day': 'thursday', 'people': '6'}, 'first_choice_match': 5}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'east'}}
+0 Usr: i would like to find a expensive restaurant in the east part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '6', 'day': 'thursday'}}
+1 Usr: i would like to book a table for 6 people on thursday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '6', 'time': '12:00', 'day': 'thursday'}}
+2 Usr: i would like to book a reservation for 6 people at 12:00 on thursday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thanks , that is all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SSNG0177.json', 'cur_info': {'name': 'curry prince'}, 'book_first_choice': {'people': '3', 'day': 'friday', 'time': '11:00'}, 'book_second_choice': {'time': '12:00'}, 'cur_book': {'people': '3', 'day': 'friday', 'time': '11:00'}, 'first_choice_match': 1}
+{'act': 'inform_type', 'parameters': {'name': 'curry prince'}}
+0 Usr: i would like to know that is called curry prince .
+True user act:  None
+using rule_policy
+0 Sys: curry prince is a indian restaurant on the east side of town. It's in the moderate price range. Is there anything else I can help you with?
+{'act': 'inform_type', 'parameters': {'name': 'curry prince'}}
+1 Usr: that is the restaurant named curry prince .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?
+{'act': 'make_reservation', 'parameters': {'people': '3', 'time': '11:00', 'day': 'friday'}}
+2 Usr: that is all i need a table for 3 people at 11:00 on friday .
+True user act:  None
+reward per turn -1
+None
+user turn status:  failed_dialog
+dialog_status: False
+reward: -1.1
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG01769.json', 'cur_info': {'food': 'european', 'pricerange': 'expensive'}, 'book_first_choice': {'time': '17:00', 'day': 'monday', 'people': '2'}, 'book_second_choice': {'time': '18:00'}, 'cur_book': {'time': '17:00', 'day': 'monday', 'people': '2'}, 'first_choice_match': 4}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive'}}
+0 Usr: i would like to find a expensive -ly priced restaurant .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and area?
+{'act': 'make_reservation', 'parameters': {'people': '2', 'time': '17:00', 'day': 'monday'}}
+1 Usr: i would like to book a table for 2 people at 17:00 on monday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+2 Usr: thank you for your help .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.9
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'WOZ20545.json', 'cur_info': {'food': 'british', 'area': 'west'}, 'reqt': ['address', 'phone'], 'first_choice_match': 3}
+{'act': 'inform_type', 'parameters': {'area': 'west'}}
+0 Usr: i would like a restaurant in the west part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food and pricerange?
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate', 'area': 'west'}}
+1 Usr: i would like a moderate restaurant in the west part of town .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+{'act': 'make_reservation', 'parameters': {}}
+2 Usr: no , i would like a reservation for the address , phone number , please .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: Could you please tell me how many people and what day and time you would like for the reservation?
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thank you . goodbye .
+True user act:  None
+reward per turn -1
+None
+user turn status:  failed_dialog
+dialog_status: False
+reward: -1.2
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG02107.json', 'cur_info': {'pricerange': 'expensive', 'area': 'west'}, 'cur_book': {'time': '13:00', 'day': 'saturday', 'people': '5'}, 'first_choice_match': 9}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'west'}}
+0 Usr: i would like to find a expensive restaurant in the west part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'day': 'saturday'}}
+1 Usr: i would like to book a table for 5 people on saturday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '5', 'time': '13:00', 'day': 'saturday'}}
+2 Usr: i would like to book a reservation for 5 people at 13:00 on saturday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thank you for your help .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SSNG0129.json', 'info_first_choice': {'food': 'vegetarian', 'pricerange': 'moderate', 'area': 'centre'}, 'info_second_choice': {'food': 'international'}, 'cur_info': {'food': 'vegetarian', 'pricerange': 'moderate', 'area': 'centre'}, 'book_first_choice': {'people': '6', 'day': 'wednesday', 'time': '20:00'}, 'book_second_choice': {'day': 'saturday'}, 'cur_book': {'people': '6', 'day': 'wednesday', 'time': '20:00'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'pricerange': 'moderate', 'area': 'centre'}}
+0 Usr: i would like to find a moderate restaurant in the centre part of town .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '6', 'day': 'wednesday'}}
+1 Usr: i would like to book a table for 6 people on wednesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '6', 'time': '20:00', 'day': 'saturday'}}
+2 Usr: i would like to book a reservation for 6 people at 20:00 on saturday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'goodbye', 'parameters': {}}
+3 Usr: thanks , that s all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+
+--------------------
+goal {'id': 'SNG0533.json', 'info_first_choice': {'food': 'jamaican', 'pricerange': 'expensive', 'area': 'west'}, 'info_second_choice': {'food': 'indian'}, 'cur_info': {'food': 'jamaican', 'pricerange': 'expensive', 'area': 'west'}, 'book_first_choice': {'time': '10:45', 'day': 'tuesday', 'people': '1'}, 'book_second_choice': {'time': '11:45'}, 'cur_book': {'time': '10:45', 'day': 'tuesday', 'people': '1'}, 'first_choice_match': 0}
+{'act': 'inform_type', 'parameters': {'pricerange': 'expensive', 'area': 'west'}}
+0 Usr: i would like to find a expensive restaurant in the west .
+True user act:  None
+using rule_policy
+0 Sys: Do you have a preference on the food?
+{'act': 'make_reservation', 'parameters': {'people': '1', 'day': 'tuesday'}}
+1 Usr: i would like to book a table for 1 people on tuesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+1 Sys: Could you please tell me what time you would like for the reservation?
+{'act': 'make_reservation', 'parameters': {'people': '1', 'day': 'tuesday'}}
+2 Usr: i would like to book a reservation for 1 people on tuesday .
+True user act:  None
+reward per turn -0.1
+None
+user turn status:  turn_success_for_sl
+using rule_policy
+2 Sys: I have booked the reservation for you. And you reference number is ABC.
+{'act': 'inform_type', 'parameters': {}}
+3 Usr: that s all i need .
+True user act:  None
+reward per turn 1
+None
+user turn status:  success_dialog
+dialog_status: True
+reward: 0.8
+--------------------
+
+
+
+

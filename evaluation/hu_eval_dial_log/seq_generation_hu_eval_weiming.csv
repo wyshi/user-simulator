@@ -1,0 +1,44 @@
+dial_20,goal,"{'id': 'SSNG0019.json', 'cur_info': {'food': 'thai', 'area': 'west'}, 'book_first_choice': {'people': '5', 'day': 'sunday', 'time': '12:00'}, 'book_second_choice': {'time': '13:00'}, 'cur_book': {'people': '5', 'day': 'sunday', 'time': '12:00'}, 'first_choice_match': 1}"
+dial_20,usr,i would like to find a restaurant in the west part of town .
+dial_20,sys,Do you have a preference on the food and pricerange?
+dial_20,usr,i would like to book a table for 5 people on sunday .
+dial_20,sys,tandoori palace is a indian restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_20,usr,that is the restaurant that serve thai food ?
+dial_20,sys,sala thong is a thai restaurant on the west side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_20,usr,that is the restaurant that serve thai food .
+dial_20,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_20,usr,"that is all , i need a table for 5 at 12:00 on sunday ."
+dial_21,goal,"{'id': 'SNG0676.json', 'cur_info': {'pricerange': 'cheap', 'area': 'centre'}, 'reqt': ['postcode', 'phone'], 'first_choice_match': 15}"
+dial_21,usr,i would like to find a cheap -ly priced restaurant in the centre part of town .
+dial_21,sys,Do you have a preference on the food?
+dial_21,usr,i would like to book a cheap restaurant in the centre .
+dial_21,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_21,usr,"no , i 'll need a reservation for 5 people at 13:15 on thur ."
+dial_21,sys,Could you please tell me what day you would like for the reservation?
+dial_21,usr,i will be it .
+dial_21,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_21,usr,"no , i would like to know . thank you ."
+dial_22,goal,"{'id': 'SNG01850.json', 'info_first_choice': {'food': 'vegetarian', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'turkish'}, 'cur_info': {'food': 'vegetarian', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'time': '15:15', 'day': 'saturday', 'people': '4'}, 'book_second_choice': {'day': 'monday'}, 'cur_book': {'time': '15:15', 'day': 'saturday', 'people': '4'}, 'first_choice_match': 0}"
+dial_22,usr,i would like to find a expensive restaurant in the centre .
+dial_22,sys,Do you have a preference on the food?
+dial_22,usr,i would like to book a table for 4 people on saturday .
+dial_22,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_22,usr,"that is the curry , please ."
+dial_22,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?
+dial_22,usr,that is all i needed . thank you for your help .
+dial_23,goal,"{'id': 'SNG02308.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'cur_book': {'time': '12:00', 'day': 'tuesday', 'people': '1'}, 'first_choice_match': 2}"
+dial_23,usr,i would like to find a cheap restaurant in the centre part of town .
+dial_23,sys,Do you have a preference on the food?
+dial_23,usr,i would like to book a table for 1 people at 12:00 on tuesday .
+dial_23,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_23,usr,"no , i will be a restaurant that is cheap ."
+dial_23,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_23,usr,that is all i needed . thank you for your help .
+dial_24,goal,"{'id': 'WOZ20454.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 3}"
+dial_24,usr,i would like a moderate -ly priced restaurant in the west part of town .
+dial_24,sys,Do you have a preference on the food?
+dial_24,usr,i would like moderate .
+dial_24,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_24,usr,that is the restaurant in the west part of town .
+dial_24,sys,saint johns chop house is a british restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_24,usr,"no , i would like to know . thank you ."

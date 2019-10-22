@@ -1,0 +1,48 @@
+INFO:root:cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : sys
+seed : 0
+vocab_size : 800
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+split : (9, 1, 1)
+model_path : ./models/multiwoz_sys911.pkl
+result_path : ./results/multiwoz_sys.csv
+vocab_path : ./vocab/vocab-multiwoz_sys.pkl
+data : /data/qkun/simulator/data/multiwoz-master/data/multi-woz/rest_sys.json
+entity : ./data/multi_woz/ontology.json
+db : /data/qkun/simulator/data/multiwoz-master/data/multi-woz/restaurant_db.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+degree_size : 5
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+INFO:root:Device: 4
+INFO:root:761 known embedding. old mean: 0.009919 new mean 0.039230, old std 1.000853 new std 0.688702
+INFO:root:loss:2.8314342498779297 pr_loss:0.14569324254989624 m_loss:2.6857409477233887 grad:1.240288694952437
+INFO:root:Traning time: 84.11237645149231
+INFO:root:avg training loss in epoch 0 sup:5.002923

@@ -1,0 +1,232 @@
+dial_10,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_10,usr,could you help me find an the americas restaurant please ?
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,any type of food will be fine as long as it is dontcare -ly priced and in the centre part of town .
+dial_10,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_10,usr,how about some italian food ?
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,"sure , can you try and book a table for wednesday at 18:15 ? there are 5 people ."
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_10,usr,"no , you have been very helpful . thank you . goodbye ."
+dial_11,goal,"{'id': 'SSNG0174.json', 'info_first_choice': {'food': 'light bites', 'pricerange': 'expensive', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'italian', 'pricerange': 'expensive', 'area': 'centre'}, 'book_first_choice': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'book_second_choice': {'time': '15:30'}, 'cur_book': {'people': '2', 'day': 'monday', 'time': '14:30'}, 'first_choice_match': 0}"
+dial_11,usr,"hi , i am looking for an expensive restaurant serving light bites food ."
+dial_11,sys,Do you have a preference on the area?
+dial_11,usr,"i do not care about the price range , and would just like 1 in the centre part of town ."
+dial_11,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_11,usr,how about italian food ?
+dial_11,sys,stazione restaurant and coffee bar is a italian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_11,usr,i will have 2 people and we would like 14:30 if possible . thanks .
+dial_11,sys,Could you please tell me what day you would like for the reservation?
+dial_11,usr,"monday , like the girl from the adam s family ."
+dial_11,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_11,usr,no that is everything that i need . thank you so much for your assistance and have a wonderful day .
+dial_12,goal,"{'id': 'SSNG0173.json', 'cur_info': {'name': 'chiquito restaurant bar'}, 'book_first_choice': {'people': '6', 'day': 'tuesday', 'time': '10:45'}, 'book_second_choice': {'time': '11:45'}, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '10:45'}, 'first_choice_match': 1}"
+dial_12,usr,i am looking for a particular restaurant called chiquito restaurant bar .
+dial_12,sys,chiquito restaurant bar is a mexican restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,there will be 6 of us and we would like to eat at 10:45 .
+dial_12,sys,Could you please tell me what day you would like for the reservation?
+dial_12,usr,"how about ! 000 instead , is that available tuesday ?"
+dial_12,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_12,usr,"no , that s all i need . thanks for the help ."
+dial_13,goal,"{'id': 'SNG0471.json', 'info_first_choice': {'food': 'eastern european', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'chinese', 'pricerange': 'expensive', 'area': 'south'}, 'cur_book': {'time': '11:45', 'day': 'saturday', 'people': '1'}, 'first_choice_match': 0}"
+dial_13,usr,can you help me find a eastern european restaurant please ?
+dial_13,sys,Do you have a preference on the area and pricerange?
+dial_13,usr,i am looking for a restaurant in the expensive price range in the south of town .
+dial_13,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_13,usr,how about chinese food ?
+dial_13,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,i am not interested in that choise . is there anything else within those categories ?
+dial_13,sys,peking restaurant is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,there will be 1 of us and we would like to eat at 11:45 .
+dial_13,sys,Could you please tell me what day you would like for the reservation?
+dial_13,usr,i do not care about the type of food . i need a reservation for saturday night .
+dial_13,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_13,usr,"that will be all , thank you ."
+dial_14,goal,"{'id': 'WOZ20313.json', 'cur_info': {'food': 'turkish'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 3}"
+dial_14,usr,can you help me find a turkish restaurant please ?
+dial_14,sys,Do you have a preference on the area and pricerange?
+dial_14,usr,"i really need it to be in the dontcare price range , there s really nothing in the city dontcare ? any cuisine will do ."
+dial_14,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,are there any other restaurant -s i can choose from ?
+dial_14,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_14,usr,"great , can i please have their address and postcode ?"
+dial_14,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?
+dial_14,usr,"no , thanks . that s it ."
+dial_10,goal,"{'id': 'SSNG0063.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'book_first_choice': {'people': '5', 'day': 'friday', 'time': '16:00'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'people': '5', 'day': 'friday', 'time': '16:00'}, 'first_choice_match': 2}"
+dial_10,usr,i am looking for a cheap restaurant which serves asian oriental food.
+dial_10,sys,Do you have a preference on the area?
+dial_10,usr,i would prefer the centre area please
+dial_10,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,are there any other options?
+dial_10,sys,j restaurant is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,can you help me to make a reservation for 5 people at 16:00 on friday?
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_10,usr,thank you for helping me! goodbye
+dial_11,goal,"{'id': 'WOZ20415.json', 'cur_info': {'food': 'turkish', 'area': 'centre'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 3}"
+dial_11,usr,i am looking for a restaurant which is in the centre area.
+dial_11,sys,Do you have a preference on the food and pricerange?
+dial_11,usr,i would like the turkish food. i don't care about the pricerange.
+dial_11,sys,meze bar is a turkish restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_11,usr,are there any other options?
+dial_11,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_11,usr,can i have the address?
+dial_11,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?
+dial_11,usr,thank you for helping me! goodbye
+dial_12,goal,"{'id': 'WOZ20103.json', 'cur_info': {'pricerange': 'moderate', 'area': 'south'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 2}"
+dial_12,usr,i am looking for a moderate restaurant in the south area.
+dial_12,sys,Do you have a preference on the food?
+dial_12,usr, i don't care about the food.
+dial_12,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,are there any other options?
+dial_12,sys,restaurant alimentum is a modern european restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,can i have the address and phone number?
+dial_12,sys,restaurant alimentum is located at 152 - 154 Hills Road . Its phone number is 01223413000 and the postcode is cb28pb . is there anything else i can help you with ?
+dial_12,usr,thank you for helping me! goodbye
+dial_13,goal,"{'id': 'SNG0596.json', 'cur_info': {'food': 'asian oriental', 'pricerange': 'cheap', 'area': 'centre'}, 'book_first_choice': {'time': '15:00', 'day': 'wednesday', 'people': '2'}, 'book_second_choice': {'time': '16:00'}, 'cur_book': {'time': '15:00', 'day': 'wednesday', 'people': '2'}, 'first_choice_match': 2}"
+dial_13,usr,i am looking for a cheap restaurant that serves asian oriental food in the centre area.
+dial_13,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_13,usr,are there any other options?
+dial_13,sys,j restaurant is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_13,usr,can you help me to make a reservation for 2 people on wednesday?
+dial_13,sys,Could you please tell me what time you would like for the reservation?
+dial_13,usr,can you help me to make a reservation on 15:00?
+dial_13,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_13,usr,thank you for helping me! goodbye
+dial_14,goal,"{'id': 'SNG1269.json', 'info_first_choice': {'food': 'cuban', 'area': 'centre'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'chinese', 'area': 'centre'}, 'reqt': ['phone', 'address', 'postcode'], 'first_choice_match': 0}"
+dial_14,usr,i am looking for a cuban restaurant in the centre area
+dial_14,sys,Do you have a preference on the pricerange?
+dial_14,usr, i don't care about the pricerange.
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,what about chinese food?
+dial_14,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_14,usr,"can i have the address , phone number and its postcode?"
+dial_14,sys,charlie chan is located at Regent Street City Centre . Its phone number is 01223361763 and the postcode is cb21db . is there anything else i can help you with ?
+dial_14,usr,thank you for helping me! goodbye
+dial_10,goal,"{'id': 'WOZ20389.json', 'cur_info': {'food': 'italian', 'pricerange': 'cheap'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_10,usr,i would like to know that is cheap -ly priced
+dial_10,sys,Do you have a preference on the food and area?
+dial_10,usr,i would like a cheap restaurant in the centre part of town .
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,i need a cheap price range ?
+dial_10,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,i need a reservation for 2 at 20:45 on thur .
+dial_10,sys,Could you please tell me what day you would like for the reservation?
+dial_10,usr,"no , i need a nice day ."
+dial_10,sys,Thank you for using the system. Have a good day and goodbye!
+dial_10,usr,i will be it .
+dial_10,sys,ask restaurant is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,"no , i would like to know . thank you ."
+dial_11,goal,"{'id': 'WOZ20595.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 3}"
+dial_11,usr,i would like a moderate -ly priced restaurant in the west part of town .
+dial_11,sys,Do you have a preference on the food?
+dial_11,usr,i would like moderate .
+dial_11,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_11,usr,"no , i would like to know . thank you ."
+dial_12,goal,"{'id': 'WOZ20062.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_12,usr,i would like to find a restaurant in the south part of town .
+dial_12,sys,Do you have a preference on the food and pricerange?
+dial_12,usr,"i would like to know the postcode , please ."
+dial_12,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,that is the restaurant that serve italian food ?
+dial_12,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,"no , i would like to know . thank you ."
+dial_13,goal,"{'id': 'WOZ20047.json', 'cur_info': {'food': 'french', 'area': 'north'}, 'reqt': ['phone'], 'first_choice_match': 1}"
+dial_13,usr,i would like a restaurant serving french food
+dial_13,sys,Do you have a preference on the area and pricerange?
+dial_13,usr,i would like a restaurant in the north part of town .
+dial_13,sys,restaurant two two is a french restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,that is the restaurant ?
+dial_13,sys,restaurant two two is located at 22 Chesterton Road Chesterton . Its phone number is 01223351880 and the postcode is cb43ax . is there anything else i can help you with ?
+dial_13,usr,"no , that s all i needed . thank you ."
+dial_14,goal,"{'id': 'SNG0530.json', 'info_first_choice': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'book_first_choice': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'first_choice_match': 0}"
+dial_14,usr,i would like to find a expensive restaurant in the south part of town .
+dial_14,sys,Do you have a preference on the food?
+dial_14,usr,i would like to book a table for 1 people on monday .
+dial_14,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,that is the restaurant to be in the expensive price range ?
+dial_14,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,that is the restaurant that serve mediterranean food ?
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,that s all i need a expensive restaurant in the south .
+dial_10,goal,"{'id': 'SNG0726.json', 'cur_info': {'food': 'indian', 'area': 'centre'}, 'cur_book': {'time': '17:30', 'day': 'sunday', 'people': '8'}, 'first_choice_match': 9}"
+dial_10,usr,i would like indian food .
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,centre of cambridge
+dial_10,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_10,usr,can you make a reservation for 8 people at 17:30 on sunday ?
+dial_10,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_10,usr,"no , that s all i need . thanks for the help ."
+dial_11,goal,"{'id': 'WOZ20636.json', 'cur_info': {'food': 'chinese', 'area': 'east'}, 'reqt': ['address'], 'first_choice_match': 1}"
+dial_11,usr,"i am in the mood for chinese food , please ."
+dial_11,sys,Do you have a preference on the area and pricerange?
+dial_11,usr,i want it to be in the east .
+dial_11,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_11,usr,can i have the address please ?
+dial_11,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?
+dial_11,usr,"no , and thank you for your help . goodbye ."
+dial_12,goal,"{'id': 'SNG1369.json', 'cur_info': {'food': 'european', 'pricerange': 'expensive'}, 'anything_else': True, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_12,usr,and that s a expensive restaurant ?
+dial_12,sys,Do you have a preference on the food and area?
+dial_12,usr,yes . i would like european food please .
+dial_12,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_12,usr,"sure , can you try and book a table for tuesday at 13:45 ? there are 6 people ."
+dial_12,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_12,usr,thank you so much for your time . that will be all .
+dial_13,goal,"{'id': 'WOZ20240.json', 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_13,usr,south of cambridge
+dial_13,sys,Do you have a preference on the food and pricerange?
+dial_13,usr,yes expensive restaurant please
+dial_13,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,i need the address and phone number .
+dial_13,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?
+dial_13,usr,that is all i needed . thank you .
+dial_14,goal,"{'id': 'SNG01513.json', 'info_first_choice': {'food': 'the americas', 'area': 'centre'}, 'info_second_choice': {'food': 'italian'}, 'cur_info': {'food': 'the americas', 'area': 'centre'}, 'cur_book': {'time': '18:15', 'day': 'wednesday', 'people': '5'}, 'first_choice_match': 0}"
+dial_14,usr,i am really in the mood for the americas food .
+dial_14,sys,Do you have a preference on the area and pricerange?
+dial_14,usr,"i do not care about the price range , and would just like 1 in the centre part of town ."
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,how about some italian food ?
+dial_14,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_14,usr,can you make a reservation for 5 people at 18:15 on wednesday ?
+dial_14,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_14,usr,"no , you have been very helpful . thank you . goodbye ."
+dial_10,goal,"{'id': 'WOZ20389.json', 'cur_info': {'food': 'italian', 'pricerange': 'cheap'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_10,usr,I am looking for a restaurant that serves italian food.
+dial_10,sys,Do you have a preference on the area and pricerange?
+dial_10,usr,I am looking for a cheap restaurant.
+dial_10,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_10,usr,can i have the address and phone number?
+dial_10,sys,pizza hut city centre is located at Regent Street City Centre . Its phone number is 01223323737 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_10,usr,Thank you for helping me! Goodbye
+dial_11,goal,"{'id': 'WOZ20595.json', 'cur_info': {'pricerange': 'moderate', 'area': 'west'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 3}"
+dial_11,usr,I am looking for a restaurant which is in the west area.
+dial_11,sys,Do you have a preference on the food and pricerange?
+dial_11,usr,I am looking for a moderate restaurant.
+dial_11,sys,prezzo is a italian restaurant on the west side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_11,usr,can i have the address and phone number?
+dial_11,sys,prezzo is located at 21 - 24 Northampton Road . Its phone number is 01799521260 and the postcode is cb30ad . is there anything else i can help you with ?
+dial_11,usr,Thank you for helping me! Goodbye
+dial_12,goal,"{'id': 'WOZ20062.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_12,usr,I am looking for a restaurant that serves italian food.
+dial_12,sys,Do you have a preference on the area and pricerange?
+dial_12,usr,i would prefer the south area please
+dial_12,sys,pizza hut cherry hinton is a italian restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_12,usr,can i have the postcode and phone number?
+dial_12,sys,pizza hut cherry hinton is located at G4 Cambridge Leisure Park Clifton Way Cherry Hinton . Its phone number is 01223323737 and the postcode is cb17dy . is there anything else i can help you with ?
+dial_12,usr,Thank you for helping me! Goodbye
+dial_13,goal,"{'id': 'WOZ20047.json', 'cur_info': {'food': 'french', 'area': 'north'}, 'reqt': ['phone'], 'first_choice_match': 1}"
+dial_13,usr,I am looking for a french restaurant in the north area
+dial_13,sys,Do you have a preference on the pricerange?
+dial_13,usr,i do not care.
+dial_13,sys,restaurant two two is a french restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_13,usr,what is its phone number ?
+dial_13,sys,restaurant two two is located at 22 Chesterton Road Chesterton . Its phone number is 01223351880 and the postcode is cb43ax . is there anything else i can help you with ?
+dial_13,usr,Thank you for helping me! Goodbye
+dial_14,goal,"{'id': 'SNG0530.json', 'info_first_choice': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive', 'area': 'south'}, 'book_first_choice': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'monday', 'people': '1'}, 'first_choice_match': 0}"
+dial_14,usr,I am looking for a expensive restaurant that serves mediterranean food in the south area.
+dial_14,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_14,usr,what about chinese food?
+dial_14,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_14,usr,can you help me to make a reservation for 1 people at 16:00 on monday?
+dial_14,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_14,usr,Thank you for helping me! Goodbye

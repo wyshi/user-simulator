@@ -1,0 +1,44 @@
+dial_5,goal,"{'id': 'WOZ20594.json', 'cur_info': {'food': 'asian oriental'}, 'reqt': ['address', 'postcode'], 'first_choice_match': 5}"
+dial_5,usr,i would like to find a restaurant serving asian oriental food .
+dial_5,sys,Do you have a preference on the area and pricerange?
+dial_5,usr,i am looking for a restaurant in the dontcare price range in the dontcare of town .
+dial_5,sys,dojo noodle bar is a asian oriental restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_5,usr,what is their address and postcode ?
+dial_5,sys,dojo noodle bar is located at 40210 Millers Yard City Centre . Its phone number is 01223363471 and the postcode is cb21rq . is there anything else i can help you with ?
+dial_5,usr,"no , thanks . that s it ."
+dial_6,goal,"{'id': 'WOZ20099.json', 'cur_info': {'food': 'korean', 'pricerange': 'expensive'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 1}"
+dial_6,usr,i am looking for a expensive -ly priced restaurant serving korean food .
+dial_6,sys,Do you have a preference on the area?
+dial_6,usr,dontcare of cambridge
+dial_6,sys,little seoul is a korean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_6,usr,"i would like the address of restaurant_name restaurant , please ."
+dial_6,sys,little seoul is located at 108 Regent Street City Centre . Its phone number is 01223308681 and the postcode is cb21dp . is there anything else i can help you with ?
+dial_6,usr,"thank you , goodbye"
+dial_7,goal,"{'id': 'WOZ20109.json', 'cur_info': {'food': 'mediterranean', 'pricerange': 'expensive'}, 'anything_else': True, 'reqt': ['address', 'phone'], 'first_choice_match': 2}"
+dial_7,usr,i would like a mediterranean restaurant that s in the expensive price range .
+dial_7,sys,Do you have a preference on the area?
+dial_7,usr,located in the dontcare side
+dial_7,sys,la mimosa is a mediterranean restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_7,usr,that will work . i would like the address and phone number to the restaurant_name restaurant please .
+dial_7,sys,la mimosa is located at Thompsons Lane Fen Ditton . Its phone number is 01223362525 and the postcode is cb58aq . is there anything else i can help you with ?
+dial_7,usr,thank you goodbye .
+dial_8,goal,"{'id': 'WOZ20636.json', 'cur_info': {'food': 'chinese', 'area': 'east'}, 'reqt': ['address'], 'first_choice_match': 1}"
+dial_8,usr,i would like a restaurant in the east part of town that serves chinese food .
+dial_8,sys,Do you have a preference on the pricerange?
+dial_8,usr,he restaurant should be in the dontcare price range .
+dial_8,sys,yu garden is a chinese restaurant on the east side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_8,usr,can i have the address please ?
+dial_8,sys,yu garden is located at 529 Newmarket Road Fen Ditton . Its phone number is 01223248882 and the postcode is cb58pa . is there anything else i can help you with ?
+dial_8,usr,"thank you , goodbye"
+dial_9,goal,"{'id': 'SNG1369.json', 'cur_info': {'food': 'european', 'pricerange': 'expensive'}, 'anything_else': True, 'cur_book': {'people': '6', 'day': 'tuesday', 'time': '13:45'}, 'first_choice_match': 4}"
+dial_9,usr,"hello , i am looking for a restaurant that serves european food ."
+dial_9,sys,Do you have a preference on the area and pricerange?
+dial_9,usr,any kind of food will be fine as long as it is expensive -ly priced and in the dontcare part of town .
+dial_9,sys,eraina is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_9,usr,is there anything else ? can i have the address and phone number please ?
+dial_9,sys,michaelhouse cafe is a european restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_9,usr,"yes , i would like a reservation for 6 please ."
+dial_9,sys,Could you please tell me what day and time you would like for the reservation?
+dial_9,usr,can we do tuesday at 13:45 ?
+dial_9,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_9,usr,"no , that s all i need . thanks for the help ."

@@ -1,0 +1,34 @@
+dial_0,goal,"{'id': 'SNG0711.json', 'info_first_choice': {'food': 'swedish', 'area': 'centre'}, 'info_second_choice': {'food': 'chinese'}, 'cur_info': {'food': 'swedish', 'area': 'centre'}, 'cur_book': {'time': '15:15', 'day': 'monday', 'people': '5'}, 'first_choice_match': 0}"
+dial_0,usr,i would like to find a place to eat in the centre .
+dial_0,sys,Do you have a preference on the food and pricerange?
+dial_0,usr,i would like to book a table for 5 on monday at 15:15 .
+dial_0,sys,pizza hut city centre is a italian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_0,usr,"no , that will be a good . thank you for your help ."
+dial_1,goal,"{'id': 'WOZ20672.json', 'cur_info': {'food': 'italian', 'area': 'south'}, 'reqt': ['phone', 'postcode'], 'first_choice_match': 2}"
+dial_1,usr,i would like to find a restaurant in the south part of town .
+dial_1,sys,Do you have a preference on the food and pricerange?
+dial_1,usr,"i would like to know the phone number , please ."
+dial_1,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_1,usr,"no , i would like to know . thank you ."
+dial_2,goal,"{'id': 'WOZ20162.json', 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'reqt': ['address', 'phone'], 'first_choice_match': 5}"
+dial_2,usr,i would like to know that is expensive -ly priced
+dial_2,sys,Do you have a preference on the food and area?
+dial_2,usr,i do not care .
+dial_2,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_2,usr,is there anything else ?
+dial_2,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_2,usr,"no , i would like a expensive restaurant ."
+dial_2,sys,taj tandoori is a indian restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_2,usr,that is all i needed . thank you .
+dial_3,goal,"{'id': 'WOZ20635.json', 'cur_info': {'food': 'north american'}, 'reqt': ['address', 'phone', 'postcode'], 'first_choice_match': 1}"
+dial_3,usr,i would like a restaurant that serves north american food .
+dial_3,sys,Do you have a preference on the area and pricerange?
+dial_3,usr,"i would like the address and phone number , and price range ."
+dial_3,sys,gourmet burger kitchen is a north american restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_3,usr,that is all i needed .
+dial_4,goal,"{'id': 'WOZ20104.json', 'cur_info': {'food': 'indian', 'area': 'north'}, 'reqt': ['address', 'phone'], 'first_choice_match': 2}"
+dial_4,usr,i would like a restaurant in the north part of town .
+dial_4,sys,Do you have a preference on the food and pricerange?
+dial_4,usr,i would like a cheap restaurant in the north part of town .
+dial_4,sys,da vinci pizzeria is a italian restaurant on the north side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_4,usr,that is all i needed . thank you .

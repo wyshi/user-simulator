@@ -1,0 +1,42 @@
+dial_20,goal,"{'id': 'SNG01456.json', 'cur_info': {'food': 'british', 'pricerange': 'moderate', 'area': 'centre'}, 'anything_else': True, 'reqt': ['postcode', 'address'], 'first_choice_match': 4}"
+dial_20,usr,any type of food will be fine as long as it s moderate -ly priced and in the centre part of town .
+dial_20,sys,Do you have a preference on the food?
+dial_20,usr,"yes , i would love british ."
+dial_20,sys,restaurant one seven is a british restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_20,usr,which of those 9 has the best rating -s ? can i please have the address and postcode .
+dial_20,sys,restaurant one seven is located at De Vere University Arms Regent Street City Centre . Its phone number is 01223337766 and the postcode is cb21ab . is there anything else i can help you with ?
+dial_20,usr,"nope , that s all i need , thank you very much !"
+dial_21,goal,"{'id': 'SNG0492.json', 'cur_info': {'food': 'chinese', 'pricerange': 'expensive', 'area': 'centre'}, 'reqt': ['phone', 'address'], 'first_choice_match': 4}"
+dial_21,usr,the restaurant should be in the centre and should serve expensive chinese food .
+dial_21,sys,ugly duckling is a chinese restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_21,usr,could i have the address and phone number please ?
+dial_21,sys,ugly duckling is located at 12 St. Johns Street City Centre . Its phone number is 012323323737 and the postcode is cb21tw . is there anything else i can help you with ?
+dial_21,usr,"no , thank you"
+dial_22,goal,"{'id': 'WOZ20367.json', 'cur_info': {'food': 'chinese', 'pricerange': 'moderate'}, 'anything_else': True, 'reqt': ['phone'], 'first_choice_match': 4}"
+dial_22,usr,i would like chinese food .
+dial_22,sys,Do you have a preference on the area and pricerange?
+dial_22,usr,"i would like something in the moderate price range , please ."
+dial_22,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_22,usr,may i get the restaurant phone number please ?
+dial_22,sys,jinling noodle bar is located at 11 Peas Hill City Centre . Its phone number is 01223566188 and the postcode is cb23pp . is there anything else i can help you with ?
+dial_22,usr,thank you and goodbye .
+dial_23,goal,"{'id': 'SNG02321.json', 'info_first_choice': {'food': 'barbeque', 'pricerange': 'moderate'}, 'info_second_choice': {'food': 'gastropub'}, 'cur_info': {'food': 'barbeque', 'pricerange': 'moderate'}, 'book_first_choice': {'time': '16:00', 'day': 'thursday', 'people': '5'}, 'book_second_choice': {'time': '17:00'}, 'cur_book': {'time': '16:00', 'day': 'thursday', 'people': '5'}, 'first_choice_match': 0}"
+dial_23,usr,i do not care about the area as long as it is barbeque food and moderate .
+dial_23,sys,"I am sorry, but there are no restaurants matching your request. Is there anything else I can help you with?"
+dial_23,usr,how about gastropub food ?
+dial_23,sys,the cow pizza kitchen and bar is a gastropub restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_23,usr,"yes , please . for 5 people at 16:00 on thursday ."
+dial_23,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_23,usr,ok i would like to book for 5 people at 16:00 on thursday please
+dial_23,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_23,usr,"thank you for your help , good day ."
+dial_24,goal,"{'id': 'WOZ20465.json', 'cur_info': {'food': 'chinese', 'pricerange': 'moderate'}, 'reqt': ['address', 'phone'], 'first_choice_match': 4}"
+dial_24,usr,"as long as they serve chinese cuisine and moderate -ly priced , that sounds great . thanks for your help ."
+dial_24,sys,Thank you for using the system. Have a good day and goodbye!
+dial_24,usr,it should serve chinese food in the moderate price range .
+dial_24,sys,Do you have a preference on the area?
+dial_24,usr,i do not care.
+dial_24,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_24,usr,what is the address and phone number ?
+dial_24,sys,jinling noodle bar is located at 11 Peas Hill City Centre . Its phone number is 01223566188 and the postcode is cb23pp . is there anything else i can help you with ?
+dial_24,usr,"nope , that s all i need , thank you very much !"

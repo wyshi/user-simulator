@@ -1,0 +1,46 @@
+dial_5,goal,"{'id': 'WOZ20382.json', 'cur_info': {'food': 'spanish'}, 'reqt': ['phone'], 'first_choice_match': 2}"
+dial_5,usr,i am looking for 1 that serves spanish food .
+dial_5,sys,Do you have a preference on the area and pricerange?
+dial_5,usr,i do not care.
+dial_5,sys,la tasca is a spanish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_5,usr,what is the phone number ?
+dial_5,sys,la tasca is located at 14 -16 Bridge Street . Its phone number is 01223464630 and the postcode is cb21uf . is there anything else i can help you with ?
+dial_5,usr,"thank you , goodbye"
+dial_6,goal,"{'id': 'SNG0599.json', 'cur_info': {'name': 'kohinoor'}, 'book_first_choice': {'time': '12:45', 'day': 'friday', 'people': '1'}, 'book_second_choice': {'time': '13:45'}, 'cur_book': {'time': '12:45', 'day': 'friday', 'people': '1'}, 'first_choice_match': 1}"
+dial_6,usr,kohinoor sounds good . thanks .
+dial_6,sys,kohinoor is a indian restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_6,usr,"yes , and can you book a table for 1 at 12:45 on friday , please ."
+dial_6,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_6,usr,"yes please , 1 people at 12:45 on friday . can you please provide me with the reference number ?"
+dial_6,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_6,usr,"no , that s all i need . thanks for the help ."
+dial_7,goal,"{'id': 'SNG0470.json', 'cur_info': {'food': 'indian', 'pricerange': 'expensive', 'area': 'centre'}, 'reqt': ['phone', 'postcode', 'address'], 'first_choice_match': 6}"
+dial_7,usr,in the expensive price range .
+dial_7,sys,Do you have a preference on the food and area?
+dial_7,usr,somewhere in the centre . i am looking for some indian food .
+dial_7,sys,curry garden is a indian restaurant on the centre side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_7,usr,"what is the address , phone number , and postcode ?"
+dial_7,sys,curry garden is located at 106 Regent Street City Centre . Its phone number is 01223302330 and the postcode is cb21dp . is there anything else i can help you with ?
+dial_7,usr,"no , thank you . that'll do it ."
+dial_8,goal,"{'id': 'SNG01728.json', 'cur_info': {'food': 'turkish', 'pricerange': 'moderate', 'area': 'centre'}, 'anything_else': True, 'reqt': ['address'], 'first_choice_match': 2}"
+dial_8,usr,does not really matter . is there 1 in the centre ?
+dial_8,sys,Do you have a preference on the food and pricerange?
+dial_8,usr,the restaurant should serve turkish food and should be in the moderate price range .
+dial_8,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_8,usr,can i have the address please
+dial_8,sys,anatolia is located at 30 Bridge Street City Centre . Its phone number is 01223362372 and the postcode is cb21uj . is there anything else i can help you with ?
+dial_8,usr,"no , and thank you for your help . goodbye ."
+dial_9,goal,"{'id': 'SSNG0077.json', 'cur_info': {'food': 'chinese', 'area': 'centre'}, 'anything_else': True, 'book_first_choice': {'people': '3', 'day': 'monday', 'time': '13:45'}, 'book_second_choice': {'day': 'wednesday'}, 'cur_book': {'people': '3', 'day': 'monday', 'time': '13:45'}, 'first_choice_match': 10}"
+dial_9,usr,i am looking for 1 that serves chinese food .
+dial_9,sys,Do you have a preference on the area and pricerange?
+dial_9,usr,i am looking for chinese food in the centre part of town .
+dial_9,sys,charlie chan is a chinese restaurant on the centre side of town. It's in the cheap price range. Is there anything else I can help you with?
+dial_9,usr,"yes , that will be fine . could you make a reservation for 3 at 13:45 on monday ?"
+dial_9,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_9,usr,that sounds great . i would like a table for 3 people at 13:45 on monday .
+dial_9,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_9,usr,that sounds great . i would like a table for 3 people at 13:45 on monday .
+dial_9,sys,"I am sorry, but the restaurant is fully booked at that time. Is there anything else I can help you with?"
+dial_9,usr,"yes , i would like to reserve a table for 3 at 13:45 on monday please ."
+dial_9,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_9,usr,"great , thanks a lot !"

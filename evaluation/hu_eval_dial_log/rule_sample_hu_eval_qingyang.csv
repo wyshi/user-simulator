@@ -1,0 +1,46 @@
+dial_15,goal,"{'id': 'WOZ20367.json', 'cur_info': {'food': 'chinese', 'pricerange': 'moderate'}, 'anything_else': True, 'reqt': ['phone'], 'first_choice_match': 4}"
+dial_15,usr,i want a moderate -ly priced restaurant please .
+dial_15,sys,Do you have a preference on the food and area?
+dial_15,usr,i am looking for an chinese restaurant in the dontcare .
+dial_15,sys,jinling noodle bar is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,is there anything else ? i also want its phone number .
+dial_15,sys,lan hong house is a chinese restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_15,usr,what is the phone number ?
+dial_15,sys,lan hong house is located at 12 Norfolk Street City Centre . Its phone number is 01223350420 and the postcode is cb12lf . is there anything else i can help you with ?
+dial_15,usr,that is all i needed . thank you .
+dial_16,goal,"{'id': 'SNG0528.json', 'cur_info': {'food': 'modern european', 'pricerange': 'moderate'}, 'cur_book': {'time': '19:15', 'day': 'saturday', 'people': '6'}, 'first_choice_match': 3}"
+dial_16,usr,is there a moderate modern european restaurant in town ?
+dial_16,sys,Do you have a preference on the area?
+dial_16,usr,i want it to be in the dontcare .
+dial_16,sys,restaurant alimentum is a modern european restaurant on the south side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_16,usr,"yes , please . for 6 people at 19:15 on saturday ."
+dial_16,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_16,usr,"no , that s all i need . thanks for the help ."
+dial_17,goal,"{'id': 'SSNG0179.json', 'cur_info': {'food': 'turkish', 'pricerange': 'moderate'}, 'book_first_choice': {'people': '7', 'day': 'tuesday', 'time': '12:30'}, 'book_second_choice': {'day': 'thursday'}, 'cur_book': {'people': '7', 'day': 'tuesday', 'time': '12:30'}, 'first_choice_match': 2}"
+dial_17,usr,an moderate restaurant please
+dial_17,sys,Do you have a preference on the food and area?
+dial_17,usr,i would like some good turkish food . near the dontcare of town would be great .
+dial_17,sys,anatolia is a turkish restaurant on the centre side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_17,usr,on tuesday please
+dial_17,sys,Could you please tell me how many people and what time you would like for the reservation?
+dial_17,usr,i would like a reservation at 12:30 for a party of 7 .
+dial_17,sys,I have booked the reservation for you. And you reference number is ABC.
+dial_17,usr,"wonderful , thanks . that s all i need ."
+dial_18,goal,"{'id': 'WOZ20380.json', 'cur_info': {'pricerange': 'expensive', 'area': 'south'}, 'reqt': ['address', 'phone', 'postcode'], 'first_choice_match': 5}"
+dial_18,usr,please find me a restaurant in the south part of town .
+dial_18,sys,Do you have a preference on the food and pricerange?
+dial_18,usr,"as long as they serve dontcare cuisine and expensive -ly priced , that sounds great . thanks for your help ."
+dial_18,sys,the good luck chinese food takeaway is a chinese restaurant on the south side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_18,usr,"what is the address , phone number , and postcode ?"
+dial_18,sys,the good luck chinese food takeaway is located at 82 Cherry Hinton Road Cherry Hinton . Its phone number is 01223244149 and the postcode is cb17ag . is there anything else i can help you with ?
+dial_18,usr,thank you and goodbye .
+dial_19,goal,"{'id': 'WOZ20387.json', 'cur_info': {'food': 'chinese', 'area': 'north'}, 'reqt': ['phone'], 'first_choice_match': 3}"
+dial_19,usr,"i am interested in a restaurant located in the north part of town that specializes in chinese food , please ."
+dial_19,sys,Do you have a preference on the pricerange?
+dial_19,usr,i need 1 in the dontcare price range .
+dial_19,sys,hakka is a chinese restaurant on the north side of town. It's in the expensive price range. Is there anything else I can help you with?
+dial_19,usr,is there anything else ? give me the address and postcode please .
+dial_19,sys,golden wok is a chinese restaurant on the north side of town. It's in the moderate price range. Is there anything else I can help you with?
+dial_19,usr,can you please give me that phone number ?
+dial_19,sys,golden wok is located at 191 Histon Road Chesterton . Its phone number is 01223350688 and the postcode is cb43hl . is there anything else i can help you with ?
+dial_19,usr,"no , thank you . that'll do it ."

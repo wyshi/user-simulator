@@ -1,0 +1,94 @@
+INFO:root:cuda_device : 6
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : camrest
+seed : 0
+vocab_size : 800
+embedding_size : 50
+hidden_size : 50
+split : (3, 1, 1)
+lr : 0.003
+lr_decay : 0.5
+vocab_path : ./vocab/vocab-camrest.pkl
+data : ./data/CamRest676/CamRest676.json
+entity : ./data/CamRest676/CamRestOTGY.json
+db : ./data/CamRest676/CamRestDB.json
+model_path : ./models/camrest.pkl
+result_path : ./results/camrest-rl.csv
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+z_length : 8
+degree_size : 5
+layer_num : 1
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+cuda : False
+spv_proportion : 100
+max_ts : 40
+early_stop_count : 3
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+INFO:root:726 known embedding. old mean: 0.009919 new mean 0.046854, old std 1.000853 new std 0.690519
+INFO:root:Traning time: 52.95613694190979
+INFO:root:avg training loss in epoch 0 sup:5.705542
+INFO:root:validation loss in epoch 0 sup:5.423101 unsup:0.000000
+INFO:root:time for epoch 0: 72.334792
+INFO:root:Traning time: 100.36905074119568
+INFO:root:avg training loss in epoch 1 sup:3.379984
+INFO:root:validation loss in epoch 1 sup:4.287631 unsup:0.000000
+INFO:root:time for epoch 1: 66.757783
+INFO:root:Traning time: 153.39160323143005
+INFO:root:avg training loss in epoch 2 sup:2.559019
+INFO:root:validation loss in epoch 2 sup:3.617844 unsup:0.000000
+INFO:root:time for epoch 2: 73.858142
+INFO:root:Traning time: 209.45840334892273
+INFO:root:avg training loss in epoch 3 sup:2.069742
+INFO:root:validation loss in epoch 3 sup:3.311647 unsup:0.000000
+INFO:root:time for epoch 3: 76.623738
+INFO:root:Traning time: 261.37139105796814
+INFO:root:avg training loss in epoch 4 sup:1.789326
+INFO:root:validation loss in epoch 4 sup:3.177101 unsup:0.000000
+INFO:root:time for epoch 4: 71.575487
+INFO:root:Traning time: 314.9513683319092
+INFO:root:avg training loss in epoch 5 sup:1.610138
+INFO:root:validation loss in epoch 5 sup:3.125573 unsup:0.000000
+INFO:root:time for epoch 5: 73.614647
+INFO:root:Traning time: 368.4437153339386
+INFO:root:avg training loss in epoch 6 sup:1.468719
+INFO:root:validation loss in epoch 6 sup:3.055651 unsup:0.000000
+INFO:root:time for epoch 6: 73.258665
+INFO:root:Traning time: 420.9953863620758
+INFO:root:avg training loss in epoch 7 sup:1.378946
+INFO:root:validation loss in epoch 7 sup:3.045551 unsup:0.000000
+INFO:root:time for epoch 7: 72.309771
+INFO:root:Traning time: 473.0344111919403
+INFO:root:avg training loss in epoch 8 sup:1.282691
+INFO:root:validation loss in epoch 8 sup:3.087763 unsup:0.000000
+INFO:root:time for epoch 8: 71.577881
+INFO:root:early stop countdown 2, learning rate 0.001500
+INFO:root:Traning time: 524.9068043231964
+INFO:root:avg training loss in epoch 9 sup:1.216065
+INFO:root:validation loss in epoch 9 sup:2.966062 unsup:0.000000
+INFO:root:time for epoch 9: 71.566615
+INFO:root:Traning time: 577.4173381328583
+INFO:root:avg training loss in epoch 10 sup:1.134441
+INFO:root:validation loss in epoch 10 sup:3.034472 unsup:0.000000
+INFO:root:time for epoch 10: 72.235450
+INFO:root:early stop countdown 1, learning rate 0.000750
+INFO:root:Traning time: 631.8104102611542
+INFO:root:avg training loss in epoch 11 sup:1.094583
+INFO:root:validation loss in epoch 11 sup:2.985905 unsup:0.000000
+INFO:root:time for epoch 11: 74.551017
