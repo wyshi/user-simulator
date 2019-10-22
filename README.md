@@ -1,5 +1,16 @@
 # user-simulator
-Codebase for 
+Codebase for [How to Build User Simulators to Train RL-based Dialog Systems](https://arxiv.org/pdf/1909.01388.pdf), published as a long paper in EMNLP 2019. The sequicity part is developed based on [Sequicity: Simplifying Task-oriented Dialogue Systems with Single Sequence-to-Sequence Architectures](https://github.com/WING-NUS/sequicity).
+
+
+If you use the datasets or any source codes included in this repository in your
+work, please cite the following paper. The bibtex is listed below:
+
+    @article{shi2019build,
+      title={How to Build User Simulators to Train RL-based Dialog Systems},
+      author={Shi, Weiyan and Qian, Kun and Wang, Xuewei and Yu, Zhou},
+      journal={arXiv preprint arXiv:1909.01388},
+      year={2019}
+    }
 
 # Agenda-based simulator
 under simulator/
