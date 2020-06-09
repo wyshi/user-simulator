@@ -1,0 +1,576 @@
+utt,y
+thanks for you help . i only need the restaurant reservation . goodbye .,2
+[value_day] at [value_time] for [value_count] people .,5
+"thank you , i need a reservation for [value_count] people at [value_time] on [value_day] .",5
+"wait , i might want to change my mind about that restaurant . are there any that serve food from corsica ?",3
+i would really like to find someplace serving [value_food] in the [value_area] of town .,3
+"no , that is all thanks . goodbye .",2
+thanks a lot that would be all .,2
+"no , i do not need a reservation . just the phone number and post code please .",5
+great ! thanks so much .,2
+i am looking for ian hong house,3
+that would be great . can you book a table for [value_count] at [value_time] on [value_day] ?,5
+"great , thanks for all your help .",2
+"nope , that covers all my needs . thanks .",2
+"great , that s all for now . thanks !",2
+how about [value_food] food ?,4
+i am looking for a [value_pricerange] place to dine that serves danish food .,3
+thanks . that is all i need today .,2
+nothing else . thanks for your great help . goodbye .,2
+how about for [value_time] ?,5
+"thanks , i just need the phone number so i can call them .",2
+i am looking for a place to dine . the restaurant should be in the [value_pricerange] price range and should serve [value_food] food,1
+thank you so much for all of your help . have a great day .,2
+thank you for your help,2
+i am looking for a restaurant . the restaurant should be in the [value_area] and should be in the [value_pricerange] price range,1
+am asking for the reference number please,1
+i want to eat some [value_area] american food,3
+"never mind . i'll book the table myself . may i have the address and postcode ? and the phone number , while you are at it .",5
+"the area does not matter . can you make a recommendation , please ?",3
+"thanks , that is all i need today .",2
+"yes , please . there will be [value_count] of us for [value_day] at [value_time] .",5
+"thanks , that s all . goodbye .",2
+"sure , let s try modern english food .",3
+"thanks , goodbye .",2
+"yes , i will need the reference number .",1
+thanks for you help . that is all i need for now .,2
+i am looking for a place to dine . the restaurant should be in the [value_area] and should be in the [value_pricerange] price range,1
+no i am good to go but thank you,2
+"no , i just need the address .",1
+"nope , as i said , that s all i need .",3
+"yes , i would like to be booked for a table for [value_count] on [value_time] on a [value_day] , and could i also get the reference number ?",5
+i am looking for a restaurant . the restaurant should be in the [value_area] and should be in the [value_pricerange] price range,1
+it should be in the [value_pricerange] price range .,3
+great ! thank you very much !,2
+i would like to find a restaurant that serves [value_food] food in the [value_area] please .,3
+"yes , i would prefer an [value_pricerange] [value_count] please .",3
+"sure please , i need a table at [value_time] for [value_count] person on [value_day]",5
+"no , that s all . thank you !",2
+"um , i think i'll just take the postcode and the name for now thanks .",2
+can i get the reference number for that reservation ?,5
+"never mind , i am all set . i even have the reference number for my reservation . thanks for your help goodbye !",2
+nope . got everything i need .,3
+absolutely ! thank you !,2
+no thank you . that is great .,2
+have a good day !,2
+i would like to just find something [value_pricerange] and get the postcode please .,1
+i am looking for a [value_pricerange] restaurant in the [value_area] of town .,3
+i need the town [value_area] .,3
+"certainly , sounds good . could you just get me the address and postcode ?",1
+"no thank you , that is all i needed !",2
+could i have their phone number and address ?,1
+thank you so much . that is all i will be needing today . have a nice evening .,2
+"thank you , that is all i will need today .",2
+i want to find a [value_pricerange] -ly priced restaurant in the [value_area] .,3
+what is the price range ?,1
+great can i reserve that for [value_count] person at [value_time] on [value_day] please ?,5
+hi i need to find a place to dine serving [value_food] food in the [value_pricerange] price range .,3
+"no , that s it for today . goodbye .",2
+"hi ! i am looking for a [value_pricerange] restaurant in the [value_area] , any type !",3
+yes please . could you give me a table for [value_day] at [value_time] for [value_count] people please .,5
+i am looking for a restaurant .,3
+i am looking for [value_pricerange] corsica food .,3
+"no , i do not need anything else at the moment .",0
+what is the reference number for my booking ?,5
+not at this time . thank you for everything .,2
+can you try for [value_time] instead ?,5
+"no , i am all set . thanks ! bye !",2
+can i book [restaurant_name] for [value_count] people at [value_time] on [value_day] please ?,5
+thanks ! that s all i needed .,2
+i would . can you book me a table for [value_count] on [value_day] at [value_time] ?,5
+that s all i needed . thank you !,2
+i would prefer something near the [value_area] please .,3
+yes please . can you book it for [value_day] at [value_time] ? there will be [value_count] of us .,5
+i would like [value_pricerange] price range please .,3
+will you check [value_time] ?,5
+how about [value_count] that serves [value_food] food ?,6
+great thank you for all your help .,2
+is there any morrocan food ?,3
+"okay , i want to book a table for [value_count] people at [value_time] on [value_day] .",5
+is that a [value_food] restaurant ?,1
+is it located in the [value_area] of town ?,1
+"ok , how about [value_food] food ?",4
+no thanks . that s all i needed to know .,2
+no thank you . have a great day !,2
+"i would like [value_food] food , please .",3
+that s fine . can you try booking it ?,5
+that s it for now . thanks .,2
+"hi , can you look up [restaurant_name] for me ?",3
+[value_food] would be good as long as it s in the center . i need to book a table for [value_count] people at [value_time] on a [value_day] .,5
+i want a restaurant in the town [value_area] . can you help me ?,3
+i am looking for a [value_pricerange] -ly priced restaurant . i am looking to book for just myself at [value_time] on [value_day] .,5
+"no , that s all . thanks .",2
+i could eat at [value_time] . i hope that is available .,5
+i would like a [value_pricerange] -ly priced [value_food] food please .,3
+[value_time] on [value_day] . there will be [value_count] of us .,5
+"no , the restaurant should serve [value_food] food .",1
+i need an [value_pricerange] restaurant in the [value_area] .,3
+thanks a bunch ! that s all i needed . take care and have a good day .,2
+let s try an hour earlier .,3
+i would like a [value_pricerange] restaurant in the [value_area] !,3
+that sounds good . please give me more information .,1
+"sorry , actually i need an [value_pricerange] restaurant in the [value_area] . the first on your list would be great .",3
+i am looking for an [value_pricerange] restaurant in the [value_area],3
+"okay , i will . thanks again . bye !",2
+"ok , i'll try for a little earlier , how about [value_time] ?",5
+i am looking for [value_pricerange] eats in the [value_area] .,3
+"no , that is all i needed , thank you so much . bye .",2
+thank you so much . that was all i needed today . have a good afternoon .,2
+hi . i am hoping you can help me find a [value_pricerange] [value_food] restaurant .,3
+i am sorry . i do not actually need to reserve at this time . i just need the phone number and address if you could provide that .,5
+no . that would be it . thanks a lot . goodbye .,2
+i am wanting to find a restaurant . the location i want is the [value_area] and i want something in the [value_pricerange] price range . can you help me ?,3
+"yes , i would like a reservation for [value_count] please .",5
+"thank you very much , that is all for now . goodbye .",2
+is there anything an hour earlier or an hour later on that same day ?,0
+that will not be necessary . thank you for the help !,2
+no that s all i needed . thank you !,2
+"no , that s all i needed . thanks so much .",2
+i want to eat fine [value_food] food .,3
+i like [value_pricerange] restaurant -s and would prefer something in the city [value_area] .,3
+"yes , that works . please book a table for [value_count] people at [value_time] on [value_day] . can you do that ?",5
+"no , that is all i need . thank you for your help !",2
+i am looking for an [value_pricerange] [value_food] restaurant in the [value_area] .,3
+"hi , i am looking for an [value_pricerange] restaurant .",3
+"yes , please . for a party of [value_count] on [value_day] , at [value_time] .",5
+sure ! can you book a table for [value_count] people at [value_time] on [value_day] ?,5
+how about at [value_time] at same time ?,0
+"yes , could you book a table for [value_count] people at [value_time] on [value_day] .",5
+thanks for your help .,2
+"yes , i would like eat [value_food] food , where i can eat search chicken tikka masala .",3
+may i have the reference number please ?,1
+"thank you so much , that is all i needed !",2
+"no that will be all , thank you .",2
+are you able to help me find an [value_pricerange] [value_food] restaurant in [value_place] please ?,3
+i'll pass on the pizza hut . yuck . let s go with frankie & benny s . can i get a table for [value_count] on [value_day] at [value_time] please ?,5
+yes i need the reference number please .,1
+excellent . that is everything !,3
+[restaurant_name] sounds good . thank you !,3
+how about [value_time] on [value_day] ? and may i have a reference number ?,5
+are there any that have [value_food] food ?,3
+could you book me a table for [value_count] on [value_day] at [value_time] ?,5
+are there any [value_pricerange] cantonese restaurant -s in town ?,3
+what about [value_food] restaurant -s ?,3
+"no that was all i needed , thanks so much , goodbye !",2
+"hi , i would like to find an [value_pricerange] restaurant in the [value_area] of [value_place] please .",3
+i am looking to eat some [value_food] food .,3
+"no thank you , i do not need a reservation .",2
+"can i have their phone number , postcode and address please ?",1
+is there an [value_pricerange] [value_food] restaurant in town .,3
+is it in the [value_area] of town ?,1
+thank you for your help . have a great day !,2
+that should do it for today . thanks a lot . have a good day .,2
+can you help me find and [value_pricerange] [value_food] restaurant ?,3
+"darn , i was really hoping to find a [value_pricerange] austrian restaurant . would you mind checking [value_count] more time ?",3
+that will be all . thank you so much .,2
+"good morning , are there any [value_pricerange] restaurant -s in the city [value_area] ?",3
+"no , can you choose [value_count] for me and provide me with the postcode .",1
+sounds great . can you book a table for [value_count] at [value_time] on [value_day] please ? i will need a reference number too .,5
+"no , thanks . you've been a great help !",2
+could you book me a table for [value_count] at [value_time] on [value_day] evening ?,5
+okay thank you . can you tell me their hour -s of operation ?,2
+"hmm , how about [value_food] ? [value_pricerange] .",3
+yes . i need a reservation for [value_count] people please .,5
+i do not have a price range but i would like it to be in the town [value_area] for [value_count] people at [value_time] .,5
+thanks for the help that s all i need . have a great day . goodbye .,2
+i am looking for a particular restaurant . its name is called [restaurant_name] .,3
+"no , that is all i needed thanks . bye .",2
+thanks so much . that s all i needed . goodbye .,2
+"yes , surprise me please ! it s for [value_count] people at [value_time] on [value_day] .",5
+"no , thank you so much ! have a nice day",2
+no that s it . thanks for your help !,2
+how about an [value_food] restaurant ?,3
+can you book a table for [value_count] people at [value_time] on [value_day] ?,5
+no thank you ! that is all !,2
+"hi , i am looking for a [value_food] restaurant on the [value_area] side of town .",3
+"thanks , could you book a table for [value_count] people on [value_day] at [value_time] ?",5
+i am looking for a place to dine . the restaurant should be in the [value_pricerange] price range and should be in the [value_area] .,1
+"i am not ready to book yet . can you just give me the phone number , postcode , and address ?",5
+any restaurant -s in the [value_area] area with an [value_pricerange] price range ?,3
+no that is it . thank you .,2
+"any other place in the [value_area] , same [value_pricerange] price range .",0
+i am looking for a [value_pricerange] place to dine .,3
+"no , that s perfect . thank you so much .",2
+sorry yes the restaurant named [restaurant_name] . i would like to book a reservation for [value_day] [value_time] for [value_count] person .,5
+can you book me a table for [value_count] at the [restaurant_name] ?,5
+i need a booking for [value_count] people at [value_time] on [value_day] .,5
+how about a different restaurant in the area and price range ?,3
+i want to find a place to eat that serves [value_food] food in the [value_area] of town .,3
+can you find me something along the same price and in the same area please ?,0
+"yes , try that please .",3
+"yes , is there another restaurant serving [value_food] food that you can recommend ?",0
+"hi , i am looking for a restaurant in the [value_area] that serves tuscan food .",3
+"yes thank you , i would like to make reservations at the hotspot at [value_count] for [value_count] people at [value_time] this [value_day] .",5
+"yes , that would be fine , thanks .",2
+"thank you , that was all i needed .",2
+can you give me your recommendation please .,3
+i did not say to book [restaurant_name] . what type of food does it serve ?,5
+yes . i want to book a table for [value_count] people at [value_time] on [value_day] .,5
+"hello , could you please find me a place to dine ?",3
+"yes , can you lookup the [restaurant_name] for me .",3
+yes in the same area and price range . i'll need a reference number too .,0
+i would like the restaurant to be in the [value_area] .,1
+another in the same area and price .,0
+hi ! can you help me find a particular restaurant ?,3
+can you check again ? the only thing i am interested in is a [value_pricerange] -ly priced cuban restaurant in the [value_area] .,3
+"no , thank you . you have been very helpful . have a great day .",2
+hi ! i need to find a [value_pricerange] restaurant in the [value_area] .,3
+"any place i can get in to will be fine , in that are .",3
+which [value_count] would you recommend ?,7
+"i am looking for a nice , [value_pricerange] restaurant on the [value_area] side of town .",3
+perfect ! thank you !,2
+"yes , i would prefer mid range please .",3
+are there any other [value_pricerange] restaurant -s in the area ?,0
+could you recommend an [value_pricerange] restaurant in the city [value_area] ?,3
+"hello , i am looking for an [value_pricerange] [value_food] restaurant . what can you recommend ?",1
+no preferred area but i need to know if i can book a table for [value_day] .,5
+great thank you for all your help .,2
+"yes , please . for a party of [value_count] at [value_time] on [value_day] .",5
+i am looking for an inexpensive [value_food] restaurant .,3
+yes can i have the address and phone number please ?,1
+"thank you , you too",2
+is [value_count] of them [value_pricerange] ?,7
+do they have booking available for [value_count] people at [value_time] on [value_day] ?,5
+i do not care what type of food they serve . what would you recommend ?,1
+that sounds good . can you book it for [value_day] at [value_time] for [value_count] people ?,5
+"yes , australian , please .",3
+can you please help me find a [value_pricerange] [value_food] restaurant ?,3
+"yes , i would be interested in the [value_food] food fare that is available . just a nice local restaurant with good [value_pricerange] food would be nice . thank you .",3
+nope that s it ! thanks so much !,2
+"that sounds great . could you book it for me please , and give me the reference number",5
+"sure , can you find me something close by that has comparable price -s ? and can i get the reference number please ?",1
+i am looking for a restaurant with [value_food] food .,3
+yes please try the [restaurant_name] .,3
+okay let s try that place .,3
+can you help me find a restaurant by the name of [restaurant_name] ?,3
+"yes , [value_food] please .",3
+i would like [value_area] american food .,3
+can you book me in for the asian restaurant then ?,5
+how about [value_count] with [value_food] food ?,6
+i just need a restaurant in the same area and has the same price range .,0
+i do not care about the type of food . i need a reservation for [value_day] night .,5
+"thank you for booking the reservation for mr , goodbye .",2
+"thank you , that s all i needed today !",2
+please book a table for [value_count] people at [value_time] on [value_day] .,5
+no that will be all . thanks !,2
+"yes , that sounds good . please book for [value_count] people on [value_day] at [value_time] .",5
+"nope , that will do it , thanks !",2
+i am looking for a place called [restaurant_name],3
+i am hoping to find a restaurant in the [value_area] that serves [value_food] food .,3
+i am looking for a place to eat that is [value_food] that is in the mid price range please .,3
+yes . where area is it located in ? i need it to be in the [value_area] .,1
+there are [value_count] of us .,3
+i am looking for a restaurant in the [value_area] area .,3
+i am looking for a [value_pricerange] restaurant in the [value_area] part of the city please .,3
+[restaurant_name] in the [value_area] area is great . would you book a table of [value_count] people at [value_time] on [value_day] for me ?,5
+"yes , book me the [restaurant_name] for [value_count] people at [value_time] on [value_day] .",5
+great ! thank you so much for your help . that will be all .,2
+alright . can you find me an [value_food] food restaurant instead ?,3
+just please book a table any where for [value_count] on [value_day] for [value_time] please . and i'll need a reference number .,5
+i am looking for a restaurant .,3
+"yes , a different restaurant in the same area and with the same price range .",0
+i would like to eat at an [value_food] restaurant please .,3
+thanks so much !,2
+"okay , how about [restaurant_name] . i would like a table for [value_count] on [value_day] at [value_time] .",5
+"no , not at this time . i was really only hunting a restaurant with scottish cuisine . thank you for your time .",2
+how about [value_food] ?,4
+"no , that s all i needed . have a nice day .",2
+i would like the [value_pricerange] range and i would like to book a table for [value_count] people on [value_day] at [value_time] .,5
+"i am not a fan of [value_food] , is there a sushi spot somewhere close ?",3
+are there any [value_pricerange] -ly priced place -s to eat with [value_food] styled food ?,3
+i would like an [value_food] restaurant in the [value_area] .,3
+"no , that will take care of it . thank you very much for your help !",2
+no thank you .,2
+i would love to have some [value_food] food please .,3
+can you find a restaurant in the [value_area] that serves [value_food] food ?,3
+"sure , let s do that .",3
+"[value_day] , like the girl from the adam s family .",3
+is there an [value_food] restaurant in the city [value_area] ?,3
+yea is there another restaurant that has the same area and price as de la cucina and bar ?,0
+how about [value_food] type of food ?,4
+i would like the address and phone number of [restaurant_name] .,1
+thank you goodbye .,2
+what s the address ?,1
+"what is the address , phone number , and postcode ?",1
+thank you .,2
+sorry what is the area again ?,1
+can you find me a corsica restaurant ?,3
+i would like their address and phone number please .,1
+is there a restaurant that serves [value_food] food in the [value_area] part of town ?,3
+i want something [value_pricerange] in the [value_area] part of town .,3
+i do not care .,3
+"thank you , goodbye .",2
+i dont care .,3
+thank you .,2
+i need the address .,1
+thank you goodbye .,2
+may i have the address and phone number of [restaurant_name] ?,1
+"thank you , goodbye .",2
+i am looking for a restaurant serving [value_food] food in the [value_area] part of town .,3
+thanks for your help ! goodbye .,2
+find a [value_pricerange] -ly priced place for me please .,3
+no thank you,2
+thank you . goodbye,2
+great ! can you please let me know their contact number ?,1
+are there any [value_food] restaurant -s in the [value_pricerange] range ?,3
+i do not care .,3
+i want to find a [value_pricerange] -ly priced restaurant in the [value_area] part of town . what is the address ?,1
+thank you . goodbye .,2
+can i have a [value_food] food instead ?,7
+how about the [value_area] part of town .,3
+what is the postcode ?,1
+what ids the address and phone number ?,1
+"no , thank you .",2
+any type of food is fine,3
+i would like to find a [value_pricerange] -ly priced place located in the [value_area] part of town .,3
+i am looking for an [value_pricerange] restaurant in the [value_area] part of town .,3
+i do not care .,3
+what is the phone number and price range ?,1
+could you give me the phone number and address of the [restaurant_name] in city center ?,1
+"yes , i would like the address of [restaurant_name] please .",1
+please find [value_pricerange] -ly price restaurant -s that serve [value_food] type of food .,3
+i do not care .,3
+"thank you for the help , goodbye",2
+i am looking for a [value_pricerange] -ly priced restaurant in the [value_area] part of town .,3
+goodbye !,2
+i want to find a restaurant in the [value_area] part of town and serving [value_food] food .,3
+what is their address and what part of town are they in ?,1
+the price range does not matter .,3
+are there any other [value_pricerange] [value_food] restaurant -s ?,0
+could i have the phone number and address please ?,1
+i am looking for [value_food] food in the [value_area] part of town .,3
+what is the address and phone number ?,1
+that sounds great . thanks !,2
+"[value_pricerange] restaurant in the [value_area] . address and phone number , please .",1
+"thank you , goodbye",2
+thank you goodbye .,2
+is [restaurant_name] located in the [value_area] part of town ?,7
+can you find me a [value_pricerange] -ly priced restaurant in the [value_area] ?,3
+"yes , is there any [value_pricerange] [value_food] eateries ?",3
+i want to find a restaurant in the [value_area] part of town and serves [value_food] food .,3
+"that s it , goodbye",2
+i want an [value_pricerange] restaurant in the [value_area] part of town . i would also like its phone number .,1
+i would like to find a [value_pricerange] restaurant in the [value_area] part of town .,3
+thank you goodbye .,2
+i want to find a [value_pricerange] restaurant serving swedish food,3
+thank you . goodbye .,2
+yes . are any of those restaurant -s in the [value_area] of town ?,1
+address for [restaurant_name] please,1
+"i am looking for a [value_pricerange] -ly priced restaurant in the [value_area] part of town , please .",3
+looking for a restaurant in the [value_pricerange] price range,3
+"yes , please look for [value_food] food . can i get the phone number and address ?",1
+any type of food will be fine as long as it s [value_pricerange] -ly priced and in the [value_area] part of town .,3
+i would like a [value_pricerange] restaurant in the [value_area] part of town,3
+i want to find a [value_pricerange] restaurant in the [value_area] part of town . what is the address and food ?,1
+is there a [value_pricerange] -ly priced restaurant in the [value_area] part of town ?,3
+yes i would like the phone number of [restaurant_name] .,1
+"no , thank you goodbye",2
+is there anything else available ?,0
+can i have their phone number ?,1
+"no thanks , that is all !",2
+thank you goodbye .,2
+"ok , thank you",2
+canapes food,3
+"no , how about a [value_food] restaurant instead ?",3
+[restaurant_name] sounds lovely . may i have the number and postcode please ?,1
+"no , thank you , i have all i need . goodbye !",2
+i would like an [value_pricerange] restaurant that serves irish food,3
+how about [value_food] food ?,4
+thank you . goodbye !,2
+are there any other restaurant -s ?,0
+[value_area] please,3
+may i have the postcode please ?,1
+that s all i need . thank you and goodbye .,2
+i am looking for a reasonably priced restaurant in the [value_area] part of town .,3
+what is the postcode please ?,1
+"no . how about [value_food] type food ? may i please have the address , phone number , and area ?",1
+yes can i get thier address and postcode ?,1
+thank you goodbye .,2
+no it does not matter,3
+could you please give me the phone number of whichever [value_count] you like better ?,1
+that sounds good . thank you .,2
+could i have the address for the [restaurant_name] ?,1
+thank you,2
+"thank you , goodbye .",2
+i would like to find an [value_pricerange] restaurant in the [value_area] part of town .,3
+"just the phone number is fine , please .",1
+i am looking for an [value_pricerange] restaurant in the [value_area] part of town .,3
+what is the phone number for [restaurant_name] ?,1
+what is the address and phone number ?,1
+no further assistance needed . goodbye .,2
+"no , that s all i need . thank you and goodbye",2
+thank you ! goodbye !,2
+what is the price range ?,1
+"ok , how about an [value_food] restaurant ?",3
+im looking for a restaurant in the [value_area] part of town in the [value_pricerange] price range,3
+what is the address and phone number ?,1
+how about [value_food] food ?,4
+any kind . i do not care . also give me the phone number and address .,1
+i want a restaurant serving [value_food] food and i do not care about the price range .,3
+"thank you , goodbye .",2
+[value_food] might work . are there any of those ?,3
+i would like a kosher restaurant that s in the [value_pricerange] price range .,3
+"that s it , goodbye",2
+thank you goodbye .,2
+"thank you , goodbye .",2
+"no , not that [value_count] . i would like to know if there s anything else please .",0
+"yes , i would like their address .",1
+can you tell me what type of food they serve and give me the phone number ?,1
+goodbye .,2
+i do not care .,3
+"any area is fine , really . it should be [value_pricerange] -ly priced however .",3
+"[value_area] , please .",3
+please find a [value_pricerange] restaurant in the [value_area] part of town .,3
+that sounds good . thank you for your help .,2
+thanks !,2
+sorry what is the food type of that restaurant ?,1
+"yes , please .",3
+"no preference for food type , thank you .",2
+"yes , in the [value_area] part of town .",3
+"i am looking for and [value_pricerange] restaurant in the [value_area] part of town . [restaurant_name] for address , phone number and type of food .",1
+that is all . thank you .,2
+"hello , i am looking for a restaurant on the [value_area] side of town that serves kosher food .",3
+"what is the address , phone number , and price range ?",1
+is that [value_pricerange] ?,1
+is there any restaurant -s on the [value_area] part of town ?,3
+i would like an [value_pricerange] restaurant that serves vegetarian food,3
+hmm . . are there any other options available for [value_pricerange] in the [value_area] side ?,0
+"no , that does it . thank you and goodbye !",2
+can i please have the phone number and address ?,1
+how about [value_food] food in any price range ?,3
+yes . thank you .,2
+i am looking for a [value_pricerange] restaurant in the [value_area] part of town .,3
+"no , thank you goodbye",2
+thank you !,2
+"ok , thank you .",2
+i do not care,3
+"no , what is the phone number ?",1
+thank you . goodbye .,2
+how about [value_food] food ?,4
+"i am looking for a [value_pricerange] -ly priced restaurant in the [value_area] part of town . i would like to know the type of food , address and phone number .",1
+do you have the phone number for nirala ?,1
+what type of food ?,1
+"no , thank you",2
+can i get the address and postcode ?,1
+no thank you . goodbye .,2
+i am looking for a [value_food] restaurant .,3
+"[value_pricerange] , please",3
+how about a [value_food] [value_count] ?,6
+i would like an [value_pricerange] restaurant in the [value_area] part of town,3
+"that is all . thank you , goodbye .",2
+it does not matter .,3
+hello . i am looking for a [value_pricerange] restaurant in the [value_area] part of town .,3
+thank you !,2
+"great , what is the phone number ?",1
+i would like a restaurant in the [value_area] part of town that serves [value_food] food,3
+what is the address and phone number for [restaurant_name] ?,1
+i do not care .,3
+i do not care .,3
+is it in the [value_area] part of town ?,1
+"yes please , is there any restaurant serve [value_food] food ?",3
+i want somewhere in the center .,3
+i made a mistake . i am looking for a [value_pricerange] restaurant in the [value_area] part of town .,3
+i prefer [value_food] food .,3
+thank you .,2
+any price range would be fine .,3
+could i have the address and phone number please ?,1
+what is the food type of that restaurant ?,1
+"thank you , goodbye .",2
+any area will be fine .,3
+"how about [value_food] food ? i would like to know the address , phone number , and postcode of the restaurant .",1
+"so many choices . can you just suggest [value_count] and give me the address , phone number and postcode ?",1
+ok thank you and goodbye,2
+"thank you for your help , goodbye .",2
+are there any other restaurant -s in that price range and part of town ?,0
+"no , that is all i need . thank you and goodbye !",2
+how about [value_food] food ?,4
+can i have the address and phone number ?,1
+i would like a [value_pricerange] -ly priced restaurant in the [value_area] part of town,3
+i am looking for a restaurant that serves belgian food,3
+"[value_food] , please .",3
+"no , the [value_area] part of town",3
+"thank you , goodbye",2
+can you recommend a restaurant to me in the [value_area] part of town ? i do not want to spend a lot of money .,3
+"that s all i need , thank you . goodbye !",2
+what is the address and phone number ?,1
+"thank you . can you also tell me the address for [restaurant_name] , please ?",1
+"i want to find a place that serves halal food . can you help me ? not too [value_pricerange] , please .",3
+i am looking for a [value_pricerange] restaurant .,3
+"no , thank you .",2
+thank you goodbye,2
+yes i would like their address and phone number,1
+i am looking for a [value_pricerange] -ly priced [value_food] restaurant .,3
+could you please give me their address and postcode ?,1
+how about a [value_food] restaurant ?,3
+"thank you , goodbye",2
+i do not care .,3
+thanks much ! bye !,2
+can you please give me the address ?,1
+what is the area ?,1
+"thank you , goodbye .",2
+i want to find a restaurant in any part of town and serves malaysian food .,3
+can you give me the address for [restaurant_name] as well please ?,1
+i am looking for a restaurant in the [value_area] part of town that serves [value_food] food .,3
+what is the phone number and postcode ?,1
+i do not care about the type of food .,3
+maybe some [value_food] food ?,7
+i am looking for a restaurant in the [value_pricerange] price range that serves [value_food] food .,3
+i do not care,3
+ok thank you goodbye,2
+"no , you've covered it all , i believe . thanks for your help .",2
+"okay , may i have the address , phone number and post code please ?",1
+how about [value_food] food ?,4
+thank you goodbye .,2
+"ok , how about a restaurant that serves [value_food] type of food ?",3
+"thank you , goodbye .",2
+how about a [value_food] restaurant in any price range ?,3
+thank you . that is all i needed to know . bye bye !,2
+"that s it , goodbye",2
+i would like a [value_pricerange] restaurant that serves [value_food] food,3
+"yes , thank you . could you tell me the address and phone number of that restaurant ?",2
+no thank you . that is all i needed . bye bye !,2
+thank you .,2
+thank you,2
+could you please find me a different restaurant ?,3
+hello . can you help me find the address of an inexpensive restaurant in the [value_area] part of town ?,1
+"thank you , goodbye .",2
+"yes , i would like their address and what part of town they are located in .",1
+"i am in the [value_area] part of town , and i would like to find a nearby scandinavian restaurant .",3
+thank you goodbye .,2
+"hello , i am looking for a restaurant on the [value_area] side of town that serves [value_food] food .",3
+may i have the address for [restaurant_name] ?,1
+"ok , thank you",2
+"is there anything else , if so give me their address and phone number .",0
+no thank you .,2
+i want [value_food] food and i do not care about the price range . what is the address and phone number ?,1
+"thank you , goodbye",2
+"i would like to find the best , most [value_pricerange] restaurant in the [value_area] part of town .",3
+could you please give me the address and phone number ?,1
+what is the price range there ?,1
+"perfect , may i have the address and phone number please ?",1
+that is all i needed . thank you .,2
+thank you very much,2
+thank you goodbye .,2
+"okay , then i am looking for a restaurant with [value_food] food that s [value_pricerange] -ly priced .",3
+"yes , please give me their address and phone number .",1
+"no , thanks . that s it .",2
+how about [value_area] american food ?,4
+any price range will be fine .,3
+[value_area] part of town .,3
+i would like a barbeque restaurant .,3
+i dont really care .,3
+"no , thank you .",2
+thanks again . goodbye !,2
+hello . i am trying to find a restaurant that serves swiss food . can you recommend anything to me ?,3
+thanks so much . bye bye .,2
+"thank you , goodbye .",2
+"could you recommend a restaurant that serves [value_food] food ? i'll need the address , phone number and postcode . thank you .",1
+of course,3
+i am looking for a danish restaurant,3
+"yes , please . could you tell me both the address and phone number ?",1
+thank you goodbye .,2
+"yes , i would like their phone number and postcode , please .",1
+i do not have a preference . please make a suggestion .,3
+i am looking for a restaurant that serves moroccan food and is [value_pricerange] -ly priced .,3
+hi . i am trying to find a good restaurant in the [value_area] part of town .,3
+"yes , may i have the address and phone number please ?",1

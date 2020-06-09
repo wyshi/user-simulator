@@ -1,0 +1,321 @@
+source,target
+inform type restaurant_name,i am looking for a particular restaurant . its name is called restaurant_name
+inform type,can you help me find a restaurant ?
+inform type value_area value_pricerange,looking for a restaurant . the restaurant should be in the value_pricerange price range and should be in the value_area .
+goodbye,"reference number zmzlmlr9 , got it , thank you ."
+goodbye,that was all . thanks
+inform type,i do not care about the price .
+goodbye,that was all i needed for now . thanks
+make reservation value_day value_people value_time,perfect . i need a table for value_people at value_time on value_day .
+goodbye,thanks so much . that s all for today . bye !
+make reservation value_day value_time,please try value_day at value_time . it should be less crowded then .
+goodbye,no thank you that is all i need for now .
+ask info address phone,no that will not be necessary . i'll just need the phone and address please .
+inform type,"no , you were great . enjoy the rest of your day ."
+make reservation value_area value_day value_people value_time,is that restaurant in the value_area ? id like to book for value_people people at value_time on value_day please
+goodbye,"no that was all , goodbye ."
+make reservation value_day value_people value_time,"yes . there are value_people of us for value_day at value_time , please ."
+inform type value_area,i prefer the value_area but i am open to other area -s of town .
+inform type,that sounds perfect !
+make reservation change time value_time,"sure , do they have any openings at value_time ?"
+goodbye,thank you for your help .
+make reservation value_time,how about value_time ?
+ask info address postcode,"no , not yet , thanks . could you give me the address and postcode for restaurant_name ?"
+inform type value_area value_food,i am looking at a place to eat that serves value_food food in the value_area .
+make reservation value_day value_people value_time,"i would like to book for value_people on value_day , at value_time ."
+inform type value_food value_pricerange,i need a value_pricerange restaurant that serves value_food food .
+make reservation value_day value_people value_time,perfect ! i would like a table for value_people at value_time on value_day
+make reservation value_day value_people value_time,"surprise me , i just need the booking for value_people people value_day at value_time . please provide me with a reference number for this booking ."
+inform type change value_food,any value_food restaurant -s ? cost doesnt matter .
+inform type value_area value_food,"hi , i am looking for an value_food restaurant . i would prefer something on the value_area side ."
+goodbye,no thanks . that will do it for me . have a good day .
+inform type change value_food,are there any other options for value_food ?
+ask info address phone,"in that case , could you give me the address and phone number ?"
+goodbye,"okay , thanks . that s all i need ."
+ask info address phone postcode,"i only need the restaurant s address , phone number , and postcode ."
+inform type restaurant_name,"yes , i need help locating restaurant_name ."
+goodbye,"no thank you , that is all i needed ."
+make reservation value_day value_people value_time,great can i reserve that for value_people person at value_time on value_day please ?
+inform type value_food value_pricerange,hi i need to find a place to dine serving value_food food in the value_pricerange price range .
+goodbye,great ! i think that was all i needed . thanks . have a nice day .
+goodbye,"no , you have been very helpful . thanks , goodbye ."
+inform type value_area,i am looking for something in value_area of town then
+inform type change value_food value_food,"i am not looking for value_food , i am looking for value_food food ."
+make reservation value_day value_people value_time,yes please . could you give me a table for value_day at value_time for value_people people please .
+goodbye,"wonderful , that s all i need to know . thanks !"
+ask info address phone postcode,"can i have the phone number , address and postcode ?"
+inform type value_food,i am really in the mood for value_food food .
+goodbye,"no , that s all . thanks ! bye !"
+make reservation,"that sounds perfect . i do not need a reservation right now , but could you give me the address , phone number , and postcode , please ?"
+make reservation value_day value_people value_time,awesome ! can you book a table for me ? value_people people at value_time on value_day . thanks !
+goodbye,"no , that s it . thank you ."
+ask info postcode,"yes , can you tell me what their postcode is , please ?"
+make reservation change time value_day value_people value_time,lets try a table for value_people on value_day at value_time instead .
+goodbye,"fantastic . that s all i need , thank you !"
+make reservation value_day value_people value_time,that sounds great . i would like a table for value_people people at value_time on value_day .
+inform type value_area value_pricerange,i would like to find an value_pricerange place to dine in the value_area .
+make reservation value_day value_people value_time,yes . i want to book a table for value_people people on value_day at value_time .
+goodbye,wonderful . thanks for your help today . bye .
+ask info address postcode,that would be great ! could i also receive the address and post code with that ?
+ask info postcode,can you just give me the postcode of restaurant_name ?
+inform type value_area value_pricerange,i am looking for an value_pricerange place to dine in the value_area .
+goodbye,that s great . thank you very much .
+goodbye,great . that'll be everything . thank you !
+make reservation value_day value_time,"yes , i would like to book a table for just me at value_time on value_day ."
+inform type,yes please do .
+goodbye,thanks a bunch ! that s all i needed . take care and have a good day .
+inform type change value_area,i would like it to be in the value_area area of town please .
+ask info phone postcode,"yes , could i get the restuarant s phone number and postcode ?"
+inform type value_area,"hi , can you help me find a restaurant in the value_area area ?"
+inform type value_area value_pricerange,i am looking for an value_pricerange restaurant in the value_area
+inform type,"no , price range does not matter ."
+inform type value_food value_pricerange,hi . i am hoping you can help me find a value_pricerange value_food restaurant .
+goodbye,"that s all , thank you for your help"
+inform type value_area value_pricerange,i am wanting to find a restaurant . the location i want is the value_area and i want something in the value_pricerange price range . can you help me ?
+make reservation change time value_time,"hmm , well ok . how about at value_time instead ?"
+make reservation value_day value_people value_time,"that sounds great ! yes , please ! book a table for value_people people at value_time on value_day ."
+goodbye,thanks ! that s all i need today . i appreciate your help .
+goodbye,no that s all i needed . thank you !
+inform type value_area value_food value_pricerange,i am looking for an value_pricerange value_food restaurant in the value_area .
+make reservation value_day value_people value_time,"yes please , for value_people people t value_time on value_day . thank you ."
+make reservation value_day value_people value_time,sure ! can you book a table for value_people people at value_time on value_day ?
+inform type value_food value_pricerange,are you able to help me find an value_pricerange value_food restaurant in cambridge please ?
+goodbye,thanks ! that s all i needed today goodbye !
+inform type restaurant_name,restaurant_name sounds good . thank you !
+goodbye,nope . i am all set . thanks again .
+ask info,is it in the value_area of town ?
+make reservation value_day value_people value_time,"yes , please ! i need a table for value_people on value_day at value_time ."
+make reservation restaurant_name value_day value_people value_time,restaurant_name sounds fabulous . can i get a table there on value_day at value_time ? there will be value_people of us .
+make reservation value_day value_time,could you get me a table for value_day at someplace nice ? there will be 8 in my party and we'd like to eat at value_time .
+inform type change value_food,oh wow . that s too bad . how about a good value_food place ?
+goodbye,"actually , i have changed my mind . i am going to wait on that reservation , thanks ."
+inform type value_area value_pricerange,hello . i am looking for a value_pricerange place to eat in the value_area . can you help me ?
+inform type value_pricerange,i am looking for an value_pricerange restaurant to go to .
+inform type change value_area value_pricerange,is there anything value_pricerange in the town value_area ?
+make reservation change time value_day value_day value_people value_time,i need a reservation for value_people people at value_time on value_day . if that does not work i can also do value_day . i will also need a reference number .
+inform type value_area value_pricerange,i need a restaurant of value_pricerange price in the value_area .
+ask info address postcode,no thanks . can i get the address with postcode please ?
+make reservation value_day value_people,then that will be good . i need a reservation for value_people on value_day night please .
+goodbye,thanks for the help that s all i need . have a great day . goodbye .
+goodbye,"nope , that s all i need for now . thanks for your help ."
+goodbye,that actually takes care of all my needs ! thanks a ton !
+inform type value_area value_food,i am looking for a place to dine . the restaurant should serve value_food food and should be in the value_area .
+inform type value_area value_food,"hi , i am looking for a value_food restaurant on the value_area side of town ."
+goodbye,"nope , that s all i needed today . thanks !"
+inform type value_pricerange,"actually , do you have anything that is value_pricerange . it s a business meeting so i would like to impress them ."
+make reservation value_day value_time,do they have availability on value_day at value_time ?
+ask info phone,as long as its in the same area and price range that will be fine i also need the reference number too
+make reservation restaurant_name value_day value_people value_time,restaurant_name sounds good . could you book a table for value_people people at value_time on value_day ?
+inform type value_area value_food,i want value_food food and the restaurant needs to be located in the value_area area .
+make reservation value_day value_people value_time,"yes , please book it for value_people people at value_time on value_day ."
+anything else,how about a different restaurant in the area and price range ?
+inform type value_food value_pricerange,are there any value_pricerange place -s to eat that serve value_food food in other area -s of the city ?
+inform type value_pricerange,yes please . i would just need it to be in the value_pricerange price range .
+make reservation value_day value_people value_time,sure . can you book it for value_people people on value_day at value_time ?
+ask info phone,can i get a reference number please ?
+ask info phone,yes in the same area and price range . i'll need a reference number too .
+goodbye,that was very helpful . thank you goodbye !
+inform type,area does not matter .
+inform type value_food value_pricerange,i am looking for a restaurant that serves value_food food in the value_pricerange price range .
+make reservation value_day value_people value_time,yes i would like to book a table for value_people people at value_time on value_day .
+inform type change value_area value_food value_food,lets go with value_food food . he likes value_food just as much . can you recommend 1 in the value_area ?
+inform type value_area value_food,i am looking to dine out in the value_area part of town and i would like to find a place that serves value_food food .
+ask info,"hey , i am trying to find a restaurant called restaurant_name . what do you know about that ?"
+ask info phone,"that works . same parameters , please . i need the reference number too ."
+make reservation,yes i need a reference number for the booking .
+inform type change value_food,"actually , could you look up some value_food restaurant -s instead ?"
+inform type value_area value_pricerange,i am looking for a place to eat . i would like it to be an value_pricerange restaurant in the value_area .
+make reservation value_day,i do not care about the type of food . i need a reservation for value_day night .
+make reservation value_day value_people value_time,i would like a table for value_people people at value_time on value_day
+inform type value_pricerange,i need 1 in the value_pricerange price range .
+inform type value_area,"1 in the value_area , please ."
+inform type value_area,i am looking for a restaurant in the value_area area .
+inform type value_area value_pricerange,i am looking for a value_pricerange restaurant in the value_area part of the city please .
+goodbye,ok great thank you . have a great day !
+ask info phone,could you please give me the reference number ?
+inform type value_area value_pricerange,"i need help finding an value_pricerange restaurant in the value_area , can you help me please ?"
+goodbye,thank you so much . that is all i need .
+anything else,"yes , is there anything else in the same vicinity and the same general price range ?"
+make reservation value_day value_people value_time,"yes . i need a reservation for value_people people , value_day night at value_time ."
+goodbye,no that will be all . thanks .
+inform type value_food value_pricerange,can you find an value_pricerange restaurant that serves value_food food ?
+ask info,"yes , i would like some information on finding a particular restaurant . the restaurant should serve a variety of value_food food and ideally i would like it to be located in the value_area please ."
+goodbye,"no thank you , i will call again ."
+make reservation value_food value_pricerange,i would like to book a table at a value_food place and is value_pricerange -ly priced .
+inform type value_area,i want a place to dine that is in the value_area please .
+inform type change value_area,"yes , i would prefer the value_area ."
+inform type value_food value_pricerange,"i would like to find an value_pricerange value_food , should you have such a beast ."
+make reservation,please book it them and please let me have the reference number when you are done .
+anything else,yea is there another restaurant that has the same area and price as de la cucina and bar ?
+anything else,"yes , how about another restaurant in the same area and price range ?"
+inform type value_food,i want somewhere that serves value_food food .
+ask info phone,"okay , so may i have the number please ?"
+ask info,i want 1 in the value_pricerange priced range . what is the price range of chiquito restaurant ?
+inform type,i do not care .
+inform type value_food value_pricerange,i want some value_food food . value_pricerange -ly priced please .
+inform type,i do not care .
+goodbye,"thank you , goodbye ."
+inform type,the price range does not matter .
+goodbye,thank you goodbye .
+inform type change value_food,how about value_food food then . please give me phone number and postcode please .
+inform type value_food,i want a place with value_food food .
+inform type change value_food,"ok , how about a place with value_food food ?"
+inform type,i do not care .
+goodbye,thank you !
+goodbye,"no , thank you ! i have got all the info i needed . goodbye ."
+goodbye,thank you that is all .
+ask info address phone,what ids the address and phone number ?
+goodbye,great ! thank you very much .
+goodbye,goodbye
+goodbye,"no , thank you . goodbye ."
+goodbye,"no , that s all the information i needed . thank you . goodbye ."
+anything else,is there anything else ?
+ask info phone,"actually , could i have the phone number of restaurant_name ?"
+inform type value_area value_pricerange,i am looking for a value_pricerange -ly priced restaurant in the value_area part of town .
+goodbye,"thank you , goodbye ."
+goodbye,thank you goodbye .
+inform type value_food value_pricerange,i am looking for an value_pricerange restaurant serving value_food food .
+inform type value_area value_food,i am looking for a restaurant that serves value_food food and in the value_area part of town .
+ask info address,i want to find a value_pricerange restaurant in the value_area part of town . what is the address and food ?
+ask info phone,restaurant_name sounds good . could you give me the phone number ?
+inform type value_food value_pricerange,"hello , i am looking for an value_pricerange restaurant that serves value_food food ."
+goodbye,thank you goodbye .
+inform type value_food,"hello , i am looking for a restaurant that serves value_food food ."
+inform type value_food,i want a value_food restaurant .
+goodbye,"thank you , goodbye ."
+inform type,you too !
+goodbye,that is all i need . no further questions .
+inform type value_area,i would like to dine at a restaurant in the value_area part of town . can you help me find 1 ?
+goodbye,"thank you , goodbye ."
+ask info,what is the price range ?
+ask info address phone,what is the address and phone number ?
+goodbye,"no , thank you . goodbye ."
+inform type value_area,value_area please
+goodbye,thank you goodbye .
+inform type value_area value_pricerange,a value_pricerange -ly priced restaurant in the value_area part of town
+inform type,any price range will be fine .
+inform type value_area value_pricerange,i am looking for a value_pricerange restaurant in the value_area part of town .
+goodbye,"i already got the address , thank you . that is all i needed . goodbye ."
+ask info phone,"value_food , what is the number ?"
+ask info address phone,value_pricerange price range please . can i also have the address and phone number of the venue ?
+inform type value_food value_pricerange,can you find me an value_pricerange restaurant that serves value_food food ?
+ask info address,what is the address ?
+goodbye,great ! thank you !
+inform type value_area value_pricerange,"hi , i am looking for an value_pricerange restaurant in the value_area part of town ."
+anything else,is there another 1 as well ?
+ask info phone,can you give me the name and phone number of a value_pricerange value_food restaurant in the value_area ?
+ask info address phone,can i get the address and phone number ?
+inform type value_food,can you help me find some value_food food then ?
+ask info,does it serve value_food food ?
+goodbye,thank you goodbye .
+inform type value_food,i am looking for a restaurant serving value_food food .
+ask info address phone,what is the address and phone number ?
+inform type value_area,where'a a restaurant on the value_area part f town ?
+goodbye,"thank you , that'll be all !"
+goodbye,thank you goodbye .
+inform type change value_food,is there any restaurant -s severing value_food food .
+inform type,i have no preference .
+goodbye,thank you goodbye .
+ask info address phone,may i have their address and phone number please ?
+inform type value_area value_food,i would like a restaurant in the value_area part of town that serves value_food food
+inform type,i do not care
+goodbye,thank you goodbye .
+goodbye,thank you goodbye .
+ask info,what type of food ?
+ask info address postcode,can i get the address and postcode ?
+inform type value_pricerange,"value_pricerange , please"
+ask info address phone postcode,"yes , please give me the phone number , address , and postcode ."
+ask info,is it in the value_area part of town ?
+ask info address phone,could i have the address and phone number please ?
+inform type value_food,i prefer value_food food .
+goodbye,thank you for the information . goodbye .
+anything else value_food,"is there anything else ? if not , value_food ."
+ask info phone,"i need the phone number to a restaurant located in the value_area part of town that is value_pricerange -ly priced , thank you"
+goodbye,"thank you , goodbye ."
+ask info address phone postcode,"so many choices . can you just suggest 1 and give me the address , phone number and postcode ?"
+inform type value_area value_pricerange,i am looking for a restaurant that is in the value_pricerange price range and in the value_area part of town .
+ask info,what is the food type of that restaurant ?
+inform type value_area value_pricerange,"hello , i am looking for a value_pricerange -ly priced restaurant on the value_area side of town ."
+ask info phone,value_food sounds good . could i have the phone number for tanh binh ?
+inform type change value_food,"value_food , then ."
+inform type,i do not care
+inform type value_area value_pricerange,"i am looking for a value_pricerange -ly priced restaurant in the value_area part of town , what do you have available ?"
+inform type value_food value_pricerange,"hello , i am looking for a value_pricerange restaurant that serves value_food food ."
+goodbye,thank you for your help !
+ask info address,"thank you . can you also tell me the address for restaurant_name , please ?"
+inform type value_food,i would like to find a restaurant that serves value_food food .
+ask info,what type of food do they serve ?
+goodbye,thank you goodbye
+ask info address phone,"great , what is the address and phone number for restaurant_name ?"
+inform type value_food value_pricerange,"hello , i am looking for an value_pricerange restaurant that serves value_food food ."
+inform type value_area,i am looking for a restaurant in the value_area .
+goodbye,goodbye .
+goodbye,"thank you , goodbye ."
+ask info address phone,great ! can i have their address and phone number ?
+ask info phone,i do not care about the price range . just recommend me a restaurant that serves value_food food . i would also like to get the phone number and directions .
+inform type value_area value_pricerange,i am looking for a value_pricerange priced restaurant in the value_area part of town . could you recommend me 3 restaurant -s ?
+goodbye,thank you goodbye .
+ask info,i do not care what part of town the restaurant is in .
+ask info phone,what is the phone number of 1 of them ?
+inform type value_food,can you help me find a value_food restaurant ?
+inform type change value_food,how about value_food food ?
+inform type change value_food,value_food food
+inform type value_food value_pricerange,i want to find a value_pricerange -ly priced restaurant serving value_food food .
+ask info address,what is the address please ?
+ask info address phone,"yes , what is the address and phone number for restaurant_name ?"
+inform type change value_food,how about any value_food restaurant -s ?
+goodbye,thank you goodbye .
+inform type value_food,"yes , can you please check for a value_food restaurant ?"
+inform type change value_food,how about value_food type of food ?
+inform type change value_area value_food,"i still want the value_area part of town , but look for value_food food instead please ."
+inform type value_area value_food,"hello , i am looking for a value_food restaurant in the value_area of town ."
+anything else,is there any other restaurant ?
+ask info address phone,do you know of any value_pricerange -ly priced restaurant -s in the value_area part of town ? i'll need the address and phone number .
+inform type change value_area value_pricerange,is there anything else in the value_pricerange range in the value_area area of town ?
+inform type value_food,i want to find a restaurant serves value_food food please .
+inform type value_food,i would like value_food food .
+inform type,i do not care .
+inform type,no preference
+inform type value_area value_food,i am looking for a value_food restaurant in the value_area part of town .
+inform type value_food,get me a restaurant that serves value_food food .
+ask info address phone,what is the address and phone number ?
+ask info phone,"address and phone number , please"
+ask info address postcode,can i have the address and postcode .
+goodbye,"no , thank you , that does it . thank you and goodbye !"
+goodbye,thank you
+inform type value_pricerange,an value_pricerange restaurant please
+goodbye,"thank you , nirala sounds good . goodbye ."
+goodbye,"great , thank you"
+inform type restaurant_name,i am looking for a particular restaurant . its name is called restaurant_name
+inform type,can you help me find a restaurant ?
+inform type value_area value_pricerange,looking for a restaurant . the restaurant should be in the value_pricerange price range and should be in the value_area .
+goodbye,"reference number zmzlmlr9 , got it , thank you ."
+goodbye,that was all . thanks
+inform type,i do not care about the price .
+goodbye,that was all i needed for now . thanks
+make reservation value_day value_people value_time,perfect . i need a table for value_people at value_time on value_day .
+goodbye,thanks so much . that s all for today . bye !
+make reservation value_day value_time,please try value_day at value_time . it should be less crowded then .
+goodbye,no thank you that is all i need for now .
+ask info address phone,no that will not be necessary . i'll just need the phone and address please .
+inform type,"no , you were great . enjoy the rest of your day ."
+make reservation value_area value_day value_people value_time,is that restaurant in the value_area ? id like to book for value_people people at value_time on value_day please
+goodbye,"no that was all , goodbye ."
+make reservation value_day value_people value_time,"yes . there are value_people of us for value_day at value_time , please ."
+inform type value_area,i prefer the value_area but i am open to other area -s of town .
+inform type,that sounds perfect !
+make reservation change time value_time,"sure , do they have any openings at value_time ?"
+goodbye,thank you for your help .
+make reservation value_time,how about value_time ?
+ask info address postcode,"no , not yet , thanks . could you give me the address and postcode for restaurant_name ?"
+inform type value_area value_food,i am looking at a place to eat that serves value_food food in the value_area .
+make reservation value_day value_people value_time,"i would like to book for value_people on value_day , at value_time ."
+inform type value_food value_pricerange,i need a value_pricerange restaurant that serves value_food food .
+make reservation value_day value_people value_time,perfect ! i would like a table for value_people at value_time on value_day
+make reservation value_day value_people value_time,"surprise me , i just need the booking for value_people people value_day at value_time . please provide me with a reference number for this booking ."
+inform type change value_food,any value_food restaurant -s ? cost doesnt matter .
+inform type value_area value_food,"hi , i am looking for an value_food restaurant . i would prefer something on the value_area side ."
+goodbye,no thanks . that will do it for me . have a good day .
+inform type change value_food,are there any other options for value_food ?
+ask info address phone,"in that case , could you give me the address and phone number ?"
+goodbye,"okay , thanks . that s all i need ."
