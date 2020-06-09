@@ -11,4 +11,6 @@
 /simulator/nlg_model/seq2seq/*
 /data/*
 /human_evaluation/*
+data/multiwoz-master/data/multi-woz/data.json
+data/multiwoz-master/data/multi-woz/delex.json
 /test/*    # parlai
