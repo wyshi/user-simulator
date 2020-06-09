@@ -29,4 +29,5 @@ python run_mydata_seq_new.py
 # Interacting with trained policies
 policies are under simulator/policy/
 
-
+## For seq2seq model
+We use the implementation from https://github.com/IBM/pytorch-seq2seq for the seq2seq generation model. The vectors used in the training can be downloaded from https://nlp.stanford.edu/projects/glove/.
