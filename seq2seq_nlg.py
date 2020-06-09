@@ -54,7 +54,7 @@ def sample(
         #         dev_source,
         #         dev_target,
         seq_str,
-        experiment_directory='/home/xweiwang/RL/seq2seq/experiment',
+        experiment_directory='seq2seq/experiment',
         checkpoint='2019_05_18_20_32_54',
         resume=True,
         log_level='info',
