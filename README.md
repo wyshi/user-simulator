@@ -30,3 +30,5 @@ python run_mydata_seq_new.py
 # Interacting with trained policies
 policies are under simulator/policy/
 
+# data
+data.json and delex.json exceed the file limit (100MB), therefore there are two compressed files named data.json.tar.gz and delex.json.tar.bz2 under data/. Please use these two files.
