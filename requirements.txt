@@ -62,7 +62,7 @@ nbconvert==5.4.1
 nbformat==4.4.0
 nltk>=3.4.5
 notebook==5.7.4
-numpy==1.16.4
+numpy==1.22.0
 oauthlib==3.1.0
 openpyxl==2.6.1
 pandas==0.24.1
