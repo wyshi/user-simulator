@@ -121,7 +121,7 @@ tornado==5.1.1
 tqdm==4.31.1
 traitlets==4.3.2
 tweepy==3.8.0
-ujson==1.35
+ujson==5.4.0
 urllib3==1.24.1
 urwid==2.0.1
 vaderSentiment==3.2.1
